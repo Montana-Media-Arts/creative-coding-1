@@ -1,0 +1,22 @@
+
+<!-- {% assign colNum=site.categories[module].size | divided_by: 4  %} -->
+
+<div class="container-fluid bg-compliment-1 pb-md-3 pt-md-3">
+
+      <div class="row flex-column module-nav"  style="max-height: {{colNam}};">
+
+
+            {% for post in site.categories[module] reversed %}
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0 {% if post.url == page.url %}active{% endif %} {% if forloop.first %}first{% endif %} {% if forloop.last %}last{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
+                    <!-- {% if page.categories[1] == module %}<span class="sr-only">(current)</span>{% endif %} -->
+                    {{ post.title }}
+                </a>
+
+            </div> <!--End Main -->
+            {% endfor %}
+
+            <!-- {{colNum}} -->
+    </div> <!--End row -->
+
+</div> <!--End container -->

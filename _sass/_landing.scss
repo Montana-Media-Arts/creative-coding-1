@@ -1,0 +1,98 @@
+section {
+	margin: 3em 0;
+	font-size: large;
+	line-height: 1.8;
+}
+
+.light-section{
+	background-color: $white;
+
+	hr{
+		border-color: $gray-200;
+	}
+}
+.dark-section{
+	background-color: $gray-200;
+
+	hr{
+		border-color: $white;
+	}
+}
+.jumbotron {
+	background: $jumbotron-color;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-image: url('../img/#{$jumbotron-image}');
+	background-size: auto;
+	color: $white;
+	position: relative;
+
+	a {
+		color: #fcfcfc;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+		transition: all 0.3s linear;
+	}
+	a:hover, a:focus {
+		border-bottom: none;
+		text-decoration: none;
+	}
+
+}
+
+.jumbotron header {
+
+
+	h1 {
+		font-family: $headings-font-family;
+		// font-family: "Open Sans";
+		font-size: 4em;
+		font-weight: $headings-font-weight;
+	}
+
+	h2 {
+		font-family: $headings-font-family;
+		// font-family: "Open Sans";
+		font-size: 3em;
+	}
+}
+
+.jumbotron_image {
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-style: none;
+	padding: 0;
+}
+
+@include media-breakpoint-down(sm) {
+	.jumbotron header h1 {
+		font-size: 2em;
+	}
+	.jumbotron header h2 {
+		font-size: 1.5em;
+	}
+	.jumbotron_image {
+		width: 60%;
+	}
+}
+//
+//
+// .calendar{
+// 	background-color: $white;
+// 	padding: 50px 0 70px 0;
+// }
+//
+// .people {
+// 	margin-bottom: 0;
+// }
+//
+// .people li {
+// 	margin: 30px 10px;
+// }
+//
+// .people img {
+// 	max-width: 100%;
+// 	height: 85px;
+// 	width: 85px;
+// }

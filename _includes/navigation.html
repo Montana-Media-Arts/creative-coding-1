@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark align-items-end">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="{{ site.baseurl }}">
+        <div class="navbar-brand">
+            <div class="">
+                {{ site.data.course.title-short }}
+            </div>
+            <div class="">
+                {{ site.data.course.institution-short }}
+            </div>
+        </div>
+    </a>
+
+
+    <div class="collapse navbar-collapse pl-4" id="navbarCollapse">
+        <div class="navbar-nav">
+
+            {% for module in site.data.course.infoModules %}
+                {% assign first_post = site.categories[module]|reverse|first %}
+
+                <a class="nav-item nav-link px-2 pb-0 mb-0 {% if page.categories[1] == module %}active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+                    {% capture splitword %}{% for word in module %}{{ word | replace: '-', ' ' }} {% endfor %}{% endcapture %}
+                    {% capture titlecase %}{% for word in splitword %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+                    {{ titlecase }}
+                    {% if page.categories[1] == module %}<span class="sr-only">(current)</span>{% endif %}
+                </a>
+
+            {% endfor %}
+
+            <li class="nav-item px-2 pb-0 mb-0 dropdown">
+                <a class="nav-link pb-0 justify-content-end dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Modules
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    {% for module in site.data.course.modules %}
+                        {% assign first_post = site.categories[module]|reverse|first %}
+
+                        <a class="dropdown-item {% if page.categories[1] == module %}active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+                            {% capture splitword %}{% for word in module %}{{ word | replace: '-', ' ' }} {% endfor %}{% endcapture %}
+                            {% capture titlecase %}{% for word in splitword %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+                            {{ titlecase }}
+                            {% if page.categories[1] == module %}<span class="sr-only">(current)</span>{% endif %}
+                        </a>
+
+                    {% endfor %}
+
+                </div>
+            </li>
+        </div>
+    </div>
+
+
+    <a class="navbar-brand" href="{{ site.baseurl }}">
+        <img src="{{ site.baseurl }}/img/MART_LOGO_SMALL.png" alt="{{ site.title }}" class="nav_image d-inline-block align-top" />
+    </a>
+
+</nav>
+
+<!-- <nav class="navbar navbar-expand-md bg-compliment-1"> -->
+<!-- </nav> -->

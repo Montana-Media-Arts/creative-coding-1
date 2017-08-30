@@ -1,0 +1,144 @@
+// Musick Course
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$brand-primary:         #f92672;
+$brand-dark:            #373e42;
+$brand-light:           #C0B283;
+$brand-compliment-1:    #C0B283;
+$brand-compliment-2:    #e9d28a;
+$brand-accent:          $brand-primary;
+
+
+
+
+$white:  #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #373e42 !default;
+$gray-900: #212529 !default;
+$black:  #000 !default;
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-800
+) !default;
+
+$theme-colors: (
+  primary: $brand-primary,
+  dark: $brand-dark,
+  compliment-1: $brand-compliment-1,
+  compliment-2: $brand-compliment-2,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $brand-light
+ ) !default;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+) !default;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   'Fira Mono', Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:       $font-family-sans-serif !default;
+
+$font-size-base: 1.25rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:   ceil(($font-size-base * 1.25)) !default;
+$font-size-sm:   ceil(($font-size-base * 0.85)) !default;
+
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$font-weight-base: $font-weight-normal !default;
+$line-height-base: 1.6 !default;
+
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
+
+$h1-font-size: 4.5rem !default;
+$h2-font-size: 3.5rem !default;
+$h3-font-size: 2.5rem !default;
+$h4-font-size: 2rem !default;
+$h5-font-size: 1.5rem !default;
+$h6-font-size: 1rem !default;
+
+
+
+$headings-margin-bottom: ($spacer / 2) !default;
+$headings-font-family:   inherit !default;
+$headings-font-weight:   300 !default;
+$headings-line-height:   1.1 !default;
+$headings-color:         inherit !default;
+
+
+// Font Colors
+//
+
+$link-color: $brand-primary;
+
+// Code
+//
+
+$code-font-size:              90% !default;
+$code-padding-y:              .2rem !default;
+$code-padding-x:              .4rem !default;
+$code-color:                  #f8f8f2 !default;
+$code-bg:                     $brand-dark !default;
+
+$kbd-color:                   $white !default;
+$kbd-bg:                      $gray-900 !default;
+
+$pre-color:                   $gray-900 !default;
+$pre-scrollable-max-height:   340px !default;
