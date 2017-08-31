@@ -4,21 +4,21 @@ published: true
 ---
 
 
-
-# Creative Coding 1 (MART 120)
+This is the website for the online section of Creative Coding 1 offered by [The School of Media Arts, University of Montana](http://www.umt.edu/mediaarts/).
 
 This course is designed to teach you code so that it can become a tool for your art and creativity.
 
-Utilizing [p5.js](https://p5js.org), fundamental concepts from computer science and programming are taught. These concepts are explored through visual and audio sketches that run in web browsers.
+Utilizing [p5.js](https://p5js.org), this course teaches concepts from computer science and programming. These will occur through visual and audio sketches that run in web browsers.
 
-The [**syllabus**]({{site.baseurl}}/modules/course-info/syllabus/) contains more information about the course, as well as student expectations.
+The [**syllabus**]({{ site.baseurl }}/syllabus/ ) contains more information about the course, as well as student expectations.
 
 
-## Course Details
+This course is taught by [Michael Musick]({{ site.baseurl }}/instructor/ ).
 
-[The School of Media Arts, University of Montana.](http://www.umt.edu/mediaarts/) offers this course.
 
-This course is taught by [Michael Musick](https://michaelmusick.github.io/teaching).
+### Start the Course!
+
+Each week's content can be chosen from the "Modules" tab up above in the navigation bar (or in the "hamburger" menu if you are on a mobile device).
 
 <!--
 <br />

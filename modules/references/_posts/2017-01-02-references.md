@@ -1,6 +1,8 @@
 ---
 title: References and Sources
+permalink: /:title/
 ---
+
 # References and Sources
 
 ## Content

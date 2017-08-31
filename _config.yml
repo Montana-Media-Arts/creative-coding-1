@@ -21,10 +21,6 @@ defaults:
       path: "modules" # an empty string here means all files in the project
     values:
       layout: "course_page"
-    scope:
-      path: "course-info" # an empty string here means all files in the project
-    values:
-      layout: "course_page"
 
 prose:
   media: img

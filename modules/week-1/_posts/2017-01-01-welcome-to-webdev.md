@@ -3,67 +3,59 @@ title: Course Overview
 module: 1
 ---
 
-# Week 1 Overview <br /> Welcome to Web Development (MART 341)
+# Week 1 Overview <br /> Welcome to Creative Coding 1 (MART 120)
 
 ## Overview of the Course
-This course is intended to make you comfortable with presenting yourself through the web. In addition, you will learn skills that should allow you to build, manage, and develop websites.
 
-This course will start with an overview of technologies used for web development. This will be followed by an in depth presentation HTML and CSS. The course will conclude by exploring responsive web design, site frameworks, advanced CSS, and site management solutions.
+This course is designed to teach code so that it can become a tool for art and creativity.
+
+The goal is to begin a journey in which the creative and technical possibilities of the computer become a tool in your palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based ‘p5.js’, programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
 This is exclusively on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement. The course will conclude with a final site build.
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Wc0Xu4htVE" frameborder="0" allowfullscreen></iframe></div>
+
 
 ## What to Expect
 
-This course will force you to learn and adapt to new technologies, while also thinking about design, and content creation. Some weeks will lean more technical in nature, while others (albeit fewer) will lean more design-based.
+This course will force you to learn and adapt to new technologies, while also thinking about design, and content creation. Some weeks will lean more technical in nature, while others will lean more creative-based.
 
-Just as the content focus will shift, so to will the work amount. Some weeks, espeially those when new topics are being introduced, have a heavier workload. The goal of this is to make you practice with these new technologies and techniques. Other weeks will slow down and allow you to practice at a more exploratory pace.
+Just as the content focus will shift, so to will the work amount. Some weeks, especially those when new topics are being introduced, have a heavier workload. The goal of this is to make you practice with these new technologies and techniques. Other weeks will slow down and allow you to practice at a more exploratory pace.
+
+You should plan;
+
+- 3 hours a week to work through the course website content (what you are doing now).
+- 8-16 hours a week to work on concepts, code assignments, studying, and practicing.
+
+This is an intense course and will take a lot of time. You are learning a new language that is not like any other you have studied before. This takes immersion.
 
 
 ## Homework
+
 You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
 
-You will recieve additional directives and notes on the homework page for each assignment in the ["homework wiki"](https://github.com/Montana-Media-Arts/341-work/wiki). Instructions will be provided how to do this over the next two weeks.
+You will receive additional directives and notes on the homework page for each assignment on the Moodle Shell as well as the ["homework wiki"](https://github.com/Montana-Media-Arts/creative-coding-1/wiki) (Homework assignments will be posted in both locations). Instructions will be provided how to do this over the next two weeks.
 
 
 
-## Class Goals and the Final Project
-The main goal of this course is to allow you an opportunity to become comfortable with technologies used in web design. Another primary goal is to get you thinking about web design and possibilities for content creation via the web. Your homework through the semester will build on these two ideas.
+## Class Goals
 
-The final project will be a site of your making. (i.e. this could be a personal web site, product web site, or organization site).
+There are 4 high-level goals for this course;
 
-## The Syllabus
-Please look at the [Syllabus](https://montana-media-arts.github.io/mart341-webDev/modules/course-info/Syllabus-mart341/) for the course. The version on the website, as well as the one in your moodle shell are identical.
-
-NOTE: As stated in the sylabbus, you are required to purchase one, rather inexpensive, book.
-
-- John Duckett <cite>HTML & CSS; Design and Build Websites</cite>
-	- This book is available from the [books own website](http://www.htmlandcssbook.com/), which also contains code examples.
-	- This book is also available from [Amazon](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=mt_paperback)
-	- I have also found digital/PDF versions via google searches (FYI).
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HKLz95UU9Aw" frameborder="0" allowfullscreen></iframe></div>
-
-<br />
-<br />
-
-# Instructor Introduction Videos
-
-## Nick Moles | Section 51
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BZajeJki0OY" frameborder="0" allowfullscreen></iframe></div>
+1. Learn how to problem solve. (More specifically, how to break a problem down into sub-problems that are easier to solve by themselves)
+2. Adapt to constantly changing technological paradigms by learning how to learn. (Skills acquisition.)
+3. Combine technical and artistic practices through inquiry and iteration.
+4. Adopt and use professional practices.
 
 
-## Justine Evans | Section 51
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/203341647" frameborder="0" allowfullscreen></iframe></div>
-
-<br />
-<br />
 
 
 # Overview the Rest of This Week
-For the rest of this week, you are asked to accomplish to main goals.
 
-1. Consider what the Internet is and what Web Development entails.
+The rest of this week will introduce the following;
 
-2. Start to acquire comfort in your development environment through the “command line”.
+- The Syllabus
+- What is computational media?
+- Programming language discussion
+- macOS & Windows
+- Your computer as **YOUR** development environment.
+- Git Version Control

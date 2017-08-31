@@ -1,5 +1,6 @@
 ---
 title: Instructor Information
+permalink: /:title/
 ---
 
 ## Instructor: [Prof. Michael Musick](https://michaelmusick.github.io/teaching)
@@ -14,7 +15,7 @@ title: Instructor Information
 
 For those of you in Missoula, you are welcome to come by for help during my office hours.
 
-- Tuesday: 1:00pm - 3:00pm
+- Tuesday: 11:30am - 1:30pm
 - Wednesday: 2:30pm - 4:00pm
 
 #### Lab Hours
