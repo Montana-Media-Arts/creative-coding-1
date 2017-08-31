@@ -6,7 +6,7 @@ module: 1
 # GitHub.com
 We will discuss [GitHub.com](github.com) more next week. In the mean time, I would you like you to know that GitHub is a web service which is used for storing git repositories by developers. (Much of that statement is still likely jargon to you. That is ok. It will all come)
 
-In order for the Graduate Instructors to know that you have successfully completed week 1, you are going to create a GitHub.com account and open a new “issue” in the class repository.
+In order for the Instructors to know that you have successfully completed week 1, you are going to create a GitHub.com account and open a new “issue” in the class repository.
 
 ## Create a GitHub.com Account
 
