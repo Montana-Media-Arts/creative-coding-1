@@ -1,9 +1,11 @@
 ---
-title: Course Overview
+title: Course Introduction
 module: 1
 ---
 
-# Week 1 Overview <br /> Welcome to Creative Coding 1 (MART 120)
+# Week 1<br />Welcome to Creative Coding 1 (MART 120)
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0iMC105zZCI" frameborder="0" allowfullscreen></iframe></div>
 
 ## Overview of the Course
 
@@ -11,8 +13,7 @@ This course is designed to teach code so that it can become a tool for art and c
 
 The goal is to begin a journey in which the creative and technical possibilities of the computer become a tool in your palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based ‘p5.js’, programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
-This is exclusively on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement. The course will conclude with a final site build.
-
+This is exclusively an on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement. The course will conclude with a final site build.
 
 
 ## What to Expect
@@ -55,7 +56,5 @@ The rest of this week will introduce the following;
 
 - The Syllabus
 - What is computational media?
-- Programming language discussion
-- macOS & Windows
 - Your computer as **YOUR** development environment.
 - Git Version Control

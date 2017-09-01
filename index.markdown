@@ -22,11 +22,10 @@ Each week's content can be chosen from the "Modules" tab up above in the navigat
 
 There you should find a link to '[Week 1]({{site.baseurl}}/modules/week-1/welcome-to-webdev/)'. As weeks become active, you will find them populate that drop-down menu.
 
-<!--
-<br />
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_mgVJEgRVdA" frameborder="0" allowfullscreen></iframe></div>
 
 <br />
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xE7-fWrOkaQ" frameborder="0" allowfullscreen></iframe></div>
+
 <br />
--->
+<br />

@@ -4,17 +4,20 @@ module: 1
 ---
 
 # Your Development Environment
+
 As a creative technologist and developer you will need to take control of your computer. You should start to consider your computer as an instrument or creative tool that serves as an extension of yourself.
 
 This means you need to be comfortable with your computer and *know* your computer.
 
 ## Command-line interface (CLI)
+
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
 ![example image of terminal.app](../imgs/terminalExample.jpg)
 
 Although such programs can appear intimidating to a beginner user, these command line programs remove are simple applications that allow for detailed control of the OS. These programs allow a user to accomplish many of that same tasks that they are used to completing with a mouse, through text only commands. One reason to use such a program is that it can speed up the development process and also display more information than is typical of a traditional “graphical user interface” (GUI; pronounced ‘gooey’) based environment.
 
 ## Directory
+
 One advantage of a CLI over a GUI-based file browser is quicker manipulation of files and directories. The manipulation of files and directories will be a very common activity for you in this course. As such, please take a moment to read the following [Wikipedia page describing ‘directories’](https://en.wikipedia.org/wiki/Directory_(computing)) and make sure you understand what a directory is, as well as its related terminology.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
