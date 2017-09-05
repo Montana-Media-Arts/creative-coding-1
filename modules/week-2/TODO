@@ -1,0 +1,4 @@
+- fix output for git terminal example after changing a file, line 165-168. This should be different. In file 2017-01-04-git-version...
+- switch GitHub desktop example into "git-gui-app.md"
+- consider removing source tree references
+- redo GitHub desktop firt-time example with new app
