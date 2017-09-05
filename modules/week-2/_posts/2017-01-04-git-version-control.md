@@ -2,6 +2,7 @@
 title: Git Version Control
 module: 2
 ---
+
 # GIT Version Control System
 
 One great thing about working with text files is that their simplicity makes it easy to track changes between various versions of a file. Since the files contain only [ASCII](http://www.asciitable.com) characters, it is easy to create programs that can look for character or word level changes to a document.
@@ -9,13 +10,14 @@ One great thing about working with text files is that their simplicity makes it 
 ## Why use Version Control?
 
 - Version control allows a developer/writer to make changes to a file and track their changes over time. By ‘committing’ changes to a file with a simple, associated message, the developer can create a list of how they have changed the file over time.
-- Version control also allows for a developer/writer to make changes that may or may not work. If they find that the change they made was inappropriate, or did not work, they can simply go back to a previous version. There is no need for directories full of “save as” files.
-- Version control makes collaboration and sharing easier. Then all associated parties can see all changes made by each other, and manage any conflicts that may occur within a file.
+- Version control also allows for a developer/writer to make changes that may or may not work; to essentially try something without being fully committed. If they find that the change they made was inappropriate, or did not work, they can simply go back to a previous version. There is no need for directories full of “save as” files.
+- Version control makes collaboration and sharing easier. Then all associated parties can see all changes made by each other, and manage any conflicts that may occur within a file from changing it at the same time.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41027679" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
 ## More about GIT
+
 Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - TOC](https://git-scm.com/book/en/v2)
 
 
@@ -34,7 +36,8 @@ Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - 
 # Installing and Setting Up Git
 
 ## Installation
-Mac and Linux users likely have Git already installed on their machines. To checkout open terminal.app and execute the following command
+
+Mac and Linux users likely have Git already installed on their machines. To check, open terminal.app and execute the following command
 
 ```bash
 git --version
@@ -55,6 +58,7 @@ Once Git is installed, open PowerShell / Terminal and run the above command (`gi
 
 
 ## Setup
+
 After installing Git you should follow the instructions from [chapter 1.6 of the Pro Git book on “First-Time Git Setup”](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vGRM2O5PgI8" frameborder="0" allowfullscreen></iframe></div>
@@ -66,7 +70,9 @@ $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
 
+
 # Git Basics
+
 This section will refer to [Chapter 2 in the Pro Git book](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). You need to read this chapter.
 
 OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `PowerShell.exe` on Windows.
@@ -102,7 +108,7 @@ $ cd 341-work
 ### Step 2 - Initialize the Directory as a Git Repository
 Make the new directory a Git repository.
 
-The first thing your are going to do is tell Git to create a new repository within this directory. To do so, we will call the ‘git’ command followed by the ‘init’ command `git init`. This will initialize a new repository.
+The first thing your are going to do is tell Git to create a new repository within this directory. To do so, we will call the ‘git’ command followed by the ‘init’ command, hence `git init`. This will initialize a new repository.
 
 ```bash
 $ git init
@@ -124,7 +130,7 @@ $ git add *
 ### Step 4 - Commit Changes
 Commit the changes to the repository.
 
-The last step is to create a commit message officially tracking these changes in the repository. `git commit -m 'initial commit for the repository and test1.txt'`
+The last step is to create a commit message to officially track these changes in the repository. To-do this we will call the `git` command again, followed by command `commit`. We will then pass in a "flag", which tells a command to do something or to tell the command to expect additional data. In this case we will pass the `-m` flag which, in this case, stands for message. This tell `git commit` that the next bit of data is the "commit message". The commit message serves to tell you, and any collaborators, what occurred in this commit, whether this is a significant milestone, etc. Git commit messages are placed within single quotes (I.e. `'`). So our first git commit command should look like;
 
 ```bash
 $ git commit -m 'initial commit for the repository and test1.txt'
@@ -152,7 +158,7 @@ One of the most powerful uses of Git, as previously mentioned, is its ability to
 
 Change the file and re-save it.
 
-The first thing to do is open our `test.txt` file in a Text Editor (Atom). Then make some changes, additions, or deletions. Finally re-save this file.
+The first thing to do is open our `test1.txt` file in a Text Editor (Atom). Then make some changes, additions, or deletions. Finally re-save this file.
 
 If we now check the status of our Git repo, it will tell us that the repository is no longer up-to-date.
 
@@ -202,14 +208,14 @@ Lines that start with a ‘-‘ are “deletions” from the file, while lines t
 
 Stage the recently altered file with the `add` command.
 
-After changing a file, we must tell Git the we want it to keep a snapshot of those changes. To do this, we tell git to “add” the change file to its staged files.
+After changing a file, we must tell Git that we want it to keep a snapshot of those changes. To do this, we tell git to “add” the changed file to its staged files.
 
 ```bash
 $ git add *
 
 ```
 
- If we check the status again, we will see that Git has staged the file, but not committed these changes yet.
+If we check the status again, we will see that Git has staged the file, but not committed these changes yet.
 
 ```bash
 $ git status

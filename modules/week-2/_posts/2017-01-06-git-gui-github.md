@@ -2,6 +2,7 @@
 title: Git GUI Applications (GitHub Desktop)
 module: 2
 ---
+
 # Git GUI Applications - GitHub Desktop
 
 

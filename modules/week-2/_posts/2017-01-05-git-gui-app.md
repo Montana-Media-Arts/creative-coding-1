@@ -2,18 +2,20 @@
 title: Git GUI Applications (Sourcetree)
 module: 2
 ---
+
 # Git GUI Applications - Sourcetree
 
-Working with Git in the terminal offers the user the full power of Git. However, there are GUI (pronounced ‘gooey’. GUI stands for ‘graphical user interface’) applications that can serve as a front-end for Git. You are free to use the terminal/cmd.exe or one of these applications.
+Working with Git in via the command line offers the user the full power of Git. However, there are GUI (pronounced ‘gooey’. GUI stands for ‘graphical user interface’) applications that can serve as a front-end for Git. You are free to use a command line based program or one of these applications.
 
 The two applications I would suggest are;
 
-- [SourceTree](https://www.sourcetreeapp.com) (recommended)
-- [GitHub Desktop](https://desktop.github.com)
+- [GitHub Desktop](https://desktop.github.com) (recommended)
+- [SourceTree](https://www.sourcetreeapp.com) 
+
 
 Both of these work on macOS and Windows.
 
-NOTE: For windows users, there have been reports of that Source Tree does not work on earlier versions of the Windows OS. If you want to use the software taught by this course, you may need to update your OS to a modern version, such as Windows 10.
+NOTE: For windows users, there have been reports that Source Tree does not work on earlier versions of the Windows OS. If you want to use the software taught by this course, you may need to update your OS to a modern version, such as Windows 10 ( NOTE: That will e true throughout the course, for most situations I would suggest you work on a machine with either a current version of macOS or Window's OS ).
 
 
 I will show you how to use Source Tree, but the process of using GutHub Desktop is virtually the same. To see explicit directions for GitHub Desktop please navigate to the next section (_Git GUI Applications (GitHub Desktop)_).

@@ -2,18 +2,19 @@
 title: Text Editors
 module: 2
 ---
+
 # Text Editors
 
 ## Text Editors Overview
 
-As mentioned in this weeks overview, a text editor is any application for editing ASCII text documents. This includes both prose or code documents. There are many types of text editors. The various types of text editors are optimized for specific types of tasks.
+As mentioned in the weekly overview, a text editor is any application for editing ASCII text documents. This includes both prose and code documents. There are many types of text editors. Various types of text editors are optimized for specific types of tasks.
 
 Please read this [Wikipedia page on text editors](https://en.wikipedia.org/wiki/Text_editor) to familiarize yourself with some of the specifics and differences. Pay particular attentions to the “Typical Features” section.
 
 
 ## Text Editor for Development
 
-For this class, we need a text editor that is optimized for web development and code. You are welcome to use whatever text editor you like for this course, however, the following should be considered;
+For this class, we need a text editor that is optimized for development and code. You are welcome to use whatever text editor you like for this course, however, the following are suggested;
 
 - GitHub’s [Atom](https://atom.io) - Open Source (ie. Free)
 - Adobe’s [Brackets](http://brackets.io) - Open Source
@@ -38,11 +39,13 @@ From the explorer you then need to right-click the file and select "Run as Admin
 
 
 ### { TODO: }
+
 1. Explore various text editors through your browser.
 2. After identifying one that you believe will fit your needs, download and install the application to your computer.
 3. Open the text editor and familiarize yourself with its features.
 
 ## Packages
+
 Most text editors allow you to download additional packages created by the community which extend their functionality and can make them more suited to your particular needs.
 
 In Atom for instance, you can install new packages by selecting the “install” tab from the preferences page. From there you can search for packages to install or themes to install. The former adds functionality to your editor and the latter allows you to customize the look and feel of the editor. From time to time, I may suggest packages that would be useful for you if you are working in Atom. The image shows a search for the newbound-dark-syntax, which provides colorization for a number of languages, including markdown. (I would suggest you install this theme, and then select it as your “Syntax Theme” under the Themes tab.)
