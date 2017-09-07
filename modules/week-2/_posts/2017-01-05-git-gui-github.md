@@ -32,82 +32,64 @@ After downloading the application, simply drag it to your `/Applications` direct
 
 When you open the app for the first time, you will be guided through an additional setup process.
 
-#### 1. Login to GitHub
-
-First, click continue. Then, login to GitHub with your username & password.
-![GitHUb Login via the app on macOS](../imgs/gh_login_app.png)
-
-#### 2. Configure Git
-
-On the "Configure Git" screen, enter your name and email, if they are not already there.
-
-You should also click the box that says "Install Command Line Tools".
-
-Then click "continue" again.
-
-#### 3. "Find Local Repositories"
-
-GitHub will look for your local (i.e. the repo's on your computer) and make it easy for you to add them. You can do that now if they show up, or add them later. (Skip the add repo step below, if you add them now.)
-
-#### 4. Add your Repo
-
-To add a local repo, you need to click the "+" button in the upper-left hand corner of the application window.
-
-Then click the "add" tab.
-
-Finally, click "choose", and then navigate to the top level of your git repo we created earlier.
-
-You can then click "Open" and when you return to the "add repo" window, click "Add Repository".
-![Adding a local repo on macOS](../imgs/gh_mac_localRepo.png)
-
-
 <hr />
 ## on Windows
-
-#### 1. Download & Run the Installer
 
 After downloading the application, right click the application in the Downloads folder from the file explorer and select "run as administrator".
 ![Showing how to "run as admin" for GitHub Desktop on PC](../imgs/gh_pc_run.png)
 
 This will cause the installer to run and do its thing.
 
-#### 2. Login
+## Setting up GitHub Desktop
 
-When presented with a "Log in" screen, log in to your GitHub.com account using your username and password. Then Select "Log in"
-![Example of Login screen on GitHub Desktop for PC](../imgs/gh_PC_Login.png)
+#### 1. Login to GitHub
 
-#### 3. Configure
+The following assumes you successfully created a GitHub.com account last week. If you have not, please do that first.
 
-Make sure your name and e-mail are entered correctly on the "Configure" screen. Then click "Continue".
+First, click "Sign into GitHub.com".
 
-#### 4. Repositories
 
-GitHub Desktop will attempt to find and load repositories on your computer for you. If it found your repo, select it and click "Add Selected" below. (If you add your repo here, then skip the next "Add Local Repo" section on this page.)
+Then, login to GitHub with your username & password.
 
-#### 5. Add Local Repo
+![GitHUb Login via the app on macOS](../imgs/gh_login_app.png)
 
-To add a repository in GitHub Desktop you will need to click the "+" button in the top left corner of the window.
+#### 2. Configure Git
 
-Select the "Add" tab. Then Select "Browse"; this will open a browser, where you should navigate to the top level of your git repo. Select your folder, then hit "OK".
+On the "Configure Git" screen, enter your name and email, if they are not already there.
 
-When you are brought back to the add box, click the "Add repository" button.
-![Example of adding a repository on a PC in GitHub Desktop](../imgs/pc_gh_addRepo.png)
+Then click "continue" again.
+
+Finally click finish on the last screen.
+
+
+#### 3. Add your Repo
+
+To add a local repository, navigate to the "File" menu, and select "Add Local Repository...".
+
+Click "choose", and then navigate to the top level of your git repo we created earlier.
+
+You can then click "Open" and when you return to the "add repo" window, click "Add Repository".
+
+![Adding a local repo on macOS](../imgs/gh_mac_localRepo.png)
+
 
 <hr />
-## Making Commits with GitHub Desktop app [all together now (macOS + PC)]
+## Making Commits with GitHub Desktop app
 
 Since GitHub Desktop is nearly identical between mac and PC, I will only be including one set of instructions for this section. If you get confused, please email your instructor.
 
-Let's now learn how to make commits of our file changes with GitHub Desktop. The first thing we should do is open our repo in Atom. Assuming Atom was able to perform a normal, full-permission install, you should be able to right click on the repo name in the "repository browser" area in the left of the applications window. Then you can click "Open in Atom".  This will open Atom, with the repository directory active.
+Let's now learn how to make commits of our file changes with GitHub Desktop. The first thing we should do is open our repo in Atom. Assuming Atom was able to perform a normal, full-permission install, you should be able to select "Open in Atom" from the "Repository" menu in GitHub.
+
 ![Context Menu in GitHub Desktop showing the "Open in Atom" option.](../imgs/openInAtom.png)
 
 
 Make a change to any file you want within your repo. Just make sure you save it from Atom.
 
-Then move back to the GitHub Desktop App. You should now see that the center button says something like "1 Uncommitted Change".
+Then move back to the GitHub Desktop App. You should now see that the left tab labeled "Changes" now has a blue dot next to it. This indicates that there are changes we need to commit. Below this, you should see the name of the file that you changed. If you select that file, you will see a summary of its changes to the right.
+
 ![GitHub Desktop showing that there are "uncommited changed"](../imgs/ghUncomChange.png)
 
-Make sure this button is select by clicking it. It will turn dark-grey and display the "commit window". In here you can select/un-select files to group in a single commit. This is the equivelant of "staging" files in the terminal or Sourcetree.
+Make sure this button is select by clicking it. You will see near the bottom left of the window a "Commit" section.  In here you can select/un-select files to group in a single commit. This is the equivalent of "adding" files in the terminal.
 
 When you select a file, it will show the differences since the last commit of that file on the right side of the window.
 

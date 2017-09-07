@@ -5,7 +5,9 @@ module: 2
 
 # Git GUI Applications - Sourcetree
 
+You are welcome to also try Sourcetree. These are setup instructions, should you choose to do so.
 
+(NOTE: Please replace 341 with 120 in any image examples below.)
 
 ## Setting Up “SourceTree”
 
@@ -24,6 +26,7 @@ After downloading the application, right click the application from the file exp
 On the first screen, select "I Agree", and unselect "Help improve...". Then click 'continue'.
 
 You must agree to the “Atlassian Customer Agreement”, and it is your choice about whether you want to provide them with “usage data”.
+
 ![SourceTree Setup Screen; 1](../imgs/st_setup_1.jpg)
 
 You will then select to follow the “Go to My Atlassian” to create an account. This is necessary to register the app. After creating an account, go back to the Source Tree app and click the “Use an existing account” button. Then sign in.
@@ -39,17 +42,21 @@ Skip the “Connect an account” setup page for the time being.
 ### on macOS
 
 You should then see the “Repository Browser” window, which will be empty for you. (If you do no see this window, go to the Window tab in SourceTree and select “Show Repository Browser”.)
+
 ![Source Tree Repository Browser Window](../imgs/st_setup_2.jpg)
 
 Finally, open the SourceTree preferences (`cmd` + `,` _OR_ the gear icon on the right of the window). In there you should enter your name and e-mail (just as we did in the terminal). You should also change the default “Project folder:” path to look at your /Document directory.
+
 ![SourceTree Preferences](../imgs/st_setup_3.jpg)
 
 ### on PC
 
 You should then see the “Repository Browser” area on the left of the open window.
+
 ![Source Tree Repository Browser Area for PC](../imgs/pc_repo_browser.png)
 
 Finally, open the SourceTree preferences (`control` + `,` _OR_ the gear icon on the bottom-right of the browser area). Make sure the "General" tab is selected. In there you should enter your name and e-mail (just as we did in the PowerShell). You should also change the default “Project folder:” path to look at your /Document directory.
+
 ![SourceTree Preferences](../imgs/st_setup_3_pc.png)
 
 
@@ -61,11 +68,13 @@ Finally, open the SourceTree preferences (`control` + `,` _OR_ the gear icon on 
 ### on macOS
 
 Now that SourceTree is setup, lets add our existing Git Repo. To do this, select the “+ New Repository” tab in the SourceTree Repository Browser window. This will open a dropdown menu, from which you should select the “Add Existing Local Repository”.
+
 ![New Repo Dropdown](../imgs/st_addRepo.jpg)
 
 This should open a “Finder” window, from which you need to navigate to the top level of your repository. Then select “Open”.
 
-This should create a new Repo in your Repository Browser Window labeled the name of your repository directory (“341-work”).
+This should create a new Repo in your Repository Browser Window labeled the name of your repository directory (120-work”).
+
 ![Repo in repo browser window](../imgs/st_addRepo2.jpg)
 
 To view the Repo, double click on it in the Repository Browser. This will open a repository window.
