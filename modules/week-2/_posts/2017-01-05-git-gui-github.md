@@ -5,6 +5,20 @@ module: 2
 
 # Git GUI Applications - GitHub Desktop
 
+Working with Git in via the command line offers the user the full power of Git. However, there are GUI (pronounced ‘gooey’. GUI stands for ‘graphical user interface’) applications that can serve as a front-end for Git. You are free to use a command line based program or one of these applications.
+
+The two applications I would suggest are;
+
+- [GitHub Desktop](https://desktop.github.com) (recommended)
+- [SourceTree](https://www.sourcetreeapp.com)
+
+
+Both of these work on macOS and Windows.
+
+NOTE: For windows users, there have been reports that Source Tree does not work on earlier versions of the Windows OS. If you want to use the software taught by this course, you may need to update your OS to a modern version, such as Windows 10 ( NOTE: That will be true throughout the course, for most situations I would suggest you work on a machine with either a current version of macOS or Window's OS ).
+
+I will show you how to use GitHub Desktop, but the process of using GutHub Desktop is virtually the same. To see explicit directions for GitHub Desktop please navigate to the next section (_Git GUI Applications (Sourcetree)_).
+
 
 Download the GitHub Desktop appliction from their site.
 https://desktop.github.com
@@ -13,7 +27,7 @@ https://desktop.github.com
 <hr />
 ## on macOS
 
-After downloading the application, simply drag it to your /Applications directory for macOS.
+After downloading the application, simply drag it to your `/Applications` directory for macOS.
 ![Example of dragging GitHub Desktop from Downloads to Applications](../imgs/ghDesk2app.png "Example of dragging GitHub Desktop from Downloads to Applications")
 
 When you open the app for the first time, you will be guided through an additional setup process.

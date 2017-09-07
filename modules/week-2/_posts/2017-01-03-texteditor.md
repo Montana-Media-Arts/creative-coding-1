@@ -70,6 +70,7 @@ More can be found on the [scotch websites discussion of Atom](https://scotch.io/
 - Open your file from the previous page (`test1.txt`) in your text editor application.
 - Add a new line to the end of the file that says the following: `I added a new line to this file in my text editor!!!!`
 - Save the file.
-![Text document example](../imgs/textDocExam.jpg)
+
+![Text document example](../imgs/textDocExam.png)
 
 Also, do a Google search on the text editor you picked in order to query how others use it. You might look for something like “Atom best packages”, “optimize Atom for web development”. This is not to suggest you follow these results, but rather to inform you of the possibilities of your chosen text editor.

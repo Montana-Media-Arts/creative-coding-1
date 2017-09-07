@@ -85,23 +85,25 @@ OK, lets learn some Git. Open `terminal.app` if you are on macOS/Linux or `Power
 ### Step 1 - Create an Empty Directory
 Navigate to a location on your system hard drive where you want to store all of your work for this course from this semester. I would suggest somewhere like your `/Documents` directory.
 
-In there create a new directory called `341-work`.
+In there create a new directory called `120-work`.
 
-Then navigate into the `/341-work` directory.
+Then navigate into the `/120-work` directory.
 
 <!-- *(Example code for unix)* -->
 ```bash
 $ cd
 $ cd Documents
-$ mkdir 341-work
-$ cd 341-work
+$ mkdir 120-work
+$ cd 120-work
 ```
 
 #### Example of creating directory on mac
 
-![Example image of creating the 341-work directory on macOS](../imgs/341-work-example.jpg)
+![Example image of creating the 341-work directory on macOS](../imgs/120-work-example.png)
 
 #### Example of creating directory on PC
+
+NOTE: Please change `341-work` with `120-work`. These are old images that need updating.
 
 ![Example image of creating the 341-work directory on windows](../imgs/341-work-example-pc.png)
 
@@ -112,14 +114,14 @@ The first thing your are going to do is tell Git to create a new repository with
 
 ```bash
 $ git init
-Initialized empty Git repository in /Users/musick/Documents/341-work/.git/
+Initialized empty Git repository in /Users/musick/Documents/120-work/.git/
 ```
 
 
 ### Step 3 - Add a File to the Repo
 Add a file to the repository.
 
-Move the test1.txt file we created earlier into the new directory. You can do this by grabbing it with your mouse and drag/drop-ing it to the new directory, or use the `mv` command in the terminal.
+Move the `test1.txt` file we created earlier into the new directory. You can do this by grabbing it with your mouse and drag/drop-ing it to the new directory, or use the `mv` command in the terminal.
 
 After moving the file to the directory, we need to tell the Git repository to “track” this file. To do this, we tell git to `add` all files to the repository `git add *`. (The `*` serves as a wildcard telling the terminal to find all files in the current directory.
 
@@ -165,7 +167,13 @@ If we now check the status of our Git repo, it will tell us that the repository 
 ```bash
 $ git status
 On branch master
-nothing to commit, working tree clean
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   test1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ### Step 2 - See Whats Changed
@@ -179,26 +187,17 @@ NOTE: this will not return any information on Windows.
 ```bash
 $ git diff
 diff --git a/test1.txt b/test1.txt
-index 01ae4da..db32022 100644
+index 0b47a87..b4bb6ec 100644
 --- a/test1.txt
 +++ b/test1.txt
-@@ -1,7 +1,14 @@
- Name: Michael Musick
- Date: January 11th, 2017
+@@ -3,4 +3,6 @@ Date: 2017-09-07 11:31
 
--This is my first text file! YEAH!!!!
-+This is my first text file! WOW!!!!
-+That has now been altered!
+ This is my first text document for one of Dr. Musicks Media Arts courses.
 
-
--I added a new line to this file in my text editor!!!!
-+I added this file in my text editor!!!!
+-I added a new line to this file in my text editor!!!
++I added a new line to this file in my text editor, saved it, then changed it!!!
 +
-+Adding a new line.
-+And another.
-+
-+
-+HAHAHAHAAHAAAAAAA
++HAHAHAHAHAHAH!!!!!
 
 ```
 
@@ -232,8 +231,8 @@ Finally, just as before, we commit all of our changes and add a commit message.
 
 ```bash
 $ git commit -m 'made changes to test1.txt'
-[master 2737075] changes some things in test1.txt
- 1 file changed, 9 insertions(+), 2 deletions(-)
+[master bcd8d98] made changes to test1.txt
+ 1 file changed, 3 insertions(+), 1 deletion(-)
 ```
 
 ## Viewing Commit History
@@ -242,17 +241,23 @@ The last major thing you may want to do, is view the commit history of this Git 
 
 ```bash
 $ git log
-commit 27370758978860f09dd980f00b30c6a99bde881c
+commit bcd8d987427b4d61969b23c46275676c4c8f7688 (HEAD -> master)
 Author: Michael Musick <michael@michaelmusick.com>
-Date:   Wed Jan 11 13:49:03 2017 -0700
+Date:   Thu Sep 7 11:37:58 2017 -0600
 
-    changes some things in test1.txt
+    made changes to test1.txt
 
-commit 14bc78618f5c946baa26e229ff9477706688fc8f
+commit 6aa336fe71c3afd8cccbd9c9ac69e77fc40e4667
 Author: Michael Musick <michael@michaelmusick.com>
-Date:   Wed Jan 11 13:44:49 2017 -0700
+Date:   Thu Sep 7 11:35:21 2017 -0600
 
-    initial commit for our new repo. Also added the test1.txt file.
+    test commit
+
+commit 4b826a52d81ea448eedc221db58f6a0f0d571071
+Author: Michael Musick <michael@michaelmusick.com>
+Date:   Thu Sep 7 11:29:33 2017 -0600
+
+    initial commit for the repository and test1.txt
 ```
 
 ## { TODO: }

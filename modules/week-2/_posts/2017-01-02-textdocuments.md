@@ -40,7 +40,7 @@ Well, as you might guess, most computer languages are saved as plain text or ASC
 Name: {Your Name}
 Date: {Todays Date}
 
-This is my first text document for one of Dr. Music's Media Arts courses. 
+This is my first text document for one of Dr. Musick's Media Arts courses. 
 ```
 
 - Save the document somewhere easy to find.
