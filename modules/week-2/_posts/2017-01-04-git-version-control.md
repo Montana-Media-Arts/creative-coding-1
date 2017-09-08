@@ -39,6 +39,8 @@ Please read sections 1.1-1.3 in the following online book about Git. [Pro Git - 
 
 Mac and Linux users likely have Git already installed on their machines. To check, open terminal.app and execute the following command
 
+<div id="code-heading">BASH</div>
+
 ```bash
 git --version
 ```
@@ -65,6 +67,8 @@ After installing Git you should follow the instructions from [chapter 1.6 of the
 
 The main thing to do is to set your username and email address. This is done with the following two lines of code in terminal or Command Line. (note: do not copy the '$'. This is a convention to show a new line in terminal/Command Prompt. Instead copy the rest of the line starting at the first character after the dollar sign. If a line does not start with a ‘`$`’, it is text output from the computer. Do not copy these lines.)
 
+<div id="code-heading">BASH</div>
+
 ```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
@@ -90,6 +94,8 @@ In there create a new directory called `120-work`.
 Then navigate into the `/120-work` directory.
 
 <!-- *(Example code for unix)* -->
+<div id="code-heading">BASH</div>
+
 ```bash
 $ cd
 $ cd Documents
@@ -112,6 +118,8 @@ Make the new directory a Git repository.
 
 The first thing your are going to do is tell Git to create a new repository within this directory. To do so, we will call the ‘git’ command followed by the ‘init’ command, hence `git init`. This will initialize a new repository.
 
+<div id="code-heading">BASH</div>
+
 ```bash
 $ git init
 Initialized empty Git repository in /Users/musick/Documents/120-work/.git/
@@ -125,6 +133,8 @@ Move the `test1.txt` file we created earlier into the new directory. You can do 
 
 After moving the file to the directory, we need to tell the Git repository to “track” this file. To do this, we tell git to `add` all files to the repository `git add *`. (The `*` serves as a wildcard telling the terminal to find all files in the current directory.
 
+<div id="code-heading">BASH</div>
+
 ```bash
 $ git add *
 ```
@@ -133,6 +143,8 @@ $ git add *
 Commit the changes to the repository.
 
 The last step is to create a commit message to officially track these changes in the repository. To-do this we will call the `git` command again, followed by command `commit`. We will then pass in a "flag", which tells a command to do something or to tell the command to expect additional data. In this case we will pass the `-m` flag which, in this case, stands for message. This tell `git commit` that the next bit of data is the "commit message". The commit message serves to tell you, and any collaborators, what occurred in this commit, whether this is a significant milestone, etc. Git commit messages are placed within single quotes (I.e. `'`). So our first git commit command should look like;
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git commit -m 'initial commit for the repository and test1.txt'
@@ -146,6 +158,8 @@ $ git commit -m 'initial commit for the repository and test1.txt'
 Check the repository status.
 
 Finally, lets check the status of our new repository with the command `git status`. This should tell us everything is as expected, tracked, and committed.
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git status
@@ -163,6 +177,8 @@ Change the file and re-save it.
 The first thing to do is open our `test1.txt` file in a Text Editor (Atom). Then make some changes, additions, or deletions. Finally re-save this file.
 
 If we now check the status of our Git repo, it will tell us that the repository is no longer up-to-date.
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git status
@@ -183,6 +199,8 @@ Use `git diff`
 Using the `git diff` command we can see how all files have changed since their last commit.
 
 NOTE: this will not return any information on Windows.
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git diff
@@ -209,12 +227,16 @@ Stage the recently altered file with the `add` command.
 
 After changing a file, we must tell Git that we want it to keep a snapshot of those changes. To do this, we tell git to “add” the changed file to its staged files.
 
+<div id="code-heading">BASH</div>
+
 ```bash
 $ git add *
 
 ```
 
 If we check the status again, we will see that Git has staged the file, but not committed these changes yet.
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git status
@@ -229,6 +251,8 @@ Changes to be committed:
 
 Finally, just as before, we commit all of our changes and add a commit message.
 
+<div id="code-heading">BASH</div>
+
 ```bash
 $ git commit -m 'made changes to test1.txt'
 [master bcd8d98] made changes to test1.txt
@@ -238,6 +262,8 @@ $ git commit -m 'made changes to test1.txt'
 ## Viewing Commit History
 
 The last major thing you may want to do, is view the commit history of this Git Repo. To do this, we simply pass the command `git log`. This show us relevant information for each commit.
+
+<div id="code-heading">BASH</div>
 
 ```bash
 $ git log

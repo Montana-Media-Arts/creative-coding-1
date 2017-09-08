@@ -16,6 +16,11 @@ div.highlighter-rouge {
 
 pre code {
     color: $code-color;
+    white-space: pre-wrap;
+}
+
+.code pre {
+    color: $code-color;
 }
 
 .highlight pre { background-color: $code-bg; }
