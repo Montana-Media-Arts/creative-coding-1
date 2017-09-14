@@ -33,9 +33,13 @@ To install atom on macOS, simply download the software. Then drag the applicatio
 
 To install atom on windows, download the windows installer from the main [atom.io](https://atom.io) site.
 
-**IMPORTANT:** when the download finished, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in explorer. To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_, right-click or two-finger-click the file from the browser and select "Show in Folder". ![Pic demo-ing "show in folder" command](../imgs/showINFinder.png "Demo of show in folder.")
+**IMPORTANT:** when the download finished, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in explorer. To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_, right-click or two-finger-click the file from the browser and select "Show in Folder".
 
-From the explorer you then need to right-click the file and select "Run as Administrator". This is especially important if you are not sure whether you are signed in as an admin. ![Image demo-ing how to "Run as Admin"](../imgs/runAsAdmin.png "Image demo-ing how to 'Run as Admin'")
+![Pic demo-ing "show in folder" command](../imgs/showINFinder.png "Demo of show in folder.")
+
+From the explorer you then need to right-click the file and select "Run as Administrator". This is especially important if you are not sure whether you are signed in as an admin.
+
+![Image demo-ing how to "Run as Admin"](../imgs/runAsAdmin.png "Image demo-ing how to 'Run as Admin'")
 
 
 ### { TODO: }
