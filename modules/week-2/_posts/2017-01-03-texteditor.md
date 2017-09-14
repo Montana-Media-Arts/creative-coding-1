@@ -24,12 +24,12 @@ I have used both Atom and Sublime Text extensively. Currently, I am teaching wit
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
 
-###### Install on macOS
+#### Install on macOS
 
 To install atom on macOS, simply download the software. Then drag the application that was downloaded from the Downloads folder to the Applications folder. See this is in the video above.
 
 
-###### Install on Windows
+#### Install on Windows
 
 To install atom on windows, download the windows installer from the main [atom.io](https://atom.io) site.
 
