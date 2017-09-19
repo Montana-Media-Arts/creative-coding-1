@@ -53,6 +53,7 @@ From the explorer you then need to right-click the file and select "Run as Admin
 Most text editors allow you to download additional packages created by the community which extend their functionality and can make them more suited to your particular needs.
 
 In Atom for instance, you can install new packages by selecting the “install” tab from the preferences page. From there you can search for packages to install or themes to install. The former adds functionality to your editor and the latter allows you to customize the look and feel of the editor. From time to time, I may suggest packages that would be useful for you if you are working in Atom. The image shows a search for the newbound-dark-syntax, which provides colorization for a number of languages, including markdown. (I would suggest you install this theme, and then select it as your “Syntax Theme” under the Themes tab.)
+
 ![example search for newfound-syntax-theme](../imgs/theme_search_in_atom.jpg)
 
 Initially, I would also suggest you search for and install the following packages in Atom;
