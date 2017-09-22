@@ -1,4 +1,5 @@
 # Creative Coding 1 - MART 120
+
 The web-based version of Creative Coding 1 at the School of Media Arts, University of Montana.
 
 This course is designed to teach code so that it can become a tool for art and creativity.
