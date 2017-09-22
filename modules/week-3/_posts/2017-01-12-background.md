@@ -1,33 +1,14 @@
 ---
-title: setup()
+title: background()
 module: 3
 jotted: true
 ---
 
-# setup()
-
-As previously mentioned the `setup()` function is called once, at the start of execution for every p5 code sketch.
-
-You should perform and write commands in the `setup()` function that;
-
-1. only need to occur once
-2. and need to occur at the start of the code sketches execution.
-
-
-<br />
-
-
-There are a few commands that we are going to talk about now, that you will often place in the `setup()` function.
-
-# `createCanvas()`
-
-One of the first things you will need to do, in almost every p5 code sketch, is to create a canvas. 
-
-TODO: Finish this
-
 # `background()`
 
-One command that is often written in `setup()` specifies the background color of a code sketch's canvas.
+Now that we can create a canvas to draw to, lets talk about how we can change the color of that canvas. To do this, we will use the `background()` function.
+
+This function, which is often written in `setup()` specifies the background color of a code sketch's canvas.
 
 To write a command to change or set the background, we will often use the `background()` function. Below is the documentation from the p5 site for the `background()` function.
 
@@ -40,9 +21,10 @@ There will be a lot of information inside of the `background()` documentation th
 
 After reading the `background()` documentation, you should have found out how you can specify a background color for your code sketches.
 
-There are three ways of specifying a color to the functions parameters that we will look at.
+There are many ways to specify colors in p5. We will look at a couple of these this week.
 
-## named color string
+
+## Named Color String
 
 The first, and perhaps easiest way of specifying a color is by providing a "named color string". We will talk about "strings" more later, but essentially, a string is any set of characters that are placed between double or single quotes. (`"This is a string"`, `'This is also a string!'`).
 
@@ -51,11 +33,21 @@ For any function in p5 that accepts a named color string, we can supply any comm
 Let's first create a 'blue' background. To do this, we will supply the string `'blue'`, as the first parameter to the `background()` function, inside of our declared `setup()` function.
 
 
-```js
+
+{% highlight js linenos %}
 function setup() {
+    // first we need to specify our canvas size
+    createCanvas( 800, 400 );
+
+    // Then we can color this background
+    // Notice how the word 'blue' is surrounded in quotes
     background('blue');
+    // Try replacing the word 'blue' with other common color names.
+    // NOTE: Be sure to keep the word surrounded with quotes.
 }
-```
+{% endhighlight %}
+
+
 <div class="displayed_jotted_example">
     <div id="jotted-demo-1" class=""></div>
 </div>
@@ -64,7 +56,7 @@ function setup() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/02_background_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/04_background_01/sketch.js"
         },
         {
             type: "html",

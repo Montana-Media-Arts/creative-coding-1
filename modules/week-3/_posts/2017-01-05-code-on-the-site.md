@@ -113,16 +113,19 @@ Within this course website, you might see long blocks, like the following. This 
 
 <div id="code-heading">sketch.js</div>
 
-```js
+
+{% highlight js linenos %}
 function setup(){
     ellipse(20, 20, 30, 30);
 }
-```
+{% endhighlight %}
+
 <div id="code-ruler"></div>
 
 <div id="code-heading">index.html</div>
 
-```html
+
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -133,7 +136,7 @@ function setup(){
     <body>
     </body>
 </html>
-```
+{% endhighlight %}
 
 <div class="displayed_jotted_example">
     <div id="jotted-demo-2" class=""></div>

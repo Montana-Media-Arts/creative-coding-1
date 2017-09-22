@@ -4,7 +4,7 @@ module: 3
 jotted: true
 ---
 
-# The 2 Basic Functions & Defining Specific Functions in p5.js
+# The 2 Basic Functions in p5.js
 
 We have so far only looked at one line in our "Hello World!" example, line no. 2. Obviously though, there are 2 more lines in this basic sketch we need to talk about.
 
@@ -56,7 +56,16 @@ We will talk in depth later about writing your own functions. But, this week you
 
 In p5, the setup function is where we place commands that relate to "setting up" a code sketch. p5 calls and executes the `setup()` function once, at the start of executing every p5 sketch.
 
+You should write commands in the `setup()` function that;
+
+1. only need to occur once
+2. and need to occur at the start of the code sketch's execution.
+
+There are a few commands and functions that you will almost always place in the `setup()` function.  For example, one command you will constantly write will be used to setup your canvas, which you could consider the workspace where information is sent to.
+
 
 ## `draw()`
 
-The `draw()` function gets called by p5 after the `setup()` function has successfully been called and finished executing its contents. You will place most of your code, especially in these first few weeks inside the `draw()` function. This is how we will tell p5 and the browser what to draw, do, or make.
+The `draw()` function gets called by p5 after the `setup()` function has successfully been called and finished executing. You will place most of your code, especially in these first few weeks inside the `draw()` function. This is how we will tell p5 and the browser what to draw, do, or make.
+
+The `draw()` function is where all of the "interesting" stuff will occur. This is where you will write commands to create visual artworks and interactive pieces.
