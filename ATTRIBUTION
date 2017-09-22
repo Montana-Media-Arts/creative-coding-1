@@ -31,3 +31,11 @@ Additional material has been linked from or adapted from;
 ## Website Template
 
 The course website has been adapted and built from [P2PU.org's](http://howto.p2pu.org), [course-in-a-box](https://github.com/p2pu/course-in-a-box/) and their [Jekyll Course template](http://github.com/p2pu/jekyll-course-template).
+
+
+
+
+
+## Plugin, Libraries, and Packages
+
+The live reloading and code editing capabilities are capable through the use of [Jotted](https://ghinda.net/jotted/). This creates an "environment for showcasing self-hosted HTML, CSS and JavaScript snippets, with editable source."

@@ -1,7 +1,7 @@
 // Code Variables
 //
 
-$code-font-size:              90% !default;
+$code-font-size:              100% !default;
 $code-padding-y:              $space * 2 !default;
 $code-padding-x:              .4rem !default;
 $code-color:                  #f8f8f2 !default;
@@ -68,7 +68,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: $code-font-size;
+  font-size: inherit;
   color: $pre-color;
 
   // Account for some code outputs that place code tags in pre tags
@@ -92,9 +92,10 @@ pre {
 
 
 $code-side-offset: 15;
-.displayed_code_example {
+.displayed_code_example,
+.displayed_jotted_example {
     padding: 30px;
-    margin: ($spacer * 1) ($spacer * -1 * $code-side-offset) ($spacer / 2) ($spacer * -1 * $code-side-offset);
+    margin: 0 ($spacer * -1 * $code-side-offset) ($spacer / 2) ($spacer * -1 * $code-side-offset);
     border-top: ($spacer * 5);
     border-bottom: ($spacer * 5);
     border-left: ($spacer * $code-side-offset);
@@ -106,18 +107,8 @@ $code-side-offset: 15;
 }
 
 .displayed_jotted_example {
-    // padding: 30px;
-    margin: (0) ($spacer * -1 * $code-side-offset) (0) ($spacer * -1 * $code-side-offset);
-    border-top: ($spacer * 5);
-    border-bottom: ($spacer * 5);
-    border-left: ($spacer * $code-side-offset);
-    border-right: ($spacer * $code-side-offset);
-    border-style: solid;
-    border-color: $brand-accent;
-    // border:2px solid $brand-accent;
-    background-color: #fff;
+    padding: 0;
 }
-
 
 .highlighter-rouge+.displayed_jotted_example,
 .highlighter-rouge+.displayed_code_example,
@@ -126,23 +117,8 @@ $code-side-offset: 15;
 }
 
 
-@include media-breakpoint-down(sm) {
-    .displayed_code_example {
-        border:2px solid $brand-accent;
-        // padding-top: 0;
-        // padding-bottom: (($line-height-computed - 1) * 1);
-        // padding-left: (($line-height-computed - 1) * 0.25);
-        padding: (($line-height-computed - 1) * 0.5);
-        margin: 0 0 ($line-height-computed * 0.5 ) 0;
-        overflow: auto;
-
-  }
-
-}
-
-
 div.highlighter-rouge, figure.highlight {
-    margin: 0 ($spacer * -1 * $code-side-offset) ($spacer / 2) ($spacer * -1 * $code-side-offset);
+    margin: 0 ($spacer * -1 * $code-side-offset) 0 ($spacer * -1 * $code-side-offset);
     border-top: ($spacer * 3);
     border-bottom: ($spacer * 5);
     border-left: ($spacer * $code-side-offset);
@@ -151,23 +127,58 @@ div.highlighter-rouge, figure.highlight {
     border-color: $code-bg;
 }
 
+@include media-breakpoint-down(lg) {
+    div.highlighter-rouge,
+    figure.highlight,
+    .displayed_code_example,
+    .displayed_jotted_example {
+        margin-right: -9rem;
+        border-right-width: 9rem;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    div.highlighter-rouge,
+    figure.highlight,
+    .displayed_code_example,
+    .displayed_jotted_example {
+        margin-right: -2rem;
+        border-right-width: 2rem;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    div.highlighter-rouge,
+    figure.highlight {
+        margin: -1em;
+        padding: 0;
+        border-width: 1em;
+        border-style: solid;
+        border-color: $brand-dark;
+    }
+
+    .displayed_code_example,
+    .displayed_jotted_example {
+        border: 2px solid $brand-accent;
+        padding: (($line-height-computed - 1) * 0.5);
+        margin: 0 0 ($line-height-computed * 0.5 ) 0;
+        overflow: auto;
+    }
+    .displayed_jotted_example {
+        padding: 0;
+    }
+}
+
+
 pre {
     z-index: 50;
     display: block;
-    // padding: (($line-height-computed - 1) * 1.5);
     padding-left: (($line-height-computed - 1) * 3.5);
-    // padding-top: (($line-height-computed - 1) * 1.5);
     margin: 0 0 0 0;
-    // margin-bottom: -13px;
-    // font-size: ($font-size-base - 1); // 14px to 13px
     line-height: $line-height-base;
-    // word-break: keep-all;
-    // word-break: break-all;
-    // word-wrap: normal;
     color: $pre-color;
     background-color: $code-bg;
-    // border: 1px solid $pre-border-color;
-    // border-radius: $border-radius-base;
+
     // Account for some code outputs that place code tags in pre tags
     code {
         padding: 0;
@@ -175,11 +186,22 @@ pre {
         color: inherit;
         background-color: transparent;
         border-radius: 0;
-        // white-space: pre-wrap;
         white-space: pre;
         overflow: auto;
     }
 }
+
+@include media-breakpoint-down(lg) {
+    pre {
+        padding-left: (($line-height-computed - 1) * 2);
+    }
+}
+@include media-breakpoint-down(md) {
+    pre {
+        padding-left: (($line-height-computed - 1) * 1.5);
+    }
+}
+
 // adjust spacng between line-nos and code
 td.code {
     text-align: left;
@@ -188,6 +210,7 @@ td.code > pre {
     padding-top: 0em;
     // padding-top: 33px;
     padding-left: (($line-height-computed - 1) * 0.7);
+    // padding-top: 2em;
 }
 // line number styling
 .lineno {
@@ -220,13 +243,13 @@ td.code > pre {
         padding-top: (($line-height-computed - 1) * 1);
         padding-bottom: (($line-height-computed - 1) * 1);
         padding-left: (($line-height-computed - 1) * 0.25);
-        margin: 0 0 ($line-height-computed / 2) 0;
+        margin: 0;
         white-space: pre;
         overflow: auto;
         // border:2px solid $brand-accent;
     }
     td.code > pre {
-        // padding-top: 2.2em;
+        padding-top: 1em;
     }
 }
 

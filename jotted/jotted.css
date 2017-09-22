@@ -3,7 +3,7 @@
 .jotted {
   position: relative;
   /*height: 12em;*/
-  min-height: 500px;
+  min-height: 200px;
   overflow: hidden;
   /*border: 1px solid #000;*/
   border-radius: 2px;
@@ -89,6 +89,10 @@ jotted-nav-item,
 .jotted-pane-active-js .jotted-pane-js {
   position: relative;
   visibility: visible;
+}
+.jotted-pane-result,
+.jotted-pane-result iframe {
+    /*min-height: 500px;*/
 }
 /* editor
  */

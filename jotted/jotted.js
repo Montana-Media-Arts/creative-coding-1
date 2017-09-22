@@ -663,6 +663,10 @@
       this.index = 0;
 
       this.lastCallback = function () {};
+
+      this.resizeIframe = function (obj) {
+          obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      };
     }
 
     createClass(PluginRender, [{
@@ -716,6 +720,7 @@
           this.$resultFrame.contentWindow.document.open();
           this.$resultFrame.contentWindow.document.write(this.frameContent);
           this.$resultFrame.contentWindow.document.close();
+
         } else {
           // older browsers without iframe srcset support (IE9).
           this.$resultFrame.setAttribute('data-srcdoc', this.frameContent);
@@ -734,6 +739,10 @@
             this.$resultFrame.contentWindow.location = jsUrl;
           }
         }
+
+
+
+
       }
     }, {
       key: 'domready',
@@ -742,6 +751,9 @@
         if (e.source !== this.$resultFrame.contentWindow) {
           return;
         }
+
+        // reset height of iframe
+        this.resizeIframe(this.$resultFrame);
 
         var data$$1 = {};
         try {
