@@ -1,5 +1,5 @@
 # basic configuration
-baseurl: /creative-coding-1
+baseurl:
 markdown: kramdown
 permalink: /:categories/:title/
 # Code highlighting
@@ -8,7 +8,7 @@ highlighter: rouge
 
 # Build specific commands
 # change the build directory from _site/ to _docs/
-destination: docs
+# destination: docs
 
 # Change this tracking code with your own tracking code
 ga_tracking_code: UA-97628342-1

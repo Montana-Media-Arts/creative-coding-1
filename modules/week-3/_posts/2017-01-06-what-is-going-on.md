@@ -16,7 +16,9 @@ Here is the code again;
 
 
 {% highlight js linenos %}
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js %}
+function setup(){
+    ellipse(20, 20, 30, 30);
+}
 {% endhighlight %}
 
 
@@ -108,8 +110,9 @@ In our example, there are 4 parameters.
 
 
 {% highlight js linenos %}
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js %}
-
+function setup(){
+    ellipse(20, 20, 30, 30);
+}
 {% endhighlight %}
 
 

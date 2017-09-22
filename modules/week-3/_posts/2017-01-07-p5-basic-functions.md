@@ -11,8 +11,9 @@ We have so far only looked at one line in our "Hello World!" example, line no. 2
 Line no. 1, which has a number of things going on. And, line no. 3, which seems rather simple.
 
 {% highlight js linenos %}
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js %}
-
+function setup(){
+    ellipse(20, 20, 30, 30);
+}
 {% endhighlight %}
 
 ### Basics of Defining a Function

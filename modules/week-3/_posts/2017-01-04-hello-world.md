@@ -17,7 +17,9 @@ Then save your file.
 <div id="code-heading">sketch.js</div>
 
 ```js
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_01/sketch.js %}
+function setup(){
+    text("Hello World!", 0, 10);
+}
 ```
 
 
@@ -84,7 +86,9 @@ Your `sketch.js` file should now look like;
 <div id="code-heading">sketch.js</div>
 
 ```js
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js %}
+function setup(){
+    ellipse(20, 20, 30, 30);
+}
 ```
 
 <br />

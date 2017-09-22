@@ -114,14 +114,25 @@ Within this course website, you might see long blocks, like the following. This 
 <div id="code-heading">sketch.js</div>
 
 ```js
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js %}
+function setup(){
+    ellipse(20, 20, 30, 30);
+}
 ```
 <div id="code-ruler"></div>
 
 <div id="code-heading">index.html</div>
 
 ```html
-{% remote_include https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_01/index.html %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="p5_lib/p5.min.js"></script>
+        <script src="sketch.js"></script>
+        <style> body {padding: 0; margin: 0;} </style>
+    </head>
+    <body>
+    </body>
+</html>
 ```
 
 <div class="displayed_jotted_example">

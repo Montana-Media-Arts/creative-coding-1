@@ -1,5 +1,0 @@
-To include line numbers, wrap code in:
-
-{% highlight html linenos %}
-
-{% endhighlight %}
