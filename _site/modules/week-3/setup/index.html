@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+	<script type="text/javascript">
+		var _sf_startpt = (new Date()).getTime()
+
+	</script>
+	<meta charset="utf-8">
+	<!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
+
+	<title>Creative Coding 1, MART 120 | setup()</title>
+	
+	<meta name="description" content="A course to teach code so that it becomes a tool for art and creativity.">
+	<meta name="author" content="">
+
+	<meta property="og:title" content="Creative Coding 1, MART 120" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<link rel="apple-touch-icon" href="/img/MART_LOGO_Black_180.png">
+
+	<link rel="stylesheet" href="/css/p2pustrap-custom.css" />
+	<link rel="stylesheet" href="/css/site.css" /> 
+
+	<!-- Add Basic Reset Style Code Example Display -->
+	<link rel="stylesheet" href="/css/basic.css" />
+
+	<link rel="shortcut icon" href="/img/favicon.ico">
+	<!-- <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script> -->
+</head>
+
+<body  class="">
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark align-items-end">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="">
+        <div class="navbar-brand">
+            <div class="">
+                Creative Coding 1
+            </div>
+            <div class="">
+                Media Arts | Montana
+            </div>
+        </div>
+    </a>
+
+
+    <div class="collapse navbar-collapse pl-4" id="navbarCollapse">
+        <div class="navbar-nav">
+
+            
+                
+
+                <a class="nav-item nav-link px-2 pb-0 mb-0 " href="/syllabus/">
+                    
+                    
+                    Syllabus  
+                    
+                </a>
+
+            
+                
+
+                <a class="nav-item nav-link px-2 pb-0 mb-0 " href="/instructor/">
+                    
+                    
+                    Instructor  
+                    
+                </a>
+
+            
+                
+
+                <a class="nav-item nav-link px-2 pb-0 mb-0 " href="/dates/">
+                    
+                    
+                    Dates  
+                    
+                </a>
+
+            
+
+            <!-- Course Repo Link -->
+            <a class="nav-item nav-link px-2 pb-0 mb-0" href="https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017">
+                Git
+            </a>
+
+            <li class="nav-item px-2 pb-0 mb-0 dropdown">
+                <a class="nav-link pb-0 justify-content-end dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Modules
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    
+                        
+
+                        <a class="dropdown-item " href="/modules/week-1/welcome-to-mart120/">
+                            
+                            
+                            Week 1  
+                            
+                        </a>
+
+                    
+                        
+
+                        <a class="dropdown-item " href="/modules/week-2/overview/">
+                            
+                            
+                            Week 2  
+                            
+                        </a>
+
+                    
+                        
+
+                        <a class="dropdown-item active" href="/modules/week-3/overview/">
+                            
+                            
+                            Week 3  
+                            <span class="sr-only">(current)</span>
+                        </a>
+
+                    
+
+                </div>
+            </li>
+        </div>
+    </div>
+
+
+    <a class="navbar-brand" href="">
+        <img src="/img/MART_LOGO_SMALL.png" alt="" class="nav_image d-inline-block align-top" />
+    </a>
+
+</nav>
+
+<!-- <nav class="navbar navbar-expand-md bg-compliment-1"> -->
+<!-- </nav> -->
+
+
+	
+<link rel="stylesheet" href="../../../jotted/codemirror.css">
+<script src="../../../jotted/codemirror.js"></script>
+<script src="../../../jotted/javascript.js"></script>
+<script src="../../../jotted/css.js"></script>
+<script src="../../../jotted/xml.js"></script>
+<script src="../../../jotted/htmlmixed.js"></script>
+
+<link href="../../../jotted/jotted.css" rel="stylesheet">
+<script src="../../../jotted/jotted.js"></script>
+
+
+
+
+
+
+<div class="container-fluid bg-compliment-1 p-3">
+    <div class="pagination-section title due-date d-flex justify-content-center" >
+        <div class="active-week px-3">
+            WEEK: 3
+        </div>
+
+        <div class="active-due-date px-3">
+            Active: September 21st - September 27th
+        </div>
+        <div class="active-due-date px-3">
+            Work Due: September 28st @ 8:00AM
+        </div>
+
+
+    </div>
+</div>
+
+
+<hr class="bg-primary m-0 pb-1">
+
+
+<div class="container-fluid modNav-top px-0">
+    
+<!--  -->
+
+<div class="container-fluid bg-compliment-1 pb-md-3 pt-md-3">
+
+      <div class="row flex-column module-nav"  style="max-height: ;">
+
+
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0  first " href="/modules/week-3/overview/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Weekly Overview
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/what-is-p5/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    What is p5?
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/starting-with-p5/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Starting with p5
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/hello-world/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Hello World!
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/code-on-the-site/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Code on This Site
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/what-is-going-on/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    What is Going On?
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/p5-basic-functions/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Basic Functions in p5
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/comments/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Comments
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0 active  last" href="/modules/week-3/setup/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    setup()
+                </a>
+
+            </div> <!--End Main -->
+            
+
+            <!-- 2 -->
+    </div> <!--End row -->
+
+</div> <!--End container -->
+
+</div>
+
+
+<div class="container-fluid px-md-0">
+
+      <div class="row justify-content-md-center">
+
+        <div class="col-sm-12 col-md-11 col-lg-9 content">
+
+			<h1 id="setup">setup()</h1>
+
+<p>As previously mentioned the <code class="highlighter-rouge">setup()</code> function is called once, at the start of execution for every p5 code sketch.</p>
+
+<p>You should perform and write commands in the <code class="highlighter-rouge">setup()</code> function that;</p>
+
+<ol>
+  <li>only need to occur once</li>
+  <li>and need to occur at the start of the code sketches execution.</li>
+</ol>
+
+<p><br /></p>
+
+<p>There are a few commands that we are going to talk about now, that you will often place in the <code class="highlighter-rouge">setup()</code> function.</p>
+
+<h1 id="createcanvas"><code class="highlighter-rouge">createCanvas()</code></h1>
+
+<p>TODO: Finish this</p>
+
+<h1 id="background"><code class="highlighter-rouge">background()</code></h1>
+
+<p>One command that is often written in <code class="highlighter-rouge">setup()</code> specifies the background color of a code sketch’s canvas.</p>
+
+<p>To write a command to change or set the background, we will often use the <code class="highlighter-rouge">background()</code> function. Below is the documentation from the p5 site for the <code class="highlighter-rouge">background()</code> function.</p>
+
+<p>There will be a lot of information inside of the <code class="highlighter-rouge">background()</code> documentation that does not yet make sense to you. That is OK. But, please read through it and see how much you can understand.</p>
+
+<p>(<a href="https://p5js.org/reference/#/p5/background">Link to <code class="highlighter-rouge">background()</code> function documentation</a>)</p>
+
+<div class="embed-responsive" style="padding-bottom:80%; border: 1px solid #000"><iframe class="embed-responsive-item" src="https://p5js.org/reference/#/p5/background" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>After reading the <code class="highlighter-rouge">background()</code> documentation, you should have found out how you can specify a background color for your code sketches.</p>
+
+<p>There are three ways of specifying a color to the functions parameters that we will look at.</p>
+
+<h2 id="named-color-string">named color string</h2>
+
+<p>The first, and perhaps easiest way of specifying a color is by providing a “named color string”. We will talk about “strings” more later, but essentially, a string is any set of characters that are placed between double or single quotes. (<code class="highlighter-rouge">"This is a string"</code>, <code class="highlighter-rouge">'This is also a string!'</code>).</p>
+
+<p>For any function in p5 that accepts a named color string, we can supply any common color, as a word, surrounded by quotes.</p>
+
+<p>Let’s first create a ‘blue’ background. To do this, we will supply the string <code class="highlighter-rouge">'blue'</code>, as the first parameter to the <code class="highlighter-rouge">background()</code> function, inside of our declared <code class="highlighter-rouge">setup()</code> function.</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">background</span><span class="p">(</span><span class="s1">'blue'</span><span class="p">);</span>
+<span class="p">}</span>
+
+</code></pre>
+</div>
+<div class="displayed_jotted_example">
+    <div id="jotted-demo-1" class=""></div>
+</div>
+<script>
+    new Jotted(document.querySelector("#jotted-demo-1"), {
+    files: [
+        {
+            type: "js",
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/02_background_01/sketch.js"
+        },
+        {
+            type: "html",
+            url:"../../../p5_resources/index.html"
+    }],
+    // plugins: [ "codemirror", "console" ]
+    plugins: [ "codemirror" ]
+});
+</script>
+
+<h4 id="-todo-">{ TODO: }</h4>
+
+<p>In the above code output section, open the “JavaScript” tab and replace the <code class="highlighter-rouge">'blue'</code> string parameter inside the <code class="highlighter-rouge">background()</code> function with other common color names. Then re-open the “Result” tag to see the changes.</p>
+
+<p>Names to try;</p>
+
+<ul>
+  <li><code class="highlighter-rouge">'black'</code></li>
+  <li><code class="highlighter-rouge">'red'</code></li>
+  <li><code class="highlighter-rouge">'green'</code></li>
+  <li><code class="highlighter-rouge">'grey'</code></li>
+  <li><code class="highlighter-rouge">'beige'</code></li>
+  <li><code class="highlighter-rouge">'yellow'</code></li>
+  <li><code class="highlighter-rouge">'brown'</code></li>
+  <li><code class="highlighter-rouge">'magenta'</code></li>
+  <li><code class="highlighter-rouge">'pink</code></li>
+  <li><code class="highlighter-rouge">'orange'</code></li>
+</ul>
+
+
+
+		</div> <!--End Content-Main -->
+	</div> <!--End row -->
+</div> <!--End container -->
+
+
+
+<div class="container-fluid pb-3" style="padding-top:4em;">
+
+      <div class="row justify-content-md-center">
+
+		  <div class="col-sm-12 col-md-6">
+
+			  
+
+
+
+
+
+			  
+			  <hr class="final-horizontal-ruler" />
+			  
+
+			  <div class="row">
+
+				  <div class="col-sm-12 col-md-6">
+					  
+				  	  <div class="section-nav-title">
+						  Previous section:
+					  </div>
+					  <a rel="prev" class="prev" href="/modules/week-3/comments/">
+						  Comments </a>
+					  
+				  </div>
+
+				  <div class="col-sm-12 col-md-6 text-md-right">
+					  
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+	</div>
+</div>
+
+<div class="container-fluid modNav-bottom px-0">
+    
+<!--  -->
+
+<div class="container-fluid bg-compliment-1 pb-md-3 pt-md-3">
+
+      <div class="row flex-column module-nav"  style="max-height: ;">
+
+
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0  first " href="/modules/week-3/overview/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Weekly Overview
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/what-is-p5/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    What is p5?
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/starting-with-p5/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Starting with p5
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/hello-world/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Hello World!
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/code-on-the-site/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Code on This Site
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/what-is-going-on/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    What is Going On?
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/p5-basic-functions/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Basic Functions in p5
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0   " href="/modules/week-3/comments/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    Comments
+                </a>
+
+            </div> <!--End Main -->
+            
+            <div class="module-nav-item">
+                <a class="nav-item nav-link pt-0 pb-1 px-0 active  last" href="/modules/week-3/setup/">
+                    <!-- <span class="sr-only">(current)</span> -->
+                    setup()
+                </a>
+
+            </div> <!--End Main -->
+            
+
+            <!-- 2 -->
+    </div> <!--End row -->
+
+</div> <!--End container -->
+
+</div>
+
+
+
+
+	<script>
+		window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"><\/script>')
+
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+	<!-- <script src="/js/gh_link_helper.js"></script> -->
+
+	 
+
+	<!-- Google Analytics -->
+	 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  
+    ga('create', 'UA-97628342-1', 'auto');
+  
+  
+    ga('create', 'UA-55722824-1', 'auto', {'name': 'p2puTracker'} );
+  
+  
+    ga('send', 'pageview');
+  
+  
+    ga('p2puTracker.send', 'pageview');
+  
+</script>
+ 
+
+</body>
+
+</html>

@@ -2,6 +2,19 @@
 layout: base
 ---
 
+{% if page.jotted %}
+<link rel="stylesheet" href="../../../jotted/codemirror.css">
+<script src="../../../jotted/codemirror.js"></script>
+<script src="../../../jotted/javascript.js"></script>
+<script src="../../../jotted/css.js"></script>
+<script src="../../../jotted/xml.js"></script>
+<script src="../../../jotted/htmlmixed.js"></script>
+
+<link href="../../../jotted/jotted.css" rel="stylesheet">
+<script src="../../../jotted/jotted.js"></script>
+{% endif %}
+
+
 {% assign module=page.categories[1] %}
 
 {% if page.module %}
@@ -46,7 +59,7 @@ layout: base
 
 
 
-<div class="container-fluid pb-3">
+<div class="container-fluid pb-3" style="padding-top:4em;">
 
       <div class="row justify-content-md-center">
 

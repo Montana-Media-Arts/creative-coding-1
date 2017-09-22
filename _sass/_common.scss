@@ -114,3 +114,10 @@ table {
 #final-grades > table {
 	max-width: 200px;
 }
+
+blockquote {
+	padding: 2em 2em 0.5em 2em;
+	color: $brand-dark;
+	background: lighten($brand-light, 10%);
+	font-style: oblique;
+}

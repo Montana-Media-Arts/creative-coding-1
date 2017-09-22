@@ -105,6 +105,21 @@ $code-side-offset: 15;
     background-color: #fff;
 }
 
+.displayed_jotted_example {
+    // padding: 30px;
+    margin: (0) ($spacer * -1 * $code-side-offset) (0) ($spacer * -1 * $code-side-offset);
+    border-top: ($spacer * 5);
+    border-bottom: ($spacer * 5);
+    border-left: ($spacer * $code-side-offset);
+    border-right: ($spacer * $code-side-offset);
+    border-style: solid;
+    border-color: $brand-accent;
+    // border:2px solid $brand-accent;
+    background-color: #fff;
+}
+
+
+.highlighter-rouge+.displayed_jotted_example,
 .highlighter-rouge+.displayed_code_example,
 .highlight+.displayed_code_example {
     margin-top: -13px;
