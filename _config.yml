@@ -1,5 +1,5 @@
 # basic configuration
-baseurl: ./
+baseurl: /creative-coding-1
 markdown: kramdown
 permalink: /:categories/:title/
 # Code highlighting
