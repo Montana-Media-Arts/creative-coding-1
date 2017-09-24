@@ -98,8 +98,8 @@ Parameters;
 
 In our example, there are 4 parameters.
 
-- The first 2, specify the location of the top-left corner of the ellipse on the canvas (more on that later as well).
-    - In our case, we are telling the ellipse's top-left corner to be placed;
+- The first 2, specify the location of the center of the ellipse on the canvas (more on that later as well).
+    - In our case, we are telling the ellipse's center to be placed;
         - `20` pixels in, along the X-axis (from the left of the canvas).
         - and `20` pixels down, along the Y-axis (from the top of the canvas).
 - The second 2, specify the width and height of the ellipse.
