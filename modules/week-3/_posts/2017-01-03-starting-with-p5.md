@@ -5,6 +5,8 @@ module: 3
 
 # Starting with p5
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vEAn9qyM3lw" frameborder="0" allowfullscreen></iframe></div>
+
 To get started with p5.js, you first need to download the p5 library and some blank template files. Eventually, you will learn how to set up everything for yourself, but in the meantime, I will provide you with a folder containing everything you need. Please download the following zip'd ["empty p5 project"](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/_empty_example/empty-example.zip) directory from the course repo.
 
 - [Empty p5 project](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/_empty_example/empty-example.zip)

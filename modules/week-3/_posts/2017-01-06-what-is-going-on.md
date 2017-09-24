@@ -6,6 +6,10 @@ jotted: true
 
 # What is Going On in "Hello World!" ?
 
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O34SIkgwpRg" frameborder="0" allowfullscreen></iframe></div>
+
+
 OK, so you made your first code "sketch", but the likely hood is high, you have now idea "what is going on".
 
 Let's start to talk about that a bit.

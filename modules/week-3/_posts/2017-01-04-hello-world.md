@@ -6,6 +6,10 @@ jotted: true
 
 # Hello World!
 
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OVZYuJqZ1dY" frameborder="0" allowfullscreen></iframe></div>
+
+
 The first thing you should do in any new coding language (let alone your _first!!!_) is a ["Hello World!" program](https://www.thesoftwareguild.com/blog/the-history-of-hello-world/). Typically this involves printing `Hello World` from the language. As boring as that is, and as amazing as the possibilities for p5 are, I think we should still start there.
 
 #### So.... without further ado...

@@ -6,6 +6,10 @@ jotted: true
 
 # Code on This Site
 
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dK9cVaLtjaw" frameborder="0" allowfullscreen></iframe></div>
+
+
 Now that we have started looking at code, I want to mention a few specifics about how code will work and what it will look like on this site.
 
 You have hopefully already noticed, during all of these first three weeks that there are specific code blocks. These should be displayed in your browser with a dark grey background and utilize a monospaced font. In theory this should _look like code_.
