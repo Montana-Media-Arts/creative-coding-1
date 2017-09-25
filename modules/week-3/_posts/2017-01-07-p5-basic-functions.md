@@ -40,8 +40,6 @@ function nameOfFunction() {
 {% endhighlight %}
 
 
-<br />
-
 
 > Since p5 is a library for, and built on, JavaScript, a lot of the information I present this semester will be relevant to all JavaScript. Please be flexible and pay attention when I tell you whether information is specific to p5 or to all of JavaScript.
 

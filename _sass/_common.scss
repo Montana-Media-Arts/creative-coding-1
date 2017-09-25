@@ -3,7 +3,7 @@ body {
 	line-height: 1.6;
 }
 
-p, ul, ol {
+p, ul, ol, blockquote {
 	margin-bottom: $spacer * 2;
 }
 
@@ -116,10 +116,11 @@ table {
 }
 
 blockquote {
-	padding: 2em 2em 0.5em 2em;
 	color: $brand-dark;
 	background: lighten($brand-light, 10%);
 	font-style: oblique;
+	padding: 2em 2em 0.5em 2em;
+	margin-top: $spacer * 2;
 }
 
 // add space to paragraphs after code blocks
