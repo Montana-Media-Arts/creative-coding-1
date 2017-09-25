@@ -7,7 +7,7 @@ jotted: true
 # The 2 Basic Functions in p5.js
 
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WsPJ6f8K454" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KIqijRKQ2Jk" frameborder="0" allowfullscreen></iframe></div>
 
 
 We have so far only looked at one line in our "Hello World!" example, line no. 2. Obviously though, there are 2 more lines in this basic sketch we need to talk about.
