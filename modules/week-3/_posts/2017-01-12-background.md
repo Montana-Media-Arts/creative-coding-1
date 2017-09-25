@@ -6,6 +6,10 @@ jotted: true
 
 # `background()`
 
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hy0QI_7xFXQ" frameborder="0" allowfullscreen></iframe></div>
+
+
 Now that we can create a canvas to draw to, lets talk about how we can change the color of that canvas. To do this, we will use the `background()` function.
 
 This function, which is often written in `setup()` specifies the background color of a code sketch's canvas.

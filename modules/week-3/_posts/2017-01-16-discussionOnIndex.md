@@ -5,6 +5,9 @@ module: 3
 
 # About the `index.html` File
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iekNX776sdY" frameborder="0" allowfullscreen></iframe></div>
+
+
 As you duplicate your `empty-example/` directory you will create a lot of `index.html` files. I feel it is necessary for just a moment to discuss what this file does, and why it is so critical to p5. You are going to create a lot of files labeled `index.html`.
 
 `index.html` is a _very_ common file, used extensively on the internet. Of course it's contents are always different, and site specific, but typically, this is the file used for the homepage on websites. When you go to some website that terminates in a `.com`, `.org`, etc. the browser requests the `index.html` file from the websites server.

@@ -6,6 +6,9 @@ jotted: true
 
 # `createCanvas()`
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LuVT5FAdQIo" frameborder="0" allowfullscreen></iframe></div>
+
+
 One of the first things you will need to do, in almost every p5 code sketch, is to create a canvas. This is one of the functions you will _always_ put in the p5 `setup()` function definition.
 
 The "canvas" is what p5 draws to. This is what most of the code you write this semester will effect.
@@ -119,4 +122,4 @@ function setup(){
 
 <br />
 
-**NOTE:** You should always write a command to `createCanvas()` as one of the first lines in your `setup()` function. 
+**NOTE:** You should always write a command to `createCanvas()` as one of the first lines in your `setup()` function.
