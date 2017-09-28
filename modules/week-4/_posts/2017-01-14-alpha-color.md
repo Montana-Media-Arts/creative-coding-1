@@ -62,3 +62,11 @@ When placed together, you can see how the alpha values allow for colors to mingl
 
 
 > For more information on using colors in p5, please read the [`color` reference page](https://p5js.org/reference/#/p5/color).
+
+
+
+# Shiffman on Color
+
+Please watch Mr. Shiffman on his approach to color.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9mucjcrhFcM" frameborder="0" allowfullscreen></iframe></div>
