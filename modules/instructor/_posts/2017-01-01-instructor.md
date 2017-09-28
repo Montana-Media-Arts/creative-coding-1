@@ -20,4 +20,7 @@ For those of you in Missoula, you are welcome to come by for help during my offi
 
 #### Lab Hours
 
-The Media Arts computer lab (McGill, 127) will also have open lab hours every weekday afternoon until 5pm. During these lab hours, a graduate student is available to assist you with help or questions about this and other Media Arts courses. Please feel free to leverage this resource!
+The Media Arts computer lab (McGill, 127) will also have open lab hours every weekday afternoon until 5pm. During these lab hours, a graduate student is available to assist you with help or questions about this and other Media Arts courses. Please feel free to leverage this resource! The lab hours for this semester as as follows;
+
+
+<div class="embed-responsive" style="padding-bottom:80%"><iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?mode=WEEK&amp;src=1s1tnc56cnjncqhreim65b7pi0%40group.calendar.google.com&ctz=America/Denver" frameborder="0" scrolling="no" allowfullscreen></iframe></div>

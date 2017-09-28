@@ -63,7 +63,7 @@ You should write commands in the `setup()` function that;
 1. only need to occur once
 2. and need to occur at the start of the code sketch's execution.
 
-There are a few commands and functions that you will almost always place in the `setup()` function.  For example, one command you will constantly write will be used to setup your canvas, which you could consider the workspace where information is sent to.
+There are a few commands and functions that you will almost always place in the `setup()` function.  For example, one statement you will constantly write will be used to setup your canvas, which you could consider the workspace where information is sent to.
 
 
 ## `draw()`

@@ -51,7 +51,7 @@ The following demonstrates the default size of the p5 canvas. Notice how it take
 
 <br />
 
-In order to more fully utilize space, and to create a larger area for our code sketches to be displayed in, we will need to explicitly write a command to create a larger canvas element. To do this, we will use the `createCanvas()` function.
+In order to more fully utilize space, and to create a larger area for our code sketches to be displayed in, we will need to explicitly write a statement to create a larger canvas element. To do this, we will use the `createCanvas()` function.
 
 Please look at and read through the `createCanvas()` documentation below.
 
@@ -122,4 +122,4 @@ function setup(){
 
 <br />
 
-**NOTE:** You should always write a command to `createCanvas()` as one of the first lines in your `setup()` function.
+**NOTE:** You should always write a statement to `createCanvas()` as one of the first lines in your `setup()` function.

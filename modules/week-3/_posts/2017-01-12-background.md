@@ -14,7 +14,7 @@ Now that we can create a canvas to draw to, lets talk about how we can change th
 
 This function, which is often written in `setup()` specifies the background color of a code sketch's canvas.
 
-To write a command to change or set the background, we will often use the `background()` function. Below is the documentation from the p5 site for the `background()` function.
+To write a statement to change or set the background, we will often use the `background()` function. Below is the documentation from the p5 site for the `background()` function.
 
 There will be a lot of information inside of the `background()` documentation that does not yet make sense to you. That is OK. But, please read through it and see how much you can understand.
 
