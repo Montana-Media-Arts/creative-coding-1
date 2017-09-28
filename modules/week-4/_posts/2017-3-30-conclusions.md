@@ -13,6 +13,7 @@ We covered a lot of ground the last two weeks, introducing a brand new language,
 In addition to the course site this week, you should read the following from the "Getting Started with p5.js" book;
 
 - Chapter 1
+- Chapter 3
 
 
 ## Next Week
