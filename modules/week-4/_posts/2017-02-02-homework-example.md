@@ -9,7 +9,7 @@ jotted: true
 
 This video shows you one approach to this assignment, including a workflow, and ways of thinking about drawing in p5. The code created from the video, is below.
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eIu5KqnStgI" frameborder="0" allowfullscreen></iframe></div>
 
 
 {% highlight js linenos %}
