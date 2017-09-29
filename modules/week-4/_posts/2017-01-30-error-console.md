@@ -6,6 +6,9 @@ jotted: true
 
 # Error Console
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MweuZekB2SE" frameborder="0" allowfullscreen></iframe></div>
+
+
 This week you are going to be asked to complete your first significant homework assignment for this course. One thing, you will almost certainly run into, are syntax issues, or mis-naming issues, that literally "**_break_**" your code. This will result in nothing showing up in your browser window. When this happens, you need to know how to find the problem, so you can try and fix it.
 
 To do this, you will most likely want to leverage your browsers JavaScript Console (just "console" from now). The console, displays errors, warnings, and other information that a developer tells it to. (more on that last one next week).
