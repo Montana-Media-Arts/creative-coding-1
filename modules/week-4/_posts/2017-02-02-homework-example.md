@@ -6,7 +6,217 @@ jotted: true
 
 # Homework Example<br>My Self-Portrait
 
-I am presenting code I wrote for this assignment, so you can see one example, of how this might be approached. Please feel free to pull it apart, study it, play with it, etc.
+
+This video shows you one approach to this assignment, including a workflow, and ways of thinking about drawing in p5. The code created from the video, is below.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe></div>
+
+
+{% highlight js linenos %}
+function setup() {
+    // create a canvas to draw on
+    createCanvas( 600, 800 );
+}
+
+function draw() {
+
+    // background
+    background( 'rgb(119, 255, 255)' );
+
+    /* ***************************** */
+    /* MAIN SANDBOX */
+    /* ***************************** */
+    push();
+
+    // set the grid center( x:0, y:0 )
+    // to canvas center
+    translate( 300, 400 );
+
+
+    /* ***************************** */
+    /* ARMS */
+    /* ***************************** */
+    push();
+    translate( 0, -55 );
+
+    // left arm
+    stroke( 'rgba(158, 0, 0, 1.0)' );
+    strokeWeight( 50 );
+    line( -140, 0, -200, -100 );
+    line( -200, -100, -200, -200 );
+
+    // hand
+    stroke( 'rgb(133, 94, 0)' );
+    strokeWeight( 75 );
+    point( -200, -200 );
+
+    // right arm
+    rotate( PI );
+    stroke( 'rgba(158, 0, 0, 1.0)' );
+    strokeWeight( 50 );
+    line( -140, 0, -200, -100 );
+    line( -200, -100, -200, -200 );
+
+    // hand
+    stroke( 'rgb(133, 94, 0)' );
+    strokeWeight( 75 );
+    point( -200, -200 );
+
+    pop(); // ARMS END
+
+
+    /* ***************************** */
+    /* BODY */
+    /* ***************************** */
+    push();
+    // main shirt rectangle
+    rect( -150, -100, 300, 300 );
+
+    // red short stripes
+    push();
+    fill( 'rgba(255, 0, 0, 0.66)' );
+    translate(-150, -100);
+    rect(0, 0, 300, 40);
+    translate(0, 80);
+    rect(0, 0, 300, 40);
+    translate(0, 80);
+    rect(0, 0, 300, 40);
+    translate(0, 80);
+    rect(0, 0, 300, 40);
+    pop();
+
+    // green shirt stripes
+    push();
+    fill( 'rgba(16, 143, 0, 0.66)' );
+    translate(-150, -100);
+    rect(0, 0, 40, 300);
+    translate(87, 0);
+    rect(0, 0, 40, 300);
+    translate(87, 0);
+    rect(0, 0, 40, 300);
+    translate(87, 0);
+    rect(0, 0, 40, 300);
+    pop();
+
+    // button
+    ellipse( 0, 0, 30 );
+
+    pop(); // BODY END!
+
+
+    /* ***************************** */
+    /* LEGS */
+    /* ***************************** */
+    push();
+    translate( 0, 200 );
+
+    // left leg
+    fill( 'rgb(133, 94, 0)' );
+    triangle( -130, 0, 0, 0, -150, 500 );
+    // right leg
+    scale( -1, 1 );
+    triangle( -130, 0, 0, 0, -150, 500 );
+    pop(); // LEGS END
+
+
+    /* ***************************** */
+    /* HEAD */
+    /* ***************************** */
+    push();
+    translate( 0, -175 );
+
+    fill( 'rgb(205, 142, 218)' );
+    ellipse( 0, 0, 330, 200 );
+
+    // mouth
+    fill( 0 );
+    arc(
+        0,
+        50,
+        250,
+        60,
+        radians(350),
+        radians(190),
+        PIE
+    );
+
+    // mustache
+    push();
+    noStroke();
+    fill( 'rgb(119, 56, 25)' );
+    quad( 0, 10, -10, 40, -150, 50, -110, 20 );
+    scale( -1, 1 );
+    quad( 0, 10, -10, 40, -150, 50, -110, 20 );
+    pop();
+
+    // nose
+    triangle( 0, -20, 30, 20, -30, 20 );
+
+    // eyes
+    // left
+    push();
+    translate( -60, -40 );
+
+    fill(255);
+    ellipse( 0, 0, 60, 35 );
+    noFill();
+    fill( 'rgb(75, 185, 255)' );
+    ellipse( 0, 0, 30 );
+    fill( 0 );
+    ellipse( 0, 0, 20 );
+
+    fill( 'rgb(119, 56, 25)' );
+    quad( 40, -40, 35, -30, -50, -10, -45, -30 );
+    pop();
+
+    // right
+    push();
+    translate( 60, -40 );
+
+    fill(255);
+    ellipse( 0, 0, 60, 35 );
+    noFill();
+    fill( 'rgb(75, 185, 255)' );
+    ellipse( 0, 0, 30 );
+    fill( 0 );
+    ellipse( 0, 0, 20 );
+    fill( 'rgb(119, 56, 25)' );
+    quad( -40, -40, -35, -30, 50, -10, 45, -30 );
+    pop();
+
+    pop(); // HEAD END
+
+    pop(); //END CHARACTER
+}
+{% endhighlight %}
+
+<div class="displayed_jotted_example">
+    <div id="jotted-demo-2" class=""></div>
+</div>
+<script>
+    new Jotted(document.querySelector("#jotted-demo-2"), {
+    files: [
+        {
+            type: "js",
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/hwExamples/HW-4_02/sketch.js"
+        },
+        {
+            type: "html",
+            url:"../../../p5_resources/index.html"
+    }],
+    // plugins: [ "codemirror", "console" ]
+    plugins: [ "codemirror" ]
+});
+</script>
+
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4_02/HW-4_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/hwExamples/HW-4_02/) |
+
+
+
+
+# Additional Example
+
+Here is additional code, from an earlier iteration of the video example code. This is just one example, of how this assignment might be approached. Please feel free to pull it apart, study it, play with it, etc.
 
 <div id="code-heading">sketch.js</div>
 
