@@ -1,5 +1,13 @@
+- animation
+    - an ellipse that follows the mouse
 - variables
     - p5 variables
+        - mouseX, mouseY
+        - width, height
     - contestants (PI)
     - global environment variables
-    - variable scope 
+    - variable scope
+- using variables and math to make things move
+- simple math
+- Statements
+- white space and notes on code cleanliness

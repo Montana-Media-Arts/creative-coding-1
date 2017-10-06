@@ -58,6 +58,7 @@ Another set of p5 variables, that you may want to become familiar with are `widt
 
 In the below example, the canvas is set to have a width value of 500px and a height of 200px. Using the `width` and `height` p5 variables, we then print out their values.
 
+<div id="code-heading">sketch.js</div>
 
 {% highlight js linenos %}
 function setup() {
@@ -99,6 +100,7 @@ function draw() {
 
 Another way of using width and height, is to specify position parameter values, relative to the canvas size. In the next example, an ellipse is placed in the center of the canvas, using the `width` and `height` values.
 
+<div id="code-heading">sketch.js</div>
 
 {% highlight js linenos %}
 function setup() {
@@ -155,7 +157,7 @@ This is seen below in the next example. You should change the size of the browse
 > NOTE: Although this is demo-ed in the code window, you should <a href="https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/04_window_vars_01/" target="_blank">open this example up in a new window to really experience it.</a>
 
 <div class="displayed_jotted_example">
-    <div id="jotted-demo-4" class=""></div>
+    <div id="jotted-demo-4" class="" style="height:600px"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-4"), {
@@ -178,10 +180,28 @@ This is seen below in the next example. You should change the size of the browse
 
 
 > NOTE: The canvas is only created once, and placing these variables within the `createCanvas()` function will not create a canvas that automatically resizes. If this behavior is desired, other steps will need to be taken, which are described later in the course.
-
-
-
-
+>
+> Or you could google the answer...
 
 
 # Constants
+
+In addition to event and environment based p5 reserved variables, such as `width` and `mouseY`, there are a number of "constant" variables, whose value is set and never changes. We have already come across these while looking at radians and the unit circle.
+
+- `PI`
+- `HALF_PI`
+- `QUARTER_PI`
+- `TWO_PI`
+
+
+# Other p5 Variables
+
+There are many other p5 variables you might want to check out. Some of these may prove useful to your work this semester and beyond. I will try to make sure we highlight new event and environment variables as they are presented throughout the semester. But know that, if you see something you do not recognize, you should look it up on the p5 reference page or google it.
+
+
+
+# Shiffman on p5 Variables
+
+Here is Dan Shiffman on p5 Variables and introduction to animation.
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RnS0YNuLfQQ" frameborder="0" allowfullscreen></iframe></div>

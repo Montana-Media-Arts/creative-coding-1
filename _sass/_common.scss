@@ -99,7 +99,7 @@ h2, h3, h4 {
 
 table {
 	width: 100%;
-	margin-bottom: $spacer * 8;
+	margin-bottom: $spacer * 2;
 
 	tr {
 		@include make-col(12);
