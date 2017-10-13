@@ -129,3 +129,29 @@ blockquote {
 .highlighter-rouge + p {
 	margin-top: 6em;
 }
+
+
+
+// references and resources
+.ref {
+	color: $gray-600;
+	font-size: 75%;
+
+	a {
+		color: $gray-600;
+	}
+
+	h2 {
+		font-size: $h2-font-size * 0.6;
+	}
+}
+//
+// @include media-breakpoint-down(md) {
+// 	.ref {
+// 		h1 {
+// 			font-size: $h1-font-size * 0.87;
+// 		}
+// 	}
+// }
+// @include media-breakpoint-down(sm) {
+// 	h1 {
