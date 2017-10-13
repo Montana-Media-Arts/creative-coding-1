@@ -8,7 +8,7 @@ jotted: true
 
 In addition to using pre-defined, reserved word variables from p5, you can define your own variables!
 
-As mentioned on the [previous page]({{site.baseurl}}modules/week-5/p5-variables/), a _variable_ is a _storage location_, paired with a _symbolic name_. For example, the constant `PI` is a _symbolic name_, that is used to reference data in a storage location, in the computers memory. In the current case, that data is a number, which equals `3.14159265359`. Whenever the variable name `PI` is placed in code, the computer instead grabs the specific data, in this case the above number, and replaces it in the code, in place of the variable name.
+As mentioned on the [previous page]({{site.baseurl}}/modules/week-5/p5-variables/), a _variable_ is a _storage location_, paired with a _symbolic name_. For example, the constant `PI` is a _symbolic name_, that is used to reference data in a storage location, in the computers memory. In the current case, that data is a number, which equals `3.14159265359`. Whenever the variable name `PI` is placed in code, the computer instead grabs the specific data, in this case the above number, and replaces it in the code, in place of the variable name.
 
 To define our own variables, we first need to tell the computer that we are doing so. The computer will then set that word aside to be used to reference some piece of data. Then, we can tell the computer _what_ that data should be. The computer will then store this data in its memory, and make a connection between the variable's _symbolic name_ and the piece of data.
 
