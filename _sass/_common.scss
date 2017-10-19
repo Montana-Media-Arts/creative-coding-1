@@ -145,13 +145,12 @@ blockquote {
 		font-size: $h2-font-size * 0.6;
 	}
 }
-//
-// @include media-breakpoint-down(md) {
-// 	.ref {
-// 		h1 {
-// 			font-size: $h1-font-size * 0.87;
-// 		}
-// 	}
-// }
-// @include media-breakpoint-down(sm) {
-// 	h1 {
+
+
+
+// IMAGE CENTERING
+
+.content p img {
+	display: block;
+	margin: auto;
+}
