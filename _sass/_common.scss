@@ -123,6 +123,19 @@ table {
 
 }
 
+.highlight table {
+	@include media-breakpoint-down(sm) {
+		tr {
+			display: block;
+			overflow-x: hidden;
+		}
+		td {
+			@include make-col(4);
+
+		}
+	}
+}
+
 .highlighter-rouge + table {
 	margin-top: 1em;
 }

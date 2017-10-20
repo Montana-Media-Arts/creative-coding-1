@@ -25,7 +25,6 @@ If we can check a variable's Boolean state, we can change it to the opposite sta
 In code, this would like like;
 
 <div id="code-heading">sketch.js</div>
-<div id="code-heading">sketch.js</div>
 
 {% highlight js linenos %}
 var boolState = true;
