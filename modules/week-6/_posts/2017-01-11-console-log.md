@@ -9,7 +9,7 @@ jotted: true
 As you start to work with more math in your code, you will inevitably end up with more errors and problems to work through. When this happens;
 
 1. Remember to stay calm, and to slowly work through your problem. You are not the first coder to have issues, errors, or problems understanding what is happening or how to make it happen.
-2. Utilize the JavaScript Console to identify errors. If your code is not working as you expect, [check the console for errors]({{site.baseurl/modules/week-4/error-console/}}).
+2. Utilize the JavaScript Console to identify errors. If your code is not working as you expect, [check the console for errors]({{site.baseurl}}/modules/week-4/error-console/).
 3. Post your calculation results somewhere, so that you can make sure you are actually producing results/values you expect.
 
 ## The Canvas with `text()`
