@@ -110,7 +110,23 @@ table {
 		text-align: center;
 	}
 
+	@include media-breakpoint-down(sm) {
+		tr {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		td {
+			@include make-col(12);
+			text-align: center;
+		}
+	}
+
 }
+
+.highlighter-rouge + table {
+	margin-top: 1em;
+}
+
 
 #final-grades > table {
 	max-width: 200px;
