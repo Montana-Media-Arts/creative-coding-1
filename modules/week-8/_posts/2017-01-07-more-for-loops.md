@@ -67,7 +67,11 @@ function draw() {
 
 ## Number Variable Declaration 
 
-The first statement of a _for loop_ is the _Number variable declaration and initialization_. As mentioned on the previous page, this tells the _for loop_ what variable to use and what it is initially set to. 
+The first statement of a _for loop_ is the _Number variable declaration and initialization_. As mentioned on the previous page, this tells the _for loop_ what variable to use and what it is initially set to. This value you can be initialized to any Number. It is common to see it, or set it to 0, but, this is not a limitation. 
+
+Likewise, you will see the variable `i` often used in for loops, but any variable, following the rules described for [variable naming]({{site.baseurl}}/modules/week-6/naming-variables) can be used. 
+
+In the below example, the _declaration statement_ initializes the value `i` to 20. This is used to start drawing diaganol lines at 20px on the X-axis. 
 
 
 
@@ -84,3 +88,23 @@ function draw() {
 	}
 }
 ```
+
+## Math With the _For Loop_ Variable
+
+As has been shown, but should be highlighted, the variable used in _for loops_ is scoped such that it can be used within the _function block_ of the _for loop_. In the below example, the Number variable `i` is initialized to the value of 20. This variable is used to draw sets of connected lines, whose angles get progressively more ‘severe’. This is accomplshed by multiplying the variable `i` by 1.5 at the “connection point”.There by creating larger value of difference between teh starting point (`i`) and the connection poin (`i*1.5`).
+
+```js
+function setup() {
+	createCanvas(480, 240);
+	strokeWeight(2);
+}
+
+function draw() {
+	background(200);
+	for (var i = 20; i < 400; i += 20) {
+		line(i, 0, 1.5*i, 120);
+		line(1.5*i, 120, 1.2*i, 240);
+	}
+}
+```
+
