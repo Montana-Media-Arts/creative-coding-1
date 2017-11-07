@@ -236,3 +236,8 @@ In the above, the function is referenced from a variable namespace.
 One of the main differences between a _function definition_ and a _function expression_, is that the latter is not _hoisted_. Therefore, you cannot use or call _function expressions_ until **after** they have occurred in the code.
 
 _Function expressions_ are being presented now, so that if you see them in other peoples code, JS discussions, or help guides, you understand what they are, and that are used similarly to _function definitions_.
+
+
+# Shiffman
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wRHAitGzBrg" frameborder="0" allowfullscreen></iframe></div>

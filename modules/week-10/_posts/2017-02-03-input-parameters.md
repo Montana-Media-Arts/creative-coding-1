@@ -151,3 +151,8 @@ function addThings( value1, value2 ) {
 </script>
 
 | [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/10/02_input_parameters_01/02_input_parameters_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/10/02_input_parameters_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/10/02_input_parameters_01/) |
+
+
+# Shiffman
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zkc417YapfE" frameborder="0" allowfullscreen></iframe></div>
