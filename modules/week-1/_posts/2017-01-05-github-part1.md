@@ -3,6 +3,8 @@ title: GitHub Part 1
 module: 1
 ---
 
+<!-- Consider moving to week 2. Instead, replace with Moodle forum info. -->
+
 # GitHub.com
 
 We will discuss [GitHub.com](github.com) more next week. In the mean time, I would you like you to know that GitHub is a web service which is used for storing git repositories by developers. (Much of that statement is still likely jargon to you. That is ok. It will all come)

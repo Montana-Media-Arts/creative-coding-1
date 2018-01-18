@@ -43,3 +43,6 @@ jumbotron_background_image: "header.svg"
 jumbotron_image: "MART_LOGO_SMALL.png"
 
 theme: jekyll-theme-slate
+
+
+github: [metadata]
