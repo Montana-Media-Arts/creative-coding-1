@@ -18,7 +18,22 @@ For those of you in Missoula, you are welcome to come by for help during my offi
 - Tuesday: 11:30am - 1:30pm
 - Wednesday: 2:30pm - 4:00pm
 
-#### Lab Hours
+
+## Teaching Assistant
+
+- ****
+
+#### Office Hours
+
+
+
+## Lab Assistants
+
+#### Office Hours
+
+
+
+## Lab Hours
 
 The Media Arts computer lab (McGill, 127) will also have open lab hours every weekday afternoon until 5pm. During these lab hours, a graduate student is available to assist you with help or questions about this and other Media Arts courses. Please feel free to leverage this resource! The lab hours for this semester as as follows;
 

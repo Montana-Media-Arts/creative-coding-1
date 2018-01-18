@@ -3,7 +3,7 @@ title: Course Introduction
 module: 1
 ---
 
-# Week 1<br />Welcome to Creative Coding 1 (MART 120)
+# Week 1<br />Welcome to Creative Coding 1<br />(MART 120)
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0iMC105zZCI" frameborder="0" allowfullscreen></iframe></div>
 

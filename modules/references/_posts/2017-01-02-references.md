@@ -6,6 +6,7 @@ permalink: /:title/
 # References and Sources
 
 ## Content
+
 Much of the content for this course has been adapted from the [HTML & CSS book](http://www.htmlandcssbook.com/). Many code examples are also copied or derived from their examples available from the books homepage.
 
 Additional material has been linked from or adapted from;
