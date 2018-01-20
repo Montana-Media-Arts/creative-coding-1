@@ -48,7 +48,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/09/01_array_print_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/09/01_array_print_01/sketch.js"
         },
         {
             type: "html",
@@ -59,7 +59,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_01/01_array_print_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/09/01_array_print_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_01/01_array_print_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/09/01_array_print_01/) |
 
 
 
@@ -103,7 +103,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/09/01_array_print_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/09/01_array_print_02/sketch.js"
         },
         {
             type: "html",
@@ -114,7 +114,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_02/01_array_print_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/09/01_array_print_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_02/01_array_print_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/09/01_array_print_02/) |
 
 
 
@@ -166,7 +166,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/09/01_array_print_03/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/09/01_array_print_03/sketch.js"
         },
         {
             type: "html",
@@ -177,7 +177,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_03/01_array_print_03.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/01_array_print_03/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/09/01_array_print_03/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_03/01_array_print_03.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/01_array_print_03/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/09/01_array_print_03/) |
 
 
 ## Using Numbers
@@ -226,7 +226,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/09/02_arrays_numbers_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/09/02_arrays_numbers_01/sketch.js"
         },
         {
             type: "html",
@@ -237,7 +237,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/02_arrays_numbers_01/02_arrays_numbers_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/02_arrays_numbers_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/09/02_arrays_numbers_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/02_arrays_numbers_01/02_arrays_numbers_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/02_arrays_numbers_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/09/02_arrays_numbers_01/) |
 
 
 
@@ -294,7 +294,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/09/06_2d_array_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/09/06_2d_array_01/sketch.js"
         },
         {
             type: "html",
@@ -305,7 +305,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/06_2d_array_01/06_2d_array_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/09/06_2d_array_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/09/06_2d_array_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/06_2d_array_01/06_2d_array_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/09/06_2d_array_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/09/06_2d_array_01/) |
 
 
 

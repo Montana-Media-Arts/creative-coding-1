@@ -72,7 +72,7 @@ function draw() {
 }
 ```
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/01_if_01/01_if_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/01_if_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/01_if_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_01/01_if_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/01_if_01/) |
 
 <br />
 
@@ -87,7 +87,7 @@ if( false ) {
 }
 ```
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/01_if_02/01_if_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/01_if_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/01_if_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_02/01_if_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/01_if_02/) |
 
 ### Using Variables
 
@@ -137,7 +137,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/02_if_vars_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/02_if_vars_01/sketch.js"
         },
         {
             type: "html",
@@ -149,7 +149,7 @@ function draw() {
 </script>
 
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/02_if_vars_01/02_if_vars_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/02_if_vars_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/02_if_vars_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/02_if_vars_01/02_if_vars_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/02_if_vars_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/02_if_vars_01/) |
 
 
 

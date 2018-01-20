@@ -113,7 +113,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/05_equality_op_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/05_equality_op_01/sketch.js"
         },
         {
             type: "html",
@@ -124,7 +124,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/05_equality_op_01/05_equality_op_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/05_equality_op_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/05_equality_op_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/05_equality_op_01/05_equality_op_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/05_equality_op_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/05_equality_op_01/) |
 
 
 
@@ -186,7 +186,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/05_equality_op_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/05_equality_op_02/sketch.js"
         },
         {
             type: "html",
@@ -197,7 +197,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/05_equality_op_02/05_equality_op_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/05_equality_op_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/05_equality_op_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/05_equality_op_02/05_equality_op_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/05_equality_op_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/05_equality_op_02/) |
 
 
 ## Inequality Operator
@@ -253,7 +253,7 @@ function mousePressed() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/06_inequality_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/06_inequality_01/sketch.js"
         },
         {
             type: "html",
@@ -264,7 +264,7 @@ function mousePressed() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/06_inequality_01/06_inequality_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/06_inequality_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/06_inequality_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/06_inequality_01/06_inequality_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/06_inequality_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/06_inequality_01/) |
 
 ## Less Than and Greater Than
 
@@ -337,7 +337,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/08_comparison_op_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/08_comparison_op_01/sketch.js"
         },
         {
             type: "html",
@@ -348,7 +348,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/08_comparison_op_01/08_comparison_op_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/08_comparison_op_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/08_comparison_op_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/08_comparison_op_01/08_comparison_op_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/08_comparison_op_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/08_comparison_op_01/) |
 
 ## Shiffman on Conditional Statements
 
@@ -393,7 +393,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/09_bouncing_ball_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/09_bouncing_ball_01/sketch.js"
         },
         {
             type: "html",
@@ -404,4 +404,4 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/09_bouncing_ball_01/09_bouncing_ball_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/09_bouncing_ball_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/09_bouncing_ball_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/09_bouncing_ball_01/09_bouncing_ball_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/09_bouncing_ball_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/09_bouncing_ball_01/) |

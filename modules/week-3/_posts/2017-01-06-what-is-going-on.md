@@ -145,7 +145,7 @@ Doing this will change the position and size of the ellipse in the left corner o
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/03/01_hello-world_02/sketch.js"
         },
         {
             type: "html",

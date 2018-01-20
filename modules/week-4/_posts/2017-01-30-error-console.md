@@ -114,7 +114,7 @@ Now, down below;
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/04/16_errors_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/04/16_errors_01/sketch.js"
         },
         {
             type: "html",
@@ -134,4 +134,4 @@ The following link is a zip'd directory with three error problems. Each one is d
 - open the JavaScript Console in browser, so you can see the error produced.
 - fix the code, as suggested in the file, so that the error goes away.
 
-[Simple Error Examples](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/04/error_examples.zip)
+[Simple Error Examples](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/04/error_examples.zip)

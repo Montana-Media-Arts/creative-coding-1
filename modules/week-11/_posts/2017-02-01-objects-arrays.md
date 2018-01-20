@@ -219,7 +219,7 @@ class MarchingDude {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/11/02_dudes_array_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/11/02_dudes_array_01/sketch.js"
         },
         {
             type: "html",
@@ -230,7 +230,7 @@ class MarchingDude {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/11/02_dudes_array_01/02_dudes_array_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/11/02_dudes_array_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/11/02_dudes_array_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/11/02_dudes_array_01/02_dudes_array_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/11/02_dudes_array_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/11/02_dudes_array_01/) |
 
 
 # Shiffman on Arrays of Objects
@@ -295,7 +295,7 @@ class Bubble {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/11/03_shiffman_bubbles_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/11/03_shiffman_bubbles_01/sketch.js"
         },
         {
             type: "html",
@@ -306,4 +306,4 @@ class Bubble {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/11/03_shiffman_bubbles_01/03_shiffman_bubbles_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/11/03_shiffman_bubbles_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/11/03_shiffman_bubbles_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/11/03_shiffman_bubbles_01/03_shiffman_bubbles_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/11/03_shiffman_bubbles_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/11/03_shiffman_bubbles_01/) |

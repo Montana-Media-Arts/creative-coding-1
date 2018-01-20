@@ -17,25 +17,10 @@
 
 
     <div class="collapse navbar-collapse pl-4" id="navbarCollapse">
+
         <div class="navbar-nav">
 
-            {% for module in site.data.course.infoModules %}
-                {% assign first_post = site.categories[module]|reverse|first %}
-
-                <a class="nav-item nav-link px-2 pb-0 mb-0 {% if page.categories[1] == module %}active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
-                    {% capture splitword %}{% for word in module %}{{ word | replace: '-', ' ' }} {% endfor %}{% endcapture %}
-                    {% capture titlecase %}{% for word in splitword %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-                    {{ titlecase }}
-                    {% if page.categories[1] == module %}<span class="sr-only">(current)</span>{% endif %}
-                </a>
-
-            {% endfor %}
-
-            <!-- Course Repo Link -->
-            <a class="nav-item nav-link px-2 pb-0 mb-0" href="https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017">
-                Git
-            </a>
-
+            <!-- Modules DropDown -->
             <li class="nav-item px-2 pb-0 mb-0 dropdown">
                 <a class="nav-link pb-0 justify-content-end dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Modules
@@ -56,6 +41,26 @@
 
                 </div>
             </li>
+
+            <!-- Course Repo Link -->
+            <a class="nav-item nav-link px-2 pb-0 mb-0" href="https://github.com/Montana-Media-Arts/120_CreativeCoding">
+                Git Issues
+            </a>
+
+            <!-- Syllabus, Instructor, and Dates -->
+            {% for module in site.data.course.infoModules %}
+            {% assign first_post = site.categories[module]|reverse|first %}
+
+            <a class="nav-item nav-link px-2 pb-0 mb-0 {% if page.categories[1] == module %}active{% endif %}" href="{{ site.baseurl }}{{ first_post.url }}">
+                {% capture splitword %}{% for word in module %}{{ word | replace: '-', ' ' }} {% endfor %}{% endcapture %}
+                {% capture titlecase %}{% for word in splitword %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+                {{ titlecase }}
+                {% if page.categories[1] == module %}<span class="sr-only">(current)</span>{% endif %}
+            </a>
+
+            {% endfor %}
+
+
         </div>
     </div>
 

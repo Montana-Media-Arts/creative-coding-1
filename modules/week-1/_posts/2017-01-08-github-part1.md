@@ -33,7 +33,7 @@ First, visit [GitHub.com](https://github.com/) and create a new user account.
 
 ## Follow and Star The Course Resource Repository
 
-- Next, navigate to [https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017). This is the course resource repo. This site is also linked to from the "git" tab above in the nav-bar.
+- Next, navigate to [https://github.com/Montana-Media-Arts/120_CreativeCoding](https://github.com/Montana-Media-Arts/120_CreativeCoding). This is the course resource repo. This site is also linked to from the "git" tab above in the nav-bar.
 - In the upper right-hand corner, you should select both "watching" and "star".
     - This will allow GitHub to e-mail you about notifications and issues in the course repo.
 
@@ -43,7 +43,13 @@ First, visit [GitHub.com](https://github.com/) and create a new user account.
 
 Go to the [course repo](https://github.com/Montana-Media-Arts/creative-coding-1)
 
-TODO: Add a comment to the [“HW 1 Issue Response”](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/issues/1) discussing an element of the Internet, Web Development, or the command line that was new information to you.
+TODO: Add a comment to the [“HW 1 Issue Response”](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues/71).
+
+You are to;
+
+1. Respond to _at least_ two of the questions from Issue #1.
+2. Respond to your fellow classmates _at least_ twice.
+
 
 NOTE: You should not repeat a comment that has already been added by anyone from your class or the other class. However, if you would like to further a comment already there, “@mention” the classmate/user and continue their discussion.
 

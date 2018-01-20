@@ -53,7 +53,7 @@ If all went well, you should see a window in your browser that looks like the fo
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/03/01_hello-world_01/sketch.js"
         },
         {
             type: "html",
@@ -117,7 +117,7 @@ Your browser window should now look like the following;
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/03/01_hello-world_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/03/01_hello-world_02/sketch.js"
         },
         {
             type: "html",
@@ -128,7 +128,7 @@ Your browser window should now look like the following;
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/03/01_hello-world_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/03/01_hello-world_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/) |
 
 
 

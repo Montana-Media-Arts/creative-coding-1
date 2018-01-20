@@ -198,7 +198,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/hwExamples/HW-4_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/hwExamples/HW-4_02/sketch.js"
         },
         {
             type: "html",
@@ -209,7 +209,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4_02/HW-4_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/hwExamples/HW-4_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/hwExamples/HW-4_02/HW-4_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/hwExamples/HW-4_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/hwExamples/HW-4_02/) |
 
 
 
@@ -327,7 +327,7 @@ function setup() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/hwExamples/HW-4/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/hwExamples/HW-4/sketch.js"
         },
         {
             type: "html",
@@ -338,4 +338,4 @@ function setup() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4/HW-4.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/hwExamples/HW-4/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/hwExamples/HW-4/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/hwExamples/HW-4/HW-4.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/hwExamples/HW-4/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/hwExamples/HW-4/) |

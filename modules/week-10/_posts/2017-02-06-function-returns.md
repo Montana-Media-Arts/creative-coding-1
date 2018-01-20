@@ -116,7 +116,7 @@ function smileyFace(pos_x, pos_y, scale_x, scale_y) {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/10/04_return_data_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/10/04_return_data_01/sketch.js"
         },
         {
             type: "html",
@@ -127,7 +127,7 @@ function smileyFace(pos_x, pos_y, scale_x, scale_y) {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/10/04_return_data_01/04_return_data_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/10/04_return_data_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/10/04_return_data_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/10/04_return_data_01/04_return_data_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/10/04_return_data_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/10/04_return_data_01/) |
 
 
 # Shiffman

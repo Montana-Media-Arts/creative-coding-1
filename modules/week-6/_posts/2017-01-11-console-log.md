@@ -36,7 +36,7 @@ text( y_pos, 20, 100 );
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/06/06_exposing_data_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/06_exposing_data_01/sketch.js"
         },
         {
             type: "html",
@@ -47,7 +47,7 @@ text( y_pos, 20, 100 );
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/06/06_exposing_data_01/06_exposing_data_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/06/06_exposing_data_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/06/06_exposing_data_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/06_exposing_data_01/06_exposing_data_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/06_exposing_data_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/06/06_exposing_data_01/) |
 
 
 
@@ -90,7 +90,7 @@ In your browser's console, or the output example below, try putting in some of t
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/06/06_exposing_data_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/06_exposing_data_02/sketch.js"
         },
         {
             type: "html",
@@ -125,7 +125,7 @@ console.log( y_pos );
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/06/06_exposing_data_03/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/06_exposing_data_03/sketch.js"
         },
         {
             type: "html",
@@ -136,4 +136,4 @@ console.log( y_pos );
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/06/06_exposing_data_03/06_exposing_data_03.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/06/06_exposing_data_03/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/06/06_exposing_data_03/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/06_exposing_data_03/06_exposing_data_03.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/06_exposing_data_03/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/06/06_exposing_data_03/) |

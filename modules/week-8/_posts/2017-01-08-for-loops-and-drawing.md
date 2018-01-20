@@ -44,7 +44,7 @@ function draw() {
 	files: [
 		{
 			type: "js",
-			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/08/06_for_loops_drawing_01/sketch.js"
+			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/06_for_loops_drawing_01/sketch.js"
 		},
 		{
 			type: "html",
@@ -55,7 +55,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/08/06_for_loops_drawing_01/06_for_loops_drawing_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/08/06_for_loops_drawing_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/08/06_for_loops_drawing_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/06_for_loops_drawing_01/06_for_loops_drawing_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/06_for_loops_drawing_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/06_for_loops_drawing_01/) |
 
 
 
@@ -107,7 +107,7 @@ function draw() {
 	files: [
 		{
 			type: "js",
-			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/08/07_for_diagnolDrawing_01/sketch.js"
+			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/07_for_diagnolDrawing_01/sketch.js"
 		},
 		{
 			type: "html",
@@ -118,4 +118,4 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/08/07_for_diagnolDrawing_01/07_for_diagnolDrawing_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/08/07_for_diagnolDrawing_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/08/07_for_diagnolDrawing_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/07_for_diagnolDrawing_01/07_for_diagnolDrawing_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/07_for_diagnolDrawing_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/07_for_diagnolDrawing_01/) |

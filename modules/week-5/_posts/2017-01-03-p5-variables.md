@@ -32,7 +32,7 @@ In the below example, the X and Y locations of the mouse are printed to the canv
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/05/02_mouse_location_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/02_mouse_location_01/sketch.js"
         },
         {
             type: "html",
@@ -43,7 +43,7 @@ In the below example, the X and Y locations of the mouse are printed to the canv
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/02_mouse_location_01/02_mouse_location_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/02_mouse_location_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/02_mouse_location_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/02_mouse_location_01/02_mouse_location_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/02_mouse_location_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/02_mouse_location_01/) |
 
 You can read more about `mouseX` and `mouseY` at their reference pages ([`mouseX` reference](https://p5js.org/reference/#/p5/mouseX), [`mouseY` reference](https://p5js.org/reference/#/p5/mouseY)).
 
@@ -82,7 +82,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/05/03_width_height_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/03_width_height_01/sketch.js"
         },
         {
             type: "html",
@@ -93,7 +93,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/03_width_height_01/03_width_height_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/03_width_height_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/03_width_height_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/03_width_height_01/03_width_height_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/03_width_height_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/03_width_height_01/) |
 
 
 > How else can `width` and `height` be used?
@@ -127,7 +127,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/05/03_width_height_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/03_width_height_02/sketch.js"
         },
         {
             type: "html",
@@ -138,7 +138,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/03_width_height_02/03_width_height_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/03_width_height_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/03_width_height_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/03_width_height_02/03_width_height_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/03_width_height_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/03_width_height_02/) |
 
 
 ## `windowWidth` & `windowHeight`
@@ -154,7 +154,7 @@ These variables are most often used in conjunction with the `createCanvas()` fun
 
 This is seen below in the next example. You should change the size of the browser window, and "re-fresh" the page to get a full sense of what these variables do with `createCanvas()`. You will notice, that not only does the canvas size change, but that the ellipse always remains in the center of the canvas.
 
-> NOTE: Although this is demo-ed in the code window, you should <a href="https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/04_window_vars_01/" target="_blank">open this example up in a new window to really experience it.</a>
+> NOTE: Although this is demo-ed in the code window, you should <a href="https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/04_window_vars_01/" target="_blank">open this example up in a new window to really experience it.</a>
 
 <div class="displayed_jotted_example">
     <div id="jotted-demo-4" class="" style="height:600px"></div>
@@ -164,7 +164,7 @@ This is seen below in the next example. You should change the size of the browse
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/05/04_window_vars_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/04_window_vars_01/sketch.js"
         },
         {
             type: "html",
@@ -175,7 +175,7 @@ This is seen below in the next example. You should change the size of the browse
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/04_window_vars_01/04_window_vars_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/05/04_window_vars_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/05/04_window_vars_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/04_window_vars_01/04_window_vars_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/04_window_vars_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/04_window_vars_01/) |
 
 
 

@@ -12,9 +12,9 @@ We will continue to discuss the application of OOP throughout the rest of the se
 
 # Homework
 
-Your homework this week is listed on the [Wiki](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/wiki/HW-11). However, as you could guess, you are bing asked to create a sketch and simple class that can create 10-40 objects that _do something_ on the canvas.
+Your homework this week is listed on the [Wiki](https://github.com/Montana-Media-Arts/120_CreativeCoding/wiki/HW-11). However, as you could guess, you are bing asked to create a sketch and simple class that can create 10-40 objects that _do something_ on the canvas.
 
-- [Week 11 HW Link](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/wiki/HW-11)
+- [Week 11 HW Link](https://github.com/Montana-Media-Arts/120_CreativeCoding/wiki/HW-11)
 
 
 

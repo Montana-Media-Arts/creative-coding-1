@@ -1,0 +1,90 @@
+{
+  "_from": "jotted",
+  "_id": "jotted@1.5.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pTWhS8Mdw8fXgEs+rhCL91tEb0zuTyCARiu6qvRAPBjD8kQSW2JW/hXLnb/zMV+QaN1u9FGRODETD7tTjqCLvw==",
+  "_location": "/jotted",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jotted",
+    "name": "jotted",
+    "escapedName": "jotted",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jotted/-/jotted-1.5.2.tgz",
+  "_shasum": "b2bc13dbed4a0dae98c7e3a887f60992228edd66",
+  "_spec": "jotted",
+  "_where": "/Users/musick/um_git/120-CreativeCoding/mart120_site",
+  "author": {
+    "name": "Ionut Colceriu",
+    "email": "contact@ghinda.net"
+  },
+  "bugs": {
+    "url": "https://github.com/ghinda/jotted/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Environment for showcasing HTML, CSS and JavaScript, with editable source.",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-es2015-rollup": "^1.0.0",
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-assemble": "^0.5.0",
+    "grunt-build-control": "^0.7.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-stylus": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-rollup": "^0.8.0",
+    "grunt-saucelabs": "^9.0.0",
+    "grunt-standard": "^2.0.0",
+    "matchdep": "^1.0.0",
+    "rollup-plugin-babel": "^2.3.9"
+  },
+  "files": [
+    "jotted*",
+    "LICENSE",
+    "README.md"
+  ],
+  "homepage": "https://github.com/ghinda/jotted#readme",
+  "keywords": [
+    "demo",
+    "fiddle",
+    "pen",
+    "code",
+    "editor"
+  ],
+  "license": "MIT",
+  "main": "jotted.js",
+  "name": "jotted",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghinda/jotted.git"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "watch": "grunt server"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeEach",
+      "it",
+      "expect"
+    ]
+  },
+  "version": "1.5.2"
+}

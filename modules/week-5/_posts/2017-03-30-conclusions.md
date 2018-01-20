@@ -10,7 +10,7 @@ At this point, you probably have a sense for how this course will go for you thi
 
 ## { TODO: }
 
-In addition to completing this weeks [homework assignment](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/wiki/HW-5), please read the following chapters from "Getting Started: p5", as these will provide you with different perspectives and additional information on this weeks content;
+In addition to completing this weeks [homework assignment](https://github.com/Montana-Media-Arts/120_CreativeCoding/wiki/HW-5), please read the following chapters from "Getting Started: p5", as these will provide you with different perspectives and additional information on this weeks content;
 
 - Chapter 4
 - Chapter 5

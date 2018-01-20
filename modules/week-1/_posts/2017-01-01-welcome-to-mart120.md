@@ -30,11 +30,6 @@ You should plan;
 This is an intense course and will take a lot of time. You are learning a new language that is not like any other you have studied before. This takes immersion.
 
 
-## Homework
-
-You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
-
-You will receive additional directives and notes on the homework page for each assignment on the Moodle Shell as well as the ["homework wiki"](https://github.com/Montana-Media-Arts/creative-coding-1/wiki) (Homework assignments will be posted in both locations). Instructions will be provided how to do this over the next two weeks.
 
 
 
@@ -54,7 +49,7 @@ There are 4 high-level goals for this course;
 
 The rest of this week will introduce the following;
 
+- Information about instructors
 - The Syllabus
 - What is computational media?
-- Your computer as **YOUR** development environment.
-- Git Version Control
+- GitHub accounts and issues forum

@@ -7,9 +7,9 @@ module: 3
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vEAn9qyM3lw" frameborder="0" allowfullscreen></iframe></div>
 
-To get started with p5.js, you first need to download the p5 library and some blank template files. Eventually, you will learn how to set up everything for yourself, but in the meantime, I will provide you with a folder containing everything you need. Please download the following zip'd ["empty p5 project"](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/_empty_example/empty-example.zip) directory from the course repo.
+To get started with p5.js, you first need to download the p5 library and some blank template files. Eventually, you will learn how to set up everything for yourself, but in the meantime, I will provide you with a folder containing everything you need. Please download the following zip'd ["empty p5 project"](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/_empty_example/empty-example.zip) directory from the course repo.
 
-- [Empty p5 project](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/_empty_example/empty-example.zip)
+- [Empty p5 project](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/_empty_example/empty-example.zip)
 
 
 ## Move It To Your Repo
@@ -60,7 +60,7 @@ You will notice that there are 2 files in the top level of `empty-example/`.
 
 You will also notice, that inside of the `empty-example/` directory, there is another child directory, `p5_lib/`. This directory contains the p5.js library files to make everything work. These are huge files that I suggest you not open in the text editor on your computer. Instead, I want you to look at the main p5.js file over on GitHub, to get a sense of what is in it. (Do not worry about actually understanding it, I just want you to look at it to have some appreciation.)
 
-- [main p5.js library file](https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/_empty_example/p5_lib/p5.js)
+- [main p5.js library file](https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/_empty_example/p5_lib/p5.js)
 
 
 ## Open it All Up in Atom

@@ -36,3 +36,11 @@ Week three will be when we dive into the meat of coding with p5.js. You should w
 Currently, I am planning on having weekly "modules" run from Friday to Thursday night.
 
 Homework will be due before the start of the business day on Friday (i.e. 8am Friday morning).
+
+
+
+## Homework
+
+You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
+
+You will receive additional directives and notes on the homework page for each assignment on the Moodle Shell as well as the ["homework wiki"](https://github.com/Montana-Media-Arts/creative-coding-1/wiki) (Homework assignments will be posted in both locations). Instructions will be provided how to do this over the next two weeks.

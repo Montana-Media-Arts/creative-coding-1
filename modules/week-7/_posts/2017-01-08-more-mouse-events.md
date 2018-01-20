@@ -60,7 +60,7 @@ function draw() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/11_mouseIsPressed_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/11_mouseIsPressed_01/sketch.js"
         },
         {
             type: "html",
@@ -71,7 +71,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/11_mouseIsPressed_01/11_mouseIsPressed_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/11_mouseIsPressed_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/11_mouseIsPressed_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/11_mouseIsPressed_01/11_mouseIsPressed_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/11_mouseIsPressed_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/11_mouseIsPressed_01/) |
 
 
 # An Event Function for When the Mouse Is Pressed
@@ -141,7 +141,7 @@ function mousePressed() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/12_mousePressed_01/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/12_mousePressed_01/sketch.js"
         },
         {
             type: "html",
@@ -152,7 +152,7 @@ function mousePressed() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/12_mousePressed_01/12_mousePressed_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/12_mousePressed_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/12_mousePressed_01/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/12_mousePressed_01/12_mousePressed_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/12_mousePressed_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/12_mousePressed_01/) |
 
 
 ## Differences between `mouseIsPressed` & `mousePressed()`
@@ -227,7 +227,7 @@ function mousePressed() {
     files: [
         {
             type: "js",
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/master/lecture_code/07/13_mousePressed_02/sketch.js"
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/13_mousePressed_02/sketch.js"
         },
         {
             type: "html",
@@ -238,7 +238,7 @@ function mousePressed() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/13_mousePressed_02/13_mousePressed_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/07/13_mousePressed_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/07/13_mousePressed_02/) |
+| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/13_mousePressed_02/13_mousePressed_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/13_mousePressed_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/13_mousePressed_02/) |
 
 Notice, while you hold the mouse down, the left, `mouseIsPressed`-based ellipse continues to grow non-stop. Whereas, the right, `mousePressed()`-based ellipse only grows 1 pixel every time the mouse button is pressed. The right ellipse requires the user to lift their finger, and repress the mouse button in order to make it grow again. This is because the `mousePressed()` function only executes once every time the mouse is pressed.
 

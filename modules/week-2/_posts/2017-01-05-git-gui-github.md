@@ -5,7 +5,7 @@ module: 2
 
 # Git GUI Applications - GitHub Desktop
 
-Working with Git in via the command line offers the user the full power of Git. However, there are GUI (pronounced ‘gooey’. GUI stands for ‘graphical user interface’) applications that can serve as a front-end for Git. You are free to use a command line based program or one of these applications.
+Working with Git via the command line offers the user the full power of Git. However, I find it easier to start with GUI-based git app. This application will serve as a front-end for Git. You are free to use a command line based program if you want or the following application.
 
 The two applications I would suggest are;
 
@@ -15,19 +15,23 @@ The two applications I would suggest are;
 
 Both of these work on macOS and Windows.
 
+I suggest GitHub Desktop, as this is a more streamlined, and simpler application to use. It also has nice integration to GitHub.com and the Atom text editor, as all three products are from GitHub.
+
 NOTE: For windows users, there have been reports that Source Tree does not work on earlier versions of the Windows OS. If you want to use the software taught by this course, you may need to update your OS to a modern version, such as Windows 10 ( NOTE: That will be true throughout the course, for most situations I would suggest you work on a machine with either a current version of macOS or Window's OS ).
 
-I will show you how to use GitHub Desktop, but the process of using GutHub Desktop is virtually the same. To see explicit directions for GitHub Desktop please navigate to the next section (_Git GUI Applications (Sourcetree)_).
+I will show you how to use GitHub Desktop, but the process of using SourceTree is virtually the same. To see explicit directions for SourceTree, please navigate to the next section (_Git GUI Applications (Sourcetree)_).
 
+**{ TODO: }**
 
-Download the GitHub Desktop appliction from their site.
-https://desktop.github.com
+Download the GitHub Desktop application from their site.
+[https://desktop.github.com](https://desktop.github.com)
 
 
 <hr />
 ## on macOS
 
 After downloading the application, simply drag it to your `/Applications` directory for macOS.
+
 ![Example of dragging GitHub Desktop from Downloads to Applications](../imgs/ghDesk2app.png "Example of dragging GitHub Desktop from Downloads to Applications")
 
 When you open the app for the first time, you will be guided through an additional setup process.
@@ -35,10 +39,13 @@ When you open the app for the first time, you will be guided through an addition
 <hr />
 ## on Windows
 
-After downloading the application, right click the application in the Downloads folder from the file explorer and select "run as administrator".
+After downloading the application, right-click (or control + click) the application in the Downloads folder from the file explorer and select "run as administrator".
+
 ![Showing how to "run as admin" for GitHub Desktop on PC](../imgs/gh_pc_run.png)
 
 This will cause the installer to run and do its thing.
+
+The install process will take quite a few minutes on most Windows machines.
 
 ## Setting up GitHub Desktop
 

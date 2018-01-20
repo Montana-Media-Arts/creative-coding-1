@@ -202,6 +202,6 @@ function draw() {
 
 Please also feel free to download and examine these files to see how they work together.
 
-- [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/12/01_multiple_files_01/01_multiple_files_01.zip)
-- [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2017/raw/master/lecture_code/12/01_multiple_files_01/)
-- [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding_Fall2017/lecture_code/12/01_multiple_files_01/)
+- [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/12/01_multiple_files_01/01_multiple_files_01.zip)
+- [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/12/01_multiple_files_01/)
+- [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/12/01_multiple_files_01/)

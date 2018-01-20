@@ -17,10 +17,13 @@ Please read this [Wikipedia page on text editors](https://en.wikipedia.org/wiki/
 For this class, we need a text editor that is optimized for development and code. You are welcome to use whatever text editor you like for this course, however, the following are suggested;
 
 - GitHub’s [Atom](https://atom.io) - Open Source (ie. Free)
+- Microsoft's [Visual Studio Code](https://code.visualstudio.com) - Open Source
 - Adobe’s [Brackets](http://brackets.io) - Open Source
 - [Sublime Text 3](https://www.sublimetext.com/3) - License is $70
 
 I have used both Atom and Sublime Text extensively. Currently, I am teaching with Atom, and as such, will describe the creation of a development environment through Atom.
+
+I would suggest you follow along, trying to install and use the Atom editor. **IF** you are running an older windows computer, or find Atom runs _really slow_ on your machine, I would suggest you instead install and try to use [Visual Studio Code](https://code.visualstudio.com).
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
 
@@ -33,11 +36,11 @@ To install atom on macOS, simply download the software. Then drag the applicatio
 
 To install atom on windows, download the windows installer from the main [atom.io](https://atom.io) site.
 
-**IMPORTANT:** when the download finished, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in explorer. To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_, right-click or two-finger-click the file from the browser and select "Show in Folder".
+**IMPORTANT:** when the download is finished, do not simply double-click from the bottom of the browser window. Instead, you first need to open the file in "file explorer". To do this you can either open explorer and navigate to the folder where it downloaded (likely "Downloads") _OR_, right-click or control-click the file from the browser and select "Show in Folder".
 
 ![Pic demo-ing "show in folder" command](../imgs/showINFinder.png "Demo of show in folder.")
 
-From the explorer you then need to right-click the file and select "Run as Administrator". This is especially important if you are not sure whether you are signed in as an admin.
+From the explorer you then need to _right-click_ the file and select "Run as Administrator". This is especially important if you are not sure whether you are signed in as an admin.
 
 ![Image demo-ing how to "Run as Admin"](../imgs/runAsAdmin.png "Image demo-ing how to 'Run as Admin'")
 
@@ -52,7 +55,7 @@ From the explorer you then need to right-click the file and select "Run as Admin
 
 Most text editors allow you to download additional packages created by the community which extend their functionality and can make them more suited to your particular needs.
 
-In Atom for instance, you can install new packages by selecting the “install” tab from the preferences page. From there you can search for packages to install or themes to install. The former adds functionality to your editor and the latter allows you to customize the look and feel of the editor. From time to time, I may suggest packages that would be useful for you if you are working in Atom. The image shows a search for the newbound-dark-syntax, which provides colorization for a number of languages, including markdown. (I would suggest you install this theme, and then select it as your “Syntax Theme” under the Themes tab.)
+In Atom for instance, you can install new packages by selecting the “install” tab from the preferences page. From there you can search for packages to install or themes to install. The former adds functionality to your editor and the latter allows you to customize the look and feel of the editor. From time to time, I may suggest packages that would be useful for you if you are working in Atom. The image shows a search for the "newbound-dark-syntax", which provides colorization for a number of languages, including markdown. (I would suggest you install this theme, and then select it as your “Syntax Theme” under the Themes tab.)
 
 ![example search for newfound-syntax-theme](../imgs/theme_search_in_atom.jpg)
 

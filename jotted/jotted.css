@@ -2,10 +2,9 @@
  */
 .jotted {
   position: relative;
-  /*height: 12em;*/
-  min-height: 200px;
+  height: 12em;
   overflow: hidden;
-  /*border: 1px solid #000;*/
+  border: 1px solid rgba(51,51,51,0.24);
   border-radius: 2px;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -22,8 +21,8 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background: #373e42;
-  border-bottom: 1px solid #000000;
+  background: rgba(51,51,51,0.08);
+  border-bottom: 1px solid rgba(51,51,51,0.2);
 }
 .jotted-nav-item {
   display: none;
@@ -31,17 +30,17 @@
   border-width: 0 1px;
   border-style: solid;
   border-color: transparent;
-  color: #C0B283;
+  color: #555;
 }
 .jotted-nav-item:first-child {
   border-width: 0 1px 0 0;
 }
 .jotted-nav-item:hover,
 .jotted-nav-item:focus {
-  background: #4c4f50;
+  background: rgba(51,51,51,0.04);
 }
 .jotted-nav-item:active {
-  background: #4c4f50;
+  background: rgba(51,51,51,0.12);
 }
 .jotted-nav-item a {
   display: block;
@@ -54,9 +53,9 @@
 .jotted-pane-active-html .jotted-nav-item-html,
 .jotted-pane-active-css .jotted-nav-item-css,
 .jotted-pane-active-js .jotted-nav-item-js {
-  background: #000;
+  background: #fff;
   border-color: rgba(51,51,51,0.3);
-  color: #f92672;
+  color: #222;
 }
 /* always show the result tab nav
  */
@@ -89,10 +88,6 @@ jotted-nav-item,
 .jotted-pane-active-js .jotted-pane-js {
   position: relative;
   visibility: visible;
-}
-.jotted-pane-result,
-.jotted-pane-result iframe {
-    /*min-height: 500px;*/
 }
 /* editor
  */
@@ -289,6 +284,7 @@ jotted-nav-item,
 .jotted-plugin-pen .jotted-pane-title-result {
   display: none;
 }
+.jotted-plugin-pen .jotted-pane-result,
 .jotted-plugin-pen.jotted-has-html .jotted-pane-html,
 .jotted-plugin-pen.jotted-has-css .jotted-pane-css,
 .jotted-plugin-pen.jotted-has-js .jotted-pane-js,
