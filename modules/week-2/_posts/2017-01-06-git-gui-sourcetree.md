@@ -5,7 +5,7 @@ module: 2
 
 # Git GUI Applications - Sourcetree
 
-You are welcome to also try Sourcetree. These are setup instructions, should you choose to do so.
+You are welcome to also try Sourcetree. These are setup instructions, should you choose to do so. If you have already setup with the GitHub Desktop App, then feel free to skip this page. 
 
 (NOTE: Please replace 341 with 120 in any image examples below.)
 

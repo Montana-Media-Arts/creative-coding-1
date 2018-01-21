@@ -23,16 +23,16 @@ For this class, we need a text editor that is optimized for development and code
 
 I have used both Atom and Sublime Text extensively. Currently, I am teaching with Atom, and as such, will describe the creation of a development environment through Atom.
 
-I would suggest you follow along, trying to install and use the Atom editor. **IF** you are running an older windows computer, or find Atom runs _really slow_ on your machine, I would suggest you instead install and try to use [Visual Studio Code](https://code.visualstudio.com).
+I would suggest you follow along, trying to install and use the Atom editor. **_IF_** you are running an _older_ windows computer, or find Atom runs _really slow_ on your machine, I would suggest you instead install and try to use [Visual Studio Code](https://code.visualstudio.com).
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gbq9ZWXtyK4" frameborder="0" allowfullscreen></iframe></div>
 
-#### Install on macOS
+#### Install Atom on macOS
 
 To install atom on macOS, simply download the software. Then drag the application that was downloaded from the Downloads folder to the Applications folder. See this is in the video above.
 
 
-#### Install on Windows
+#### Install Atom on Windows
 
 To install atom on windows, download the windows installer from the main [atom.io](https://atom.io) site.
 

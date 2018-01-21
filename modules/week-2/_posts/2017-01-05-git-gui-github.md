@@ -28,6 +28,7 @@ Download the GitHub Desktop application from their site.
 
 
 <hr />
+
 ## on macOS
 
 After downloading the application, simply drag it to your `/Applications` directory for macOS.
@@ -37,6 +38,7 @@ After downloading the application, simply drag it to your `/Applications` direct
 When you open the app for the first time, you will be guided through an additional setup process.
 
 <hr />
+
 ## on Windows
 
 After downloading the application, right-click (or control + click) the application in the Downloads folder from the file explorer and select "run as administrator".
@@ -68,45 +70,25 @@ Then click "continue" again.
 
 Finally click finish on the last screen.
 
+#### 3. Check Preferences
 
-#### 3. Add your Repo
+Finally, after GitHub Desktop opens up, you should open the applications preferences.
 
-To add a local repository, navigate to the "File" menu, and select "Add Local Repository...".
+![GitHub Desktop Preferences](../imgs/gh-preferences.png)
 
-Click "choose", and then navigate to the top level of your git repo we created earlier.
+Under the first tab, "Accounts", you should see your GitHub.com account listed that you used during setup.
 
-You can then click "Open" and when you return to the "add repo" window, click "Add Repository".
+![GitHub Desktop Preferences](../imgs/pref1.png)
 
-![Adding a local repo on macOS](../imgs/gh_mac_localRepo.png)
+If you go to the "Advanced" tab, you will see a couple of options.
 
+The first allows you to select a default "External Editor". If you have successfully installed Atom and/or Visual Studio Code, you should see these as options in the pulldown selection box. You should select the editor you intend to use (you can always change later if you want).
 
-<hr />
-## Making Commits with GitHub Desktop app
-
-Since GitHub Desktop is nearly identical between mac and PC, I will only be including one set of instructions for this section. If you get confused, please email your instructor.
-
-Let's now learn how to make commits of our file changes with GitHub Desktop. The first thing we should do is open our repo in Atom. Assuming Atom was able to perform a normal, full-permission install, you should be able to select "Open in Atom" from the "Repository" menu in GitHub.
-
-![Context Menu in GitHub Desktop showing the "Open in Atom" option.](../imgs/openInAtom.png)
+![Editor Selection in GitHub Desktop](../imgs/editor-selection.png)
 
 
-Make a change to any file you want within your repo. Just make sure you save it from Atom.
+<br />
 
-Then move back to the GitHub Desktop App. You should now see that the left tab labeled "Changes" now has a blue dot next to it. This indicates that there are changes we need to commit. Below this, you should see the name of the file that you changed. If you select that file, you will see a summary of its changes to the right.
+Finally, I would suggest you deselect the box for "Help GitHub Desktop improve by submitting anonymous usage data". I would also suggest you make sure the bottom two checkboxes _are_ selected that ask "confirmation dialog's".
 
-![GitHub Desktop showing that there are "uncommited changed"](../imgs/ghUncomChange.png)
-
-Make sure this button is select by clicking it. You will see near the bottom left of the window a "Commit" section.  In here you can select/un-select files to group in a single commit. This is the equivalent of "adding" files in the terminal.
-
-When you select a file, it will show the differences since the last commit of that file on the right side of the window.
-
-Where it says "Summary" is where you enter commit messages. You must enter a commit message with every commit, or the program will prevent you from saving your commit.
-
-Below the commit message box is the button to actually create the commit.
-![GitHub Desktop Commit Info](../imgs/ghCommitInfo.png)
-
-#### { TODO: }
-
-- Practice changing files, saving them, and making commits in GitHub Desktop Application.
-- Click on both the "Uncommitted Changes" and the "History" buttons to explore the different types of information shown.
-- In the History view, click on different commits to see what files changed and how.
+When you are finished, select "Save".

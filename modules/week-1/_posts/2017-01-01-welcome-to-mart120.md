@@ -13,7 +13,7 @@ This course is designed to teach code so that it can become a tool for art and c
 
 The goal is to begin a journey in which the creative and technical possibilities of the computer become a tool in your palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, this course is designed to offer you a deeper understanding of the essential possibilities of computation. The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics, and relating this all back to the creative and expressive possibilities of media art. The JavaScript-based ‘p5.js’, programming framework will be utilized within this class. The course will conclude, with your design, development, and implementation of a final project of your choosing.
 
-This is exclusively an on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement. The course will conclude with a final site build.
+This is exclusively an on-line course. As such, you will be expected to engage with all content through the main site. You will be assessed through regular project-based assignments, writings, and community engagement.
 
 
 ## What to Expect
@@ -25,7 +25,7 @@ Just as the content focus will shift, so to will the work amount. Some weeks, es
 You should plan;
 
 - 3 hours a week to work through the course website content (what you are doing now).
-- 8-16 hours a week to work on concepts, code assignments, studying, and practicing.
+- 3-9 hours a week to work on concepts, code assignments, studying, and practicing.
 
 This is an intense course and will take a lot of time. You are learning a new language that is not like any other you have studied before. This takes immersion.
 

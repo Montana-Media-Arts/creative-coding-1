@@ -1,15 +1,16 @@
 ---
-title: Instructors information
+title: Instructor Information
 module: 1
 jotted: false
 ---
 
 # Instructor Information
 
-Quick links, including email links, office hours, and lab hours, are all available from the  tab above in the course menubar.
+Quick links, including email links, office hours, and lab hours, are all available from the ["Instructors"](({{site.baseurl}}/instructors/) tab above in the course menubar.
 
 What follows is a more detailed introduction to the people delivering this class to you this semester. We are a team, and will be working together to deliver this experience to you.
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Fyqb7vTyMN4" frameborder="0" allowfullscreen></iframe></div>
 
 ## Dr. Michael Musick
 
@@ -55,4 +56,4 @@ Both of them hare active in creative coding and are producing exceptional and ad
 
 ## Check out the Instructor Tab
 
-Now that you are more familiar with the team, please go to the ["Instructor"]({{site.baseurl}}/instructor/) page, by clicking the tab above in the menubar. There you will find all the information you need about contacting us, when we are holding office/lab hours, and how to get advanced help.
+Now that you are more familiar with the team, please go to the ["Instructor"]({{site.baseurl}}/instructors/) page, by clicking the tab above in the menubar. There you will find all the information you need about contacting us, when we are holding office/lab hours, and how to get advanced help.
