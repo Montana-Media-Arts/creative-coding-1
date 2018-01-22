@@ -40,7 +40,8 @@ Stephanie will be the primary instructor for this course. She is an incredible M
 
 If you are unable to solve problems on your own or through the course "issues forum" (more to come on that later), you should e-mail Stephanie, along with the wonderful Lab Assistants listed below.
 
-<!-- video -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bpTG50Tc5ms" frameborder="0" allowfullscreen></iframe></div>
+
 
 ## Lab Assistants
 
