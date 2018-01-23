@@ -7,7 +7,7 @@ module: 1
 
 # GitHub.com
 
-We will discuss [GitHub.com](github.com) more next week. In the mean time, I would you like you to know that GitHub is a web service which is used for storing git repositories by developers. (Much of that statement is still likely jargon to you. That is ok. It will all come)
+We will discuss [GitHub.com](https://github.com) more next week. In the mean time, I would you like you to know that GitHub is a web service which is used for storing git repositories by developers. (Much of that statement is still likely jargon to you. That is ok. It will all come)
 
 In order for the Instructors to know that you have successfully completed week 1, you are going to create a GitHub.com account and respond to an “issue” in the class repository.
 
@@ -36,7 +36,7 @@ First, visit [GitHub.com](https://github.com/) and create a new user account.
 - Next, navigate to [https://github.com/Montana-Media-Arts/120_CreativeCoding](https://github.com/Montana-Media-Arts/120_CreativeCoding). This is the course resource repo. This site is also linked to from the "git" tab above in the nav-bar.
 - In the upper right-hand corner, you should select both "watching" and "star".
     - This will allow GitHub to e-mail you about notifications and issues in the course repo.
-    - **Part of your grade for this course is based on _participation_. This is how you participate.** 
+    - **Part of your grade for this course is based on _participation_. This is how you participate.**
         - When you have problems, post them here.
         - If you get an email about a new issue, try to help the person out.
         - Your participation grade will be based on how active you were on the GitHub issues forum, as well as comments to your classmates to their weekly homework assignments.
