@@ -10,9 +10,12 @@ Utilizing [p5.js](https://p5js.org), this course teaches concepts from computer 
 
 
 ### Designed by
+
 - Professor Michael Musick
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu).
-- Office: McGill Hall, 224.
+- Office: McGill Hall, 232.
+
 
 ### Updated
-This course was last updated: 2017-08-29
+
+This course was last updated: 2018-01-22
