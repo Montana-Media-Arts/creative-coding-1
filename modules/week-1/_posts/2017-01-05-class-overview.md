@@ -43,7 +43,7 @@ Homework will be due before the start of the business day on Friday (i.e. 8am Fr
 
 You should consider anything within the course lecture content under a *{ TODO: }* section to be part of your "homework".
 
-You will receive additional directives and notes homework assignments on the Moodle Shell every week.
+You will receive additional directives and notes about homework assignments on the Moodle Shell every week.
 
 Each homework will be a public website that you create weekly. These links will then be submitted to a forum behind the Moodle firewall. This will allow you and your classmates to see each others assignments, without posting links for the whole world to see. I think it is critical that you are aware of the work each other is making. This is my current solution to address this need. Instructions will be provided how to do this over the next two weeks.
 
@@ -56,7 +56,7 @@ When you have problems in this course, you have a number of solutions available 
 1. Google the problem.
     - A critical skill in creative technology is learning to problem solve. Part of this involves learning how to form a good google query. Your first go to for help should always be google.
 2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues).
-    - In a couple pages, you will follow along with a short tutorial that help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
+    - In a couple pages, you will follow along with a short tutorial that will help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
 3. Go to the 127 Media Arts Lab
     - The Media Arts Lab in room 127 of McGill hall has daily "lab monitors" who are hired to assist with problem solving and class help. Take advantage of these people and this resource. The lab hours, along with who is in during specific times will be located under the ["Help"]({{site.baseurl}}/help/#lab-hours) tab above.

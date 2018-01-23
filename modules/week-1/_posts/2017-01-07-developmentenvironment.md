@@ -20,7 +20,7 @@ Although such programs can appear intimidating to a beginner user, these command
 
 One advantage of a CLI over a GUI-based file browser is quicker manipulation of files and directories. The manipulation of files and directories will be a very common activity for you in this course. As such, please take a moment to read the following [Wikipedia page describing ‘directories’](https://en.wikipedia.org/wiki/Directory_(computing)) and make sure you understand what a directory is, as well as its related terminology.
 
-> Note: "Directories" and "Folders" are the same thing. These will be interchangable throughout this course. 
+> Note: "Directories" and "Folders" are the same thing. These will be interchangable throughout this course.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
 
@@ -38,9 +38,40 @@ This resource walks you through the basics of using terminal via a ‘cutesy’ 
 NOTE: If you do not have Xcode.app installed on your Mac, you should do so. We will not be using Xcode, however, it installs additional command line tools which we will use. Xcode can be installed via the Mac App Store. After installing Xcode, open it once, then close it and forget about it for the time being.
 
 ### - Windows
-Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an early operating system and precursor to Windows. In recent years there has been a move within the development community towards Windows newer PowerShell.
+Windows users have a couple of options when it comes to a CLI. Traditionally, Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an early operating system and precursor to Windows. In recent years there has been a move within the development community towards Window's newer PowerShell CLI. However, there is also a move towards a Bash-like or true Bash (the Linux and macOS CLI) program for windows.
 
-You can launch PowerShell console by pressing Windows key, typing PowerShell, and clicking on Windows PowerShell.
+I am going to suggest you utilize the last of these options. Unfortunately, a Bash shell does not exist by default on Windows yet. You have two options to get one.
+
+1. Windows now includes a "Linux Environment" that can be turned on.
+    - To install the Window's approved "Windows Subsystem for Linux", please follow the instructions from the following site;
+        - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
+2. A simpler solution (and the recommended one for this course), is to install a Bash-like CLI.
+    - The disadvantage of this solution is that it is not as integrated as the "Windows Subsystem for Linux". However, for the little bit of CLI work you will do in this course, it works just fine.
+
+To get a Bash environment, windows users should install Git.
+
+Git can be downloaded from the following link;
+
+- [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+After downloading the program, right-click the install executable, and select "Run as Administrator".
+
+![Install Git as Administrator](../imgs/install-git-windows.png)
+
+This will install a program known as "Git", along with one called "Git Bash". You can now open "Git Bash".
+
+![Git Bash](../imgs/gitbash.png)
+
+After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through following PDF book.
+
+**[Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)**
+
+This resource walks you through the basics of using terminal via a ‘cutesy’ story. (Sorry if this is not your thing. Unfortunately, it is a very good resource.)
+
+
+
+<!-- You can launch PowerShell console by pressing Windows key, typing PowerShell, and clicking on Windows PowerShell.
 
 If you are unfamiliar with using PowerShell on Windows, please work through the following resource.
 
@@ -48,7 +79,7 @@ If you are unfamiliar with using PowerShell on Windows, please work through the 
 
 and watch the following video:
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://channel9.msdn.com/Series/GetStartedPowerShell3/01/player" allowFullScreen frameBorder="0"></iframe></div><br />
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://channel9.msdn.com/Series/GetStartedPowerShell3/01/player" allowFullScreen frameBorder="0"></iframe></div><br /> -->
 
 
 ## { TODO: }
