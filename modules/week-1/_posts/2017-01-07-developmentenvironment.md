@@ -49,13 +49,11 @@ I am going to suggest you utilize the last of these options. Unfortunately, a Ba
 2. A simpler solution (and the recommended one for this course), is to install a Bash-like CLI.
     - The disadvantage of this solution is that it is not as integrated as the "Windows Subsystem for Linux". However, for the little bit of CLI work you will do in this course, it works just fine.
 
-To get a Bash environment, windows users should install Git.
-
-Git can be downloaded from the following link;
+To get a Bash environment, windows users should install Git. Git can be downloaded from the following link;
 
 - [https://git-scm.com/download/win](https://git-scm.com/download/win)
 
-After downloading the program, right-click the install executable, and select "Run as Administrator".
+After downloading the program, right-click the install executable, and select "Run as Administrator". (**THIS IS IMPORTANT** You must run as administrator to give Git Bash necessary permissions.)
 
 ![Install Git as Administrator](../imgs/install-git-windows.png)
 
@@ -63,7 +61,7 @@ This will install a program known as "Git", along with one called "Git Bash". Yo
 
 ![Git Bash](../imgs/gitbash.png)
 
-After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through following PDF book.
+After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through the following PDF book.
 
 **[Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)**
 
