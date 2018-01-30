@@ -41,6 +41,8 @@ Quinn Lab Hours:
 
 Emily Lab Hours:
 
+- Mondays: 12:30pm - 2:00pm
+
 
 
 ## Developed by: [Prof. Michael Musick](https://michaelmusick.github.io/teaching)
