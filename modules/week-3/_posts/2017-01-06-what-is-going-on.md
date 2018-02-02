@@ -203,3 +203,5 @@ The following link will take you to the top-level page for p5 documentation. You
 1. Quickly browse the various functions and classes that exist in the p5 documentation. Taking note of the various Heading Categories that they exist under.
 2. Find the `ellipse()` function and identify how it is categorized?  (i.e. what headings is it underneath?)
 3. Click through to a few more of the functions in the same category as `ellipse()`. See if the documentation for these functions makes sense? And if you can understand how they might be used?
+
+[**P% Reference Page**](https://p5js.org/reference/)

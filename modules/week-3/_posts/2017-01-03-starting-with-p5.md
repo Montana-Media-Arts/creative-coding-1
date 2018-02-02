@@ -45,7 +45,8 @@ Below, is a "tree view" of the contents of the directory.
     │   ├── p5.dom.min.js
     │   ├── p5.min.js
     │   └── p5.sound.min.js
-    └── sketch.js
+    ├── sketch.js
+    └── readme.md
 ```
 
 <br />
