@@ -98,7 +98,7 @@ function setup(){
 {% endhighlight %}
 
 <div class="displayed_jotted_example">
-<div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class="" style="height:500px;"></div>
 </div>
 
 <script>

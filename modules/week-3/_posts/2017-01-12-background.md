@@ -53,7 +53,7 @@ function setup() {
 
 
 <div class="displayed_jotted_example">
-    <div id="jotted-demo-1" class=""></div>
+    <div id="jotted-demo-1" class="" style="height:400px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
