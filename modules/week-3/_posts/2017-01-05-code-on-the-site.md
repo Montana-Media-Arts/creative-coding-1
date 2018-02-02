@@ -162,3 +162,14 @@ function setup(){
 </script>
 
 | [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/) |
+
+
+
+
+# Code Example Bundles
+
+I addition providing individual downloads of each code example, you also have the option of downloading a zip'd folder of all code examples from a week. Links to these downloads will typically be available from the week's _overview_ page. These are also available directly from the [_lecture_code_ directory in the course resources git repo](https://github.com/Montana-Media-Arts/120_CreativeCoding/tree/master/lecture_code)
+
+However, if you would like the code examples for this week, you can down load them here, now!
+
+[**Week 3 Complete Code Examples Download**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/week03.zip)
