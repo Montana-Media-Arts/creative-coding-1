@@ -39,6 +39,8 @@ When possible, you should visit them in the lab, during their lab hours. If that
 
 Quinn Lab Hours:
 
+- Tuesdays: 1:30pm - 3:00pm
+
 Emily Lab Hours:
 
 - Mondays: 12:30pm - 2:00pm
