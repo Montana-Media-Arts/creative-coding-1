@@ -10,7 +10,7 @@ Order of operations matters greatly in code. As has already been demonstrated wi
 
 For example, when we created the smiley face for the transformation pages, the order that we specify various shapes is critical. This is because, with shapes, the last shape is the one placed on top of the previous shapes. Since we want our smiley face to have a mouth and eyes, it is critical that those are placed **after** the statement to draw the head.
 
-Likewise, in order to make the head "yellow" we must place the appropriate `fill('yellow');` function before the head is drawn. Likewise, we have to place the `fill('black');` function after the head is drawn and before the eyes/mouth are drawn in order for those elements to be colored correctly.
+Likewise, in order to make the head "yellow" we must place the appropriate `fill('yellow');` function before the head is drawn. Also, we have to place the `fill('black');` function after the head is drawn and before the eyes/mouth are drawn in order for those elements to be colored correctly.
 
 Let's take a look at two examples of the smiley face. In both cases, we will add an alpha value to the head color, so that we can see if something gets placed behind it. In the first example, we will try to draw the eyes and mouth first, and notice that they are 'covered' by the head. Whereas, in the second version, all is as expected.
 
@@ -85,7 +85,7 @@ ellipse( 20, -15, 20 );
 <br />
 
 
-Likewise, remember how the `rotate()` function rotates _around_ the (x:0, y:0) point on the grid, that is why it is critical that rotate typically comes _after_ translate. Otherwise, you are likely to rotate your shapes **_OFF_** the canvas.
+Remember how the `rotate()` function rotates _around_ the (x:0, y:0) point on the grid, that is why it is critical that rotate typically comes _after_ translate. Otherwise, you are likely to rotate your shapes **_OFF_** the canvas.
 
 > Note: If you are using `rotate()` and can't see your shapes, check your order of operations, there is a good chance you "rotated" your image off the canvas.
 
@@ -94,4 +94,4 @@ Also, the scale function, changes the grid layout, therefore, it is important th
 <br />
 
 
-Your homework this week asks you draw a portrait (more to come later). In creating this sketch, you will need to think carefully about order of operations for your functions. Both for transformations, and shape placement.
+Your homework this week asks you draw a portrait (more to come later). In creating this sketch, you will need to think carefully about order of operations for your statements. Both for transformations, and shape placement.

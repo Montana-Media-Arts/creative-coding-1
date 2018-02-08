@@ -6,7 +6,7 @@ jotted: true
 
 # Alpha Values in Color<br />(Making things see-through)
 
-It is also possible to specify the alpha value for any color in p5. Specifying an alpha value for color function, allows other objects behind the shape to be seen. In other words, it makes a shape "see through".
+It is also possible to specify the alpha value for any color in p5. Specifying an alpha value for a color function allows other objects behind the shape to be seen. In other words, it makes a shape "see through".
 
 The alpha value is most easily used in conjunction with grayscale and rgb color values.
 

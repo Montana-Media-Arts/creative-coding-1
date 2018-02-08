@@ -6,7 +6,7 @@ jotted: true
 
 # `arc()` and Reviewing the Unit Circle
 
-I want to go over one more 2D Primitive Shape function with you. This is because it allows us the opportunity to discuss the "Unit Circle". The function is `arc()`. This function, as you will read, is used to draw, partial circles.
+I want to specifically go over one more 2D Primitive Shape function with you. This is because it allows us the opportunity to discuss the "Unit Circle". The function is `arc()`. This function, as you will read, is used to draw, partial circles.
 
 - [`arc()` function documentation](https://p5js.org/reference/#/p5/arc)
 
@@ -24,7 +24,7 @@ Before we can discuss the `start` and `end` positions, we first need to review t
 
 ## Radians & a little bit of the Unit Circle
 
-We are going to need to start thinking about rotation, and angles this week. In p5, all angles are specified in "radians" as opposed to "degrees".
+We are going to need to start thinking about rotation, and angles this week. By default, in p5, all angles are specified in "radians" as opposed to "degrees".
 
 #### Radians
 
@@ -43,7 +43,7 @@ The following figure shows the relationship between degrees and radians around t
 
 There are number of important take-aways from the above video and figure.
 
-1. You must remember, that 0-rad/0° is at the right side of the unit circle, whe  ℸre 3 o'clock is on a clock's face.
+1. You must remember, that 0-rad/0° is at the right side of the unit circle, where 3 o'clock is on a clock's face.
 2. 2∏  and 0 are at the same place. 2∏ signifies an entire rotation around the unit circle.
 3. It is quite easy to convert between radians and degrees.
 
@@ -112,7 +112,6 @@ Following from the above example, let's now make a small slice of pie, that is o
 arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 ```
 
-Which would result in;
 
 <div class="displayed_jotted_example">
 <div id="jotted-demo-2" class=""></div>
@@ -137,11 +136,11 @@ new Jotted(document.querySelector("#jotted-demo-2"), {
 
 # Using Degrees Directly With `radians()`
 
-It is possible to convert between degrees and radians with a simple mathematical formula, as was discussed in the above video. I also truly believe it is important for you to practice specifying angles using radians, as this will come up quite often within p5 and a lot of creative coding applications.
+It is possible to convert between degrees and radians with a simple mathematical formula, as was discussed in the above video. I believe it is important for you to practice specifying angles using radians, as this will come up quite often within p5 and a lot of other creative coding applications.
 
 However, if you would instead like to use degrees to specify angles, you can do so by passing the degree number to a function that will convert from degrees to radians. You can then pass the output of this function directly to any function parameter that requires an angle in radians.
 
-This function is `radians()`, which takes as its sole parameter a number representing degrees, and returns the equivalent angle in radians.
+This function is `radians()`, which takes as its sole parameter, a number representing degrees. This then returns the equivalent angle in radians.
 
 So, for example, we could specify a pie slice, like in the above example, by passing a degree value to the `radians()` function, which we would pass directly to the angle parameters of the `arc()` function.
 
@@ -183,7 +182,7 @@ To set the specific draw mode of the `arc()` function, we must use another "envi
 
 To demonstrate, let's draw an arc that goes from `HALF_PI` or 6 o'clock, to `0` or 3 o'clock. (This is essentially the inverse of our first example.)
 
-We will also draw these next two each other, with the default `PIE` version on the left. To do this, we will only change the x-location parameter, between the two arcs.
+We will also draw these next two each other, with the default `PIE` version on the left. To do this, we will only change the x-location parameter, and the drawing mode, between the two arcs.
 
 ```js
 arc( 150, 200, 180, 180, HALF_PI, 0, PIE );

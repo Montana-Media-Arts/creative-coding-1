@@ -161,7 +161,7 @@ And the live example, with full code would look like...
 
 One of the qualities about transformation functions, is that the are additive or compound. This means that they will add together.
 
-So for example, if you specify a translate function of `translate( 40, 40 )`, and later in your code specify another translate of `translate( 30, 30 )`, everything below that second translate will actually be moved to be based off of (x:70, y:70). This is because ( x:40, y: 40 ) + ( x:30, y:30 ) = ( x: 70, y: 70 ).
+So for example, if you specify a translate function of `translate( 40, 40 )`, and later specify another translate of `translate( 30, 30 )`, everything below that second translate will actually be translated by (x:70, y:70). This is because ( x:40, y: 40 ) + ( x:30, y:30 ) = ( x: 70, y: 70 ).
 
 Notice in the following code, that each smiley is moved further with each translate. (the smiley, for purposes of brevity, will be represented by `smiley()` in the below code example. Please look at the JavaScript tab of the Results section for the full code.)
 

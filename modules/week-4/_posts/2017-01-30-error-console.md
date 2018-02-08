@@ -11,7 +11,7 @@ jotted: true
 
 This week you are going to be asked to complete your first significant homework assignment for this course. One thing, you will almost certainly run into, are syntax issues, or mis-naming issues, that literally "**_break_**" your code. This will result in nothing showing up in your browser window. When this happens, you need to know how to find the problem, so you can try and fix it.
 
-To do this, you will most likely want to leverage your browsers JavaScript Console (just "console" from now). The console, displays errors, warnings, and other information that a developer tells it to. (more on that last one next week).
+To do this, you will most likely want to leverage your browsers JavaScript Console (just "console" from now). The console, displays errors, warnings, and other information that a developer tells it to.
 
 ## Opening the Console
 
@@ -101,9 +101,8 @@ In this case, we see there is a reference to line `:9`. At the very minimum, thi
 
 Now, down below;
 
-- open the "JavaScript" tab from the "Results" navigation bar.
-- fix the error, by changing `createcanvas(` to `createCanvas(`.
-- Go back to the "Result" tab, and you should now see a canvas with a blue background.
+- fix the error, by changing line 9, `createcanvas(`, to `createCanvas(`.
+- You should now see a canvas with a blue background.
 
 
 <div class="displayed_jotted_example">
