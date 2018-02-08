@@ -82,7 +82,7 @@ arc( 300, 200, 300, 300, 0, HALF_PI );
 Which would result in;
 
 
-<div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -114,7 +114,7 @@ arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 
 
 
-<div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 </div>
 <script>
 new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -149,7 +149,7 @@ arc( 300, 200, 300, 300, radians(260), radians(280) );
 ```
 
 
-<div id="jotted-demo-7" class=""></div>
+<div id="jotted-demo-7" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-7"), {
@@ -190,7 +190,7 @@ arc( 450, 200, 180, 180, HALF_PI, 0, CHORD );
 ```
 
 
-<div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {

@@ -109,7 +109,7 @@ function smileyFace(pos_x, pos_y, scale_x, scale_y) {
 {% endhighlight %}
 
 
-<div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {

@@ -25,7 +25,7 @@ A reserved p5 variable, is a special namespace, that p5 sets with information an
 In the below example, the X and Y locations of the mouse are printed to the canvas, utilizing the `mouseX` & `mouseY` variables, so that you can see what type of data is stored inside of these variables. Notice: that as you move the mouse within the canvas, the number update. This is becuase these two values are reset, or updated, every frame (that is every time the `draw()` loop is called).
 
 
-<div id="jotted-demo-1" class="" style="height:649px"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked" style="height:649px"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -75,7 +75,7 @@ function draw() {
 {% endhighlight %}
 
 
-<div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -120,7 +120,7 @@ function draw() {
 {% endhighlight %}
 
 
-<div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
@@ -157,7 +157,7 @@ This is seen below in the next example. You should change the size of the browse
 > NOTE: Although this is demo-ed in the code window, you should <a href="https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/04_window_vars_01/" target="_blank">open this example up in a new window to really experience it.</a>
 
 
-<div id="jotted-demo-4" class="" style="height:600px"></div>
+<div id="jotted-demo-4" class="jotted-theme-stacked" style="height:600px"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-4"), {

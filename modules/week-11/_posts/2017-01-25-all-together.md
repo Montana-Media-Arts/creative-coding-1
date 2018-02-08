@@ -294,7 +294,7 @@ class Ball {
 {% endhighlight %}
 
 
-<div id="jotted-demo-1" class="" style="height:600px;"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked" style="height:600px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {

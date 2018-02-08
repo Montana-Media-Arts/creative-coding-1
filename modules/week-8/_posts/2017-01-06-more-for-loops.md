@@ -66,7 +66,7 @@ function draw() {
 ```
 
 
-<div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -113,7 +113,7 @@ function draw() {
 ```
 
 
-<div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -154,7 +154,7 @@ function draw() {
 ```
 
 
-<div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {

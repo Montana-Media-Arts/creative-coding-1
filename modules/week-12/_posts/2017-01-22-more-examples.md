@@ -213,7 +213,7 @@ class Happyface {
 
 
 
-<div id="jotted-demo-1" class="" style="height:800px;"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked" style="height:800px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -512,7 +512,7 @@ class PacMan {
 
 
 
-<div id="jotted-demo-2" class="" style="height:800px;"></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked" style="height:800px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {

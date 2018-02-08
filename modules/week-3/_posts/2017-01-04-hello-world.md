@@ -46,7 +46,7 @@ If all went well, you should see a window in your browser that looks like the fo
 ![hello world example](../imgs/hello-world.png "Hello World Example")
 
 
-<div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -110,7 +110,7 @@ Your browser window should now look like the following;
 
 
 
-<div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
