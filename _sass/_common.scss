@@ -1,6 +1,12 @@
 
 body {
 	line-height: 1.6;
+    overflow-x: hidden !important;
+}
+
+.content {
+    overflow-x: visible;
+
 }
 
 p, ul, ol, blockquote {
@@ -136,7 +142,8 @@ table {
 	}
 }
 
-.highlighter-rouge + table {
+.highlighter-rouge + table,
+script + table {
 	margin-top: 1em;
 }
 
@@ -146,8 +153,8 @@ table {
 }
 
 blockquote {
-	color: $brand-dark;
-	background: lighten($brand-light, 10%);
+	color: white;
+	background: lighten($brand-light, 0%);
 	font-style: oblique;
 	padding: 2em 2em 0.5em 2em;
 	margin-top: $spacer * 2;
@@ -161,20 +168,6 @@ blockquote {
 
 
 
-// references and resources
-.ref {
-	color: $gray-600;
-	font-size: 75%;
-
-	a {
-		color: $gray-600;
-	}
-
-	h2 {
-		font-size: $h2-font-size * 0.6;
-	}
-}
-
 
 
 // IMAGE CENTERING
@@ -182,4 +175,36 @@ blockquote {
 .content p img {
 	display: block;
 	margin: auto;
+}
+
+
+
+// link underline
+.content {
+    a {
+        border-bottom: 3px solid $link-color;
+    }
+}
+
+
+
+
+// references and resources
+.ref {
+	color: $gray-600;
+	font-size: 75%;
+
+	a {
+		color: $gray-600;
+        border-bottom: 0px;
+	}
+
+	h2 {
+		font-size: $h2-font-size * 0.6;
+        margin-bottom: 1rem;
+	}
+
+    li {
+        margin-bottom: 0;
+    }
 }

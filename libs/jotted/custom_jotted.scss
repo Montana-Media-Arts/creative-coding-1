@@ -1,0 +1,207 @@
+---
+---
+
+
+@import "variables";
+
+// match this up with _displayCodeExamples.scss
+$code-side-offset: 15;
+
+.jotted {
+    height: auto;
+    // min-height: 12em;
+    border: none;
+    border-radius: 0;
+    overflow: inherit;
+}
+
+.jotted-editor .jotted-pane {
+    height: auto;
+}
+
+.jotted-nav {
+    background: $brand-dark;
+    // border: 2px solid $brand-dark;
+    border: none;
+}
+
+.jotted-nav-item {
+    color: $brand-compliment-1;
+}
+
+.jotted-nav-item:focus,
+.jotted-nav-item:hover {
+    color: $brand-dark;
+    background: $brand-compliment-1;
+}
+
+.jotted-nav-item:active {
+    background: $brand-compliment-1;
+}
+
+
+
+.jotted-pane-active-css .jotted-nav-item-css,
+.jotted-pane-active-html .jotted-nav-item-html,
+.jotted-pane-active-js .jotted-nav-item-js,
+.jotted-pane-active-console .jotted-nav-item-console,
+.jotted-pane-active-result .jotted-nav-item-result {
+    background: $brand-dark;
+    // border-color: rgba(51,51,51,0.3);
+    color: $brand-compliment-1;
+}
+
+
+.jotted-theme-stacked .jotted-nav-item:active,
+.jotted-theme-stacked .jotted-nav-item:hover, {
+    background: $brand-dark;
+    color: $brand-compliment-1;
+}
+
+
+
+
+// hide certain sections
+.jotted .jotted-code .jotted-item-hide,
+.jotted .jotted-item-hide {
+    display: none;
+}
+
+
+
+
+
+
+
+.jotted-console-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 10em;
+}
+
+.jotted-console-output {
+    flex: 1 0 auto;
+    line-height: 1em;
+    margin-top: 0.5em;
+}
+
+.jotted-console-log {
+    margin: 0;
+}
+
+
+
+.ace_editor {
+    height: auto;
+    min-height: 2em;
+}
+
+.jotted-plugin-ace .ace_editor {
+    // overflow-x: hidden;
+}
+
+
+// Custom Stacked Plugin
+.jotted-theme-stacked .jotted-code {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 ($spacer * -1 * $code-side-offset) 0 ($spacer * -1 * $code-side-offset);
+    border-top: ($spacer * 2);
+    border-bottom: ($spacer * 1);
+    border-left: ($spacer * $code-side-offset);
+    border-right: ($spacer * $code-side-offset);
+    border-style: solid;
+    border-color: #272822;
+    z-index: 1;
+}
+
+.jotted-theme-stacked .displayed_jotted_example {
+    padding: 30px;
+    margin: 0 ($spacer * -1 * $code-side-offset) ($spacer / 2) ($spacer * -1 * $code-side-offset);
+    border-top: ($spacer * 5);
+    border-bottom: ($spacer * 5);
+    border-left: ($spacer * $code-side-offset);
+    border-right: ($spacer * $code-side-offset);
+    border-style: solid;
+    border-color: $brand-accent;
+    // border:2px solid $brand-accent;
+    background-color: #fff;
+}
+
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px
+// )
+
+@media (max-width: 992px) {
+    .jotted-theme-stacked .displayed_jotted_example,
+    .jotted-theme-stacked .jotted-code {
+        margin-right: -9rem;
+        border-right-width: 9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .jotted-theme-stacked .displayed_jotted_example,
+    .jotted-theme-stacked .jotted-code {
+        margin-right: -2rem;
+        border-right-width: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .jotted-theme-stacked .displayed_jotted_example,
+    .jotted-theme-stacked .jotted-code {
+        margin: -1em;
+        padding: 0;
+        border-width: 1em;
+    }
+
+}
+
+
+
+
+
+
+
+.jotted-theme-stacked .jotted-nav,
+.jotted-theme-stacked .jotted-pane {
+    position: relative;
+    visibility: visible;
+    padding-top: 0;
+    height: auto;
+}
+.jotted-theme-stacked .jotted-pane {
+    padding-bottom: 1em;
+    background-color: #272822;
+}
+.jotted-theme-stacked .jotted-console-container {
+    background-color: #e0e0e0;
+}
+
+.jotted-theme-stacked .jotted-nav-item a {
+    border: none;
+}
+
+.jotted-nav-label {
+    padding: 0.2em 0.8em;
+}
+
+.jotted-theme-stacked .jotted-nav-item-result {
+    visibility: hidden;
+    height: 0;
+}
+
+
+
+.jotted-theme-stacked .displayed_jotted_example {
+    width: auto;
+    padding: 0;
+}

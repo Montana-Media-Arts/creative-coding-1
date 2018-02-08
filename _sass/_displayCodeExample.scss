@@ -13,6 +13,7 @@ $kbd-bg:                      $gray-900 !default;
 $pre-color:                   $gray-900 !default;
 $pre-scrollable-max-height:   340px !default;
 
+$code-side-offset: 15;
 
 
 // Inline and block code styles
@@ -91,7 +92,7 @@ pre {
 
 
 
-$code-side-offset: 15;
+
 .displayed_code_example,
 .displayed_jotted_example {
     padding: 30px;
@@ -193,12 +194,16 @@ pre {
 
 @include media-breakpoint-down(lg) {
     pre {
-        padding-left: (($line-height-computed - 1) * 2);
+        // padding-left: (($line-height-computed - 1) * 2);
+        margin-right: -9rem;
+        border-right-width: 9rem;
     }
 }
 @include media-breakpoint-down(md) {
     pre {
-        padding-left: (($line-height-computed - 1) * 1.5);
+        // padding-left: (($line-height-computed - 1) * 1.5);
+        margin-right: -2rem;
+        border-right-width: 2rem;
     }
 }
 
@@ -272,11 +277,24 @@ td.code > pre {
     // height: 7px;
 }
 
+@include media-breakpoint-down(lg) {
+    #code-ruler {
+        margin-left: (($line-height-computed - 1) * 2);
+        margin-right: (($line-height-computed - 1) * 2);
+    }
+}
+@include media-breakpoint-down(md) {
+    #code-ruler {
+        margin-left: (($line-height-computed - 1) * 1.5);
+        margin-right: (($line-height-computed - 1) * 1.5);
+    }
+}
+
 #code-heading {
     display: block;
     position: relative;
     z-index: 250;
-    color: $brand-light;
+    color: lighten($brand-primary, 20%);
     font-family: $font-family-monospace;
     // font-size: $font-size-large;
     font-weight: bold;
