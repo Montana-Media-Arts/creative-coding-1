@@ -77,7 +77,7 @@ To do this;
 - and go back to Results. You should now see your changes!
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -143,7 +143,7 @@ function setup(){
 {% endhighlight %}
 
 
-    <div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {

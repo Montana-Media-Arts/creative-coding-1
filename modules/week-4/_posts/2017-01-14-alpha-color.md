@@ -34,7 +34,7 @@ When placed together, you can see how the alpha values allow for colors to mingl
 
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {

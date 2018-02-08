@@ -30,7 +30,7 @@ The "Hello World!" code sketches we just completed utilized, and where produced,
 The following demonstrates the default size of the p5 canvas. Notice how it takes up a very small corner of the possible output area.
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {

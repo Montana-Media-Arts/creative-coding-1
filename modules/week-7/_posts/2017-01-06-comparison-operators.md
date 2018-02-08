@@ -106,7 +106,7 @@ function draw() {
 ```
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -179,7 +179,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-2" class=""></div>
+<div id="jotted-demo-2" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -246,7 +246,7 @@ function mousePressed() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
@@ -330,7 +330,7 @@ function draw() {
 ```
 
 
-    <div id="jotted-demo-5" class=""></div>
+<div id="jotted-demo-5" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-5"), {
@@ -386,7 +386,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-6" class=""></div>
+<div id="jotted-demo-6" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-6"), {

@@ -63,7 +63,7 @@ class Bubble {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -369,7 +369,7 @@ class Bubble {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {

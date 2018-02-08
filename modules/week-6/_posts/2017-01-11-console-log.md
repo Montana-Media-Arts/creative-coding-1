@@ -29,7 +29,7 @@ text( y_pos, 20, 100 );
 ```
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -83,7 +83,7 @@ In your browser's console, or the output example below, try putting in some of t
 ```
 
 
-    <div id="jotted-demo-2" class="" height="400px;"></div>
+<div id="jotted-demo-2" class="" height="400px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -118,7 +118,7 @@ console.log( y_pos );
 ```
 
 
-    <div id="jotted-demo-3" class=""></div>
+<div id="jotted-demo-3" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {

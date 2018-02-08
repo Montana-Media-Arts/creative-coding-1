@@ -47,7 +47,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-1" class=""></div>
+<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -90,7 +90,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-2" class="" style="height:300px;"></div>
+<div id="jotted-demo-2" class="" style="height:300px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -209,7 +209,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-4" class="" style="height:600px;"></div>
+<div id="jotted-demo-4" class="" style="height:600px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-4"), {
@@ -265,7 +265,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-5" class="" style="height:600px;"></div>
+<div id="jotted-demo-5" class="" style="height:600px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-5"), {
@@ -318,7 +318,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-6" class="" style="height:600px;"></div>
+<div id="jotted-demo-6" class="" style="height:600px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-6"), {

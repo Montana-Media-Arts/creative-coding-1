@@ -78,7 +78,7 @@ function draw() {
 {% endhighlight %}
 
 
-    <div id="jotted-demo-3" class="" style="height:600px;"></div>
+<div id="jotted-demo-3" class="" style="height:600px;"></div>
 </div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
