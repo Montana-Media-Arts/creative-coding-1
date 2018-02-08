@@ -100,12 +100,12 @@ To do this;
 
 Below many code examples, there will also be a number of links. These are, and do the following;
 
-- [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip)
+- [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip)
     - This will be a zip'd folder, containing all of the code for the example.
     - This is a way for you to easily download code examples, to play with on your own computers.
-- [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/)
+- [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/)
     - This link will take you directly to the GitHub entry for this code, so that you can look at it there.
-- [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/)
+- [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/)
     - This will take you to a webpage that only has the code in question presented.
 
 These links will occur underneath code examples when appropriate and available.
@@ -161,7 +161,7 @@ function setup(){
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/01_hello-world_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/03/01_hello-world_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/03/01_hello-world_02/) |
 
 
 

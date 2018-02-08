@@ -59,7 +59,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_01/11_frameRate_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_01/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_01/11_frameRate_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_01/) |
 
 <br />
 
@@ -114,7 +114,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_02/11_frameRate_02.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_02/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_02/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_02/11_frameRate_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_02/) |
 
 
 ### Getting `frameRate()`
@@ -147,7 +147,7 @@ text( "frame rate: " + fr, 10, 20 );
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_03/11_frameRate_03.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_03/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_03/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_03/11_frameRate_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_03/) |
 
 **NOTE:** That the frame rate value returned is not always 2, but is often just, very _close_ to two. The `frameRate()` function returns whatever the _true_ frame rate that the sketch is running at. The sketch tries to run as close as possible to the specified frame rate. But, slight variations occur, causing it to drift just a bit.
 
@@ -215,7 +215,7 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_04/11_frameRate_04.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_04/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_04/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_04/11_frameRate_04.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/11_frameRate_04/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/11_frameRate_04/) |
 
 > What do you notice while playing in the above example?
 >
@@ -279,6 +279,6 @@ function draw() {
 });
 </script>
 
-| [**[Code Download]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/12_frameCount_01/12_frameCount_01.zip) | [**[View on GitHub]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/12_frameCount_01/) | [**[Live Example]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/12_frameCount_01/) |
+| [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/12_frameCount_01/12_frameCount_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/05/12_frameCount_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/12_frameCount_01/) |
 
 > The above code uses a mathematical function known as [modulo](https://en.wikipedia.org/wiki/Modulo_operation). The operator for this is the `%` symbol. We will talk more about modulo next week during a more complete discussion of math in p5.
