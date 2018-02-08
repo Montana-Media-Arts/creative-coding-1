@@ -59,7 +59,7 @@ rect( 50, 50, 100, 100 );
 
 ![translated shapes](../imgs/translated-shapes.png "This image shows the above ellipse and rect objects translated by (x:150, y:100)")
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -135,7 +135,7 @@ ellipse( 100, -75, 100 );
 
 And the live example, with full code would look like...
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>
@@ -201,7 +201,7 @@ smiley();
 
 ![smileys on the grid, to demonstrate translate addition](../imgs/smiley-grid.png "Smileys on the grid, to demonstrate translate addition.")
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

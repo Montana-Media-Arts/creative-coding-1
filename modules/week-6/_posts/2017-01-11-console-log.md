@@ -28,7 +28,7 @@ text( x_pos, 20, 80 );
 text( y_pos, 20, 100 );
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -82,7 +82,7 @@ In your browser's console, or the output example below, try putting in some of t
 > der
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class="" height="400px;"></div>
 </div>
 <script>
@@ -117,7 +117,7 @@ console.log( x_pos );
 console.log( y_pos );
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

@@ -44,7 +44,7 @@ ellipse( 30, 200, myVar );
 
 In the following example, open the JavaScript tab, and change the value assigned to `myFirstVar`. Notice how this changes the size of the ellipse in the result tab.
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -106,7 +106,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>
@@ -167,7 +167,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

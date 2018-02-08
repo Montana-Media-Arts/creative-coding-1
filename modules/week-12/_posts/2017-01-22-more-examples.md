@@ -212,7 +212,7 @@ class Happyface {
 
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class="" style="height:800px;"></div>
 </div>
 <script>
@@ -511,7 +511,7 @@ class PacMan {
 {% endhighlight %}
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class="" style="height:800px;"></div>
 </div>
 <script>

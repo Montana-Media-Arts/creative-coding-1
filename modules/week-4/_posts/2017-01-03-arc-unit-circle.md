@@ -81,7 +81,7 @@ arc( 300, 200, 300, 300, 0, HALF_PI );
 
 Which would result in;
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -113,7 +113,7 @@ arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 ```
 
 
-<div class="displayed_jotted_example">
+
 <div id="jotted-demo-2" class=""></div>
 </div>
 <script>
@@ -148,7 +148,7 @@ So, for example, we could specify a pie slice, like in the above example, by pas
 arc( 300, 200, 300, 300, radians(260), radians(280) );
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-7" class=""></div>
 </div>
 <script>
@@ -189,7 +189,7 @@ arc( 150, 200, 180, 180, HALF_PI, 0, PIE );
 arc( 450, 200, 180, 180, HALF_PI, 0, CHORD );
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

@@ -76,7 +76,7 @@ To do this;
 - change the `"Hello World!"` bit in line 2,
 - and go back to Results. You should now see your changes!
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -142,7 +142,7 @@ function setup(){
 </html>
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>

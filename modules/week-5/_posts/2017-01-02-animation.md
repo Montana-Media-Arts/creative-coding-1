@@ -11,7 +11,7 @@ What fun would programming be if it wasn't easy to make things move, animate, an
 A simple example involves replacing a user's mouse with an ellipse, which then follows the intended position of the mouse around the canvas.
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class="" style="height:600px;"></div>
 </div>
 <script>

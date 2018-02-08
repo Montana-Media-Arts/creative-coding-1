@@ -62,7 +62,7 @@ class Bubble {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -368,7 +368,7 @@ class Bubble {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

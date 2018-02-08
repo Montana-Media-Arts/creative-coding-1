@@ -36,7 +36,7 @@ function draw() {
 }
 ```
 
-<div class="displayed_jotted_example">
+
 	<div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -99,7 +99,7 @@ function draw() {
 }
 ```
 
-<div class="displayed_jotted_example">
+
 	<div id="jotted-demo-2" class=""></div>
 </div>
 <script>

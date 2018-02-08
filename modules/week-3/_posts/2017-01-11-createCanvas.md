@@ -29,7 +29,7 @@ The "Hello World!" code sketches we just completed utilized, and where produced,
 
 The following demonstrates the default size of the p5 canvas. Notice how it takes up a very small corner of the possible output area.
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -97,7 +97,7 @@ function setup(){
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
 <div id="jotted-demo-2" class="" style="height:500px;"></div>
 </div>
 

@@ -77,7 +77,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class="" style="height:600px;"></div>
 </div>
 <script>

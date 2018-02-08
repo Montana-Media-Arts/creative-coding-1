@@ -40,7 +40,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -95,7 +95,7 @@ function draw() {
 {% endhighlight %}
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>
@@ -128,7 +128,7 @@ var fr = frameRate();
 text( "frame rate: " + fr, 10, 20 );
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>
@@ -196,7 +196,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-4" class=""></div>
 </div>
 <script>
@@ -260,7 +260,7 @@ function draw() {
 
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-5" class=""></div>
 </div>
 <script>

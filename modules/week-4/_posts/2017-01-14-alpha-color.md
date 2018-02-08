@@ -33,7 +33,7 @@ fill( 'rgba(176, 255, 29, 0.5)' );
 When placed together, you can see how the alpha values allow for colors to mingle and play with each other.
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>

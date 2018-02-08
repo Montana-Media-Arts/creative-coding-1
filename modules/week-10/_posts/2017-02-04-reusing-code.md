@@ -74,7 +74,7 @@ function draw() {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -276,7 +276,7 @@ function smileyFace( pos_x, pos_y, scale_x, scale_y ) {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>

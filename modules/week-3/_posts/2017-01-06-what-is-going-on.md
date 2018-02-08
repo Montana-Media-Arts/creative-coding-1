@@ -137,7 +137,7 @@ I would like you to know change these parameters and notice the change to your c
 Doing this will change the position and size of the ellipse in the left corner of the available code output area.
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>

@@ -129,7 +129,7 @@ function draw() {
     conditionalValue = true;
 }
 ```
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class="" style="height:300px;"></div>
 </div>
 <script>

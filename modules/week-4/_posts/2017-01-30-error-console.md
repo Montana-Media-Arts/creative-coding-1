@@ -105,7 +105,7 @@ Now, down below;
 - You should now see a canvas with a blue background.
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>

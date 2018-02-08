@@ -108,7 +108,7 @@ function smileyFace(pos_x, pos_y, scale_x, scale_y) {
 }
 {% endhighlight %}
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-3" class=""></div>
 </div>
 <script>

@@ -77,7 +77,7 @@ line(0, y2, width, y2);
 ellipse(x2, y2, eSize, eSize);
 ```
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>

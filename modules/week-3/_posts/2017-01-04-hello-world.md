@@ -45,7 +45,7 @@ If all went well, you should see a window in your browser that looks like the fo
 
 ![hello world example](../imgs/hello-world.png "Hello World Example")
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-1" class=""></div>
 </div>
 <script>
@@ -109,7 +109,7 @@ Your browser window should now look like the following;
 ![p5 hello world example](../imgs/hello-world-p5.png "p5 Hello World Example")
 
 
-<div class="displayed_jotted_example">
+
     <div id="jotted-demo-2" class=""></div>
 </div>
 <script>
