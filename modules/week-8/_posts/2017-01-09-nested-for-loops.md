@@ -33,7 +33,7 @@ function draw() {
 
 
 	<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-1"), {
 	files: [
@@ -44,11 +44,15 @@ function draw() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_SingleLine_01/08_nested_loops_SingleLine_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_SingleLine_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_SingleLine_01/) |
 
@@ -87,7 +91,7 @@ function draw() {
 ```
 
 	<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-2"), {
 	files: [
@@ -98,11 +102,15 @@ function draw() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_BruteForce_02/08_nested_loops_BruteForce_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_BruteForce_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_BruteForce_02/) |
 
@@ -142,7 +150,7 @@ function draw() {
 
 
 	<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-3"), {
 	files: [
@@ -153,11 +161,15 @@ function draw() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_CORRECT_03/08_nested_loops_CORRECT_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_CORRECT_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_CORRECT_03/) |
 
@@ -215,7 +227,7 @@ function draw() {
 
 
 	<div id="jotted-demo-4" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-4"), {
 	files: [
@@ -226,11 +238,15 @@ function draw() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/09_nested_loops_01/09_nested_loops_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/09_nested_loops_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/09_nested_loops_01/) |
 
@@ -257,7 +273,7 @@ function draw() {
 
 
 	<div id="jotted-demo-5" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-5"), {
 	files: [
@@ -268,11 +284,15 @@ function draw() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/10_nested_loops_02/10_nested_loops_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/10_nested_loops_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/10_nested_loops_02/) |
 
@@ -354,7 +374,7 @@ function mousePressed() {
 
 
 	<div id="jotted-demo-6" class="jotted-theme-stacked" style="height:800px;"></div>
-</div>
+
 <script>
 	new Jotted(document.querySelector("#jotted-demo-6"), {
 	files: [
@@ -365,10 +385,14 @@ function mousePressed() {
 		{
 			type: "html",
 			url:"../../../p5_resources/index.html"
-	}],
-	// plugins: [ "codemirror", "console" ]
-	plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
-</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/11_nested_for_03/11_nested_for_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/11_nested_for_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/11_nested_for_03/) |

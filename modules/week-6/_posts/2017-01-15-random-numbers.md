@@ -48,20 +48,27 @@ function draw() {
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -91,20 +98,27 @@ function draw() {
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked" style="height:300px;"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -131,16 +145,18 @@ function draw() {
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked" style="height:300px;"></div>
-</div>
+
 <script>
 new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_03/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
         }],
         // plugins: [ "codemirror", "console" ]
@@ -210,20 +226,27 @@ function draw() {
 
 
 <div id="jotted-demo-4" class="jotted-theme-stacked" style="height:600px;"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-4"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_04_ombre_canvas/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -266,20 +289,27 @@ function draw() {
 
 
 <div id="jotted-demo-5" class="jotted-theme-stacked" style="height:600px;"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-5"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_05_walker_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -319,20 +349,27 @@ function draw() {
 
 
 <div id="jotted-demo-6" class="jotted-theme-stacked" style="height:600px;"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-6"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/06/09_random_05_walker_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 

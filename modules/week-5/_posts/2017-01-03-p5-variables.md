@@ -26,20 +26,27 @@ In the below example, the X and Y locations of the mouse are printed to the canv
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked" style="height:649px"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/02_mouse_location_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -76,20 +83,27 @@ function draw() {
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/03_width_height_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -121,20 +135,27 @@ function draw() {
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/03_width_height_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -158,20 +179,27 @@ This is seen below in the next example. You should change the size of the browse
 
 
 <div id="jotted-demo-4" class="jotted-theme-stacked" style="height:600px"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-4"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/04_window_vars_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 

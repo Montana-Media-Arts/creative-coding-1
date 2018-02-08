@@ -46,20 +46,27 @@ In the following example, open the JavaScript tab, and change the value assigned
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/05_variables_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -108,20 +115,27 @@ function draw() {
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/05_variables_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -169,20 +183,27 @@ function draw() {
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/05_variables_03/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 

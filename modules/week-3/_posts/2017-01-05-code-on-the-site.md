@@ -77,21 +77,28 @@ To do this;
 - and go back to Results. You should now see your changes!
 
 
-<div id="jotted-demo-1" class=""></div>
-</div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/03/01_hello-world_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -143,21 +150,28 @@ function setup(){
 {% endhighlight %}
 
 
-<div id="jotted-demo-2" class=""></div>
-</div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/03/01_hello-world_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -173,3 +187,29 @@ I addition providing individual downloads of each code example, you also have th
 However, if you would like the code examples for this week, you can down load them here, now!
 
 [**Week 3 Complete Code Examples Download**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/week03.zip)
+
+
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
+<script>
+    new Jotted(document.querySelector("#jotted-demo-1"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/03/01_hello-world_02/script.js"
+        },
+        {
+            type: "html",
+            hide: true,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/03/01_hello-world_02/index.html"
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>

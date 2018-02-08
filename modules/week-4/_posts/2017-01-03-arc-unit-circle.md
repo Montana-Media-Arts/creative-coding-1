@@ -83,20 +83,27 @@ Which would result in;
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/04/04_arc_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -115,16 +122,18 @@ arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
 new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/04/04_arc_02/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
         }],
         // plugins: [ "codemirror", "console" ]
@@ -150,20 +159,27 @@ arc( 300, 200, 300, 300, radians(260), radians(280) );
 
 
 <div id="jotted-demo-7" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-7"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/04/04_arc_degrees_01/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -191,20 +207,27 @@ arc( 450, 200, 180, 180, HALF_PI, 0, CHORD );
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
-</div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/04/04_arc_03/sketch.js"
         },
         {
             type: "html",
+            hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
