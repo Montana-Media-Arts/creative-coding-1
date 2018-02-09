@@ -205,3 +205,13 @@ $code-side-offset: 15;
     width: auto;
     padding: 0;
 }
+
+
+
+
+// reset iframe background color to white
+.jotted {
+    iframe {
+        background-color: #fff;
+    }
+}
