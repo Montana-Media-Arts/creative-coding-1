@@ -675,6 +675,7 @@ var testEl;
           let fixAmount = 0;
 
           // if( isFirefox ){ fixAmount = 44; }
+          
           if( isChrome ){ fixAmount = 21; }
 
           let computed = scrollHeight + fixAmount;

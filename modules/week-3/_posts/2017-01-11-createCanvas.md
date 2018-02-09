@@ -106,7 +106,7 @@ function setup(){
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked" style="height:500px;"></div>
-</div>
+
 
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
