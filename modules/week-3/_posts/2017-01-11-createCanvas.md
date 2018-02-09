@@ -92,7 +92,7 @@ Below is an example of using the `createCanvas()` function. Notice that initiall
 >
 > Also notice that there is another line `background('blue')`. You should ignore this for the time being.
 
-
+<!--
 {% highlight js linenos %}
 function setup(){
     // Change the number in the createCanvas() function
@@ -103,7 +103,7 @@ function setup(){
     background( 'blue' );
 }
 {% endhighlight %}
-
+ -->
 
 <div id="jotted-demo-2" class="jotted-theme-stacked" style="500px;"></div>
 

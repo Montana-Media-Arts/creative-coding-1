@@ -84,7 +84,8 @@ This next example demonstrates the use of a single input parameter to return val
 
 {% highlight js linenos %}
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     frameRate(20);
 }
 
@@ -129,7 +130,8 @@ In this last example, we provide two parameters, which are used to scale the ran
 
 {% highlight js linenos %}
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     frameRate( 4 );
     background( 0 );
 }
@@ -158,10 +160,15 @@ new Jotted(document.querySelector("#jotted-demo-3"), {
             type: "html",
             hide: true,
             url:"../../../p5_resources/index.html"
-        }],
-        // plugins: [ "codemirror", "console" ]
-        plugins: [ "codemirror" ]
-    });
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
 </script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/09_random_03/09_random_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/06/09_random_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/06/09_random_03/) |
@@ -329,7 +336,8 @@ var ball_width = 80;
 var max_ball_mvt = 2;
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background(255);
 
     ball_x = width * 0.5;

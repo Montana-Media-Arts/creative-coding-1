@@ -27,7 +27,8 @@ In the following example, we do just that. As a result, if the mouse is not pres
 
 {% highlight js linenos %}
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
 }
 
 function draw() {

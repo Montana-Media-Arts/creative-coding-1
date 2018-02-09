@@ -22,7 +22,6 @@ $code-side-offset: 15;
 .jotted-nav {
     background: $brand-dark;
     // border: 2px solid $brand-dark;
-    border: none;
 }
 
 .jotted-nav-item {
@@ -47,7 +46,6 @@ $code-side-offset: 15;
 .jotted-pane-active-console .jotted-nav-item-console,
 .jotted-pane-active-result .jotted-nav-item-result {
     background: $brand-dark;
-    // border-color: rgba(51,51,51,0.3);
     color: $brand-compliment-1;
 }
 
@@ -56,6 +54,7 @@ $code-side-offset: 15;
 .jotted-theme-stacked .jotted-nav-item:hover, {
     background: $brand-dark;
     color: $brand-compliment-1;
+
 }
 
 
@@ -113,7 +112,7 @@ $code-side-offset: 15;
     border-left: ($spacer * $code-side-offset);
     border-right: ($spacer * $code-side-offset);
     border-style: solid;
-    border-color: #272822;
+    border-color: #373e42;
     z-index: 1;
 }
 
@@ -180,7 +179,7 @@ $code-side-offset: 15;
 }
 .jotted-theme-stacked .jotted-pane {
     padding-bottom: 1em;
-    background-color: #272822;
+    background-color: #373e42;
 }
 .jotted-theme-stacked .jotted-console-container {
     background-color: #e0e0e0;
@@ -192,6 +191,10 @@ $code-side-offset: 15;
 
 .jotted-nav-label {
     padding: 0.2em 0.8em;
+    border-color: $brand-accent;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-style: solid;
 }
 
 .jotted-theme-stacked .jotted-nav-item-result {

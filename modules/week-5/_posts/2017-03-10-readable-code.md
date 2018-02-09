@@ -25,20 +25,21 @@ Within the `draw()` function. I use blank lines to visually separate the various
 
 {% highlight js linenos %}
 // initial variable. Defines smiley face size.
-var smileySize = 100;
+let smileySize = 100;
 
 // all other variables are determined in
 // relation to the smileySize variable.
-var eyePos_X = smileySize * 0.2;
-var eyePos_Y = smileySize * -0.15;
-var eyeSize = smileySize * 0.2;
-var smilePos_Y = smileySize * 0.15;
-var smileWidth = smileySize * 0.75;
-var smileHeight = smileySize * 0.50;
+let eyePos_X = smileySize * 0.2;
+let eyePos_Y = smileySize * -0.15;
+let eyeSize = smileySize * 0.2;
+let smilePos_Y = smileySize * 0.15;
+let smileWidth = smileySize * 0.75;
+let smileHeight = smileySize * 0.50;
 
 
 function setup() {
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
     background( 'rgb(61, 175, 120)' );
 }
 
@@ -74,12 +75,12 @@ Sometimes, when writing a statement, you may also want to separate out parameter
 For example, The `arc()` function takes up to seven input parameters. If you were using variables, as in the following statement, it can be hard to read what is happening.
 
 ```js
-var arc_X = 30;
-var arc_y = 20;
-var shape_width = 200;
-var shape_height = shape_width * 0.5;
-var arc_start = 0;
-var arc_end = PI;
+let arc_X = 30;
+let arc_y = 20;
+let shape_width = 200;
+let shape_height = shape_width * 0.5;
+let arc_start = 0;
+let arc_end = PI;
 
 arc( arc_X, arc_Y, shape_width, shape_height, arc_start, arc_end );
 ```
@@ -87,12 +88,12 @@ arc( arc_X, arc_Y, shape_width, shape_height, arc_start, arc_end );
 If the variables were longer, or we were performing math inside of the function parameter list, that line could get ridiculously long. To fix this, it is sometime appropriate to separate out the parameters on to new lines, with an extra level of indentation.
 
 ```js
-var arc_X = 30;
-var arc_y = 20;
-var shape_width = 200;
-var shape_height = shape_width * 0.5;
-var arc_start = 0;
-var arc_end = PI;
+let arc_X = 30;
+let arc_y = 20;
+let shape_width = 200;
+let shape_height = shape_width * 0.5;
+let arc_start = 0;
+let arc_end = PI;
 
 arc(
     arc_X,
@@ -113,7 +114,7 @@ Another area that can become difficult to read, is individual lines of statement
 For example, the following is short enough, but might be difficult to read, as it all runs together.
 
 ```js
-var der=(width*0.5)/height+1000;
+let der=(width*0.5)/height+1000;
 ellipse(der,der,der*2.1);
 ```
 
@@ -122,7 +123,7 @@ The above is not horrendous, but some additional spaces, could help visually sep
 I would suggest the following;
 
 ```js
-var der = (width * 0.5) / height + 1000;
+let der = (width * 0.5) / height + 1000;
 ellipse( der, der, der * 2.1 );
 ```
 

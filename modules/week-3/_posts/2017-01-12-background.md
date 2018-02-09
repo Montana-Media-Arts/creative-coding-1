@@ -37,7 +37,7 @@ For any function in p5 that accepts a named color string, we can supply any comm
 Let's first create a 'blue' background. To do this, we will supply the string `'blue'`, as the first parameter to the `background()` function, inside of our declared `setup()` function.
 
 
-
+<!--
 {% highlight js linenos %}
 function setup() {
     // first we need to specify our canvas size
@@ -50,7 +50,7 @@ function setup() {
     // NOTE: Be sure to keep the word surrounded with quotes.
 }
 {% endhighlight %}
-
+ -->
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked" style="400px;"></div>

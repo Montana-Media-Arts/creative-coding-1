@@ -122,33 +122,6 @@ These links will occur underneath code examples when appropriate and available.
 
 Within this course website, you might see long blocks, like the following. This is an example of pulling together all of these details with the "p5 Hello World" example.
 
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup(){
-    ellipse(20, 20, 30, 30);
-}
-{% endhighlight %}
-
-<div id="code-ruler"></div>
-
-<div id="code-heading">index.html</div>
-
-
-{% highlight html linenos %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <script src="p5_lib/p5.min.js"></script>
-        <script src="sketch.js"></script>
-        <style> body {padding: 0; margin: 0;} </style>
-    </head>
-    <body>
-    </body>
-</html>
-{% endhighlight %}
-
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 

@@ -19,7 +19,7 @@ A simple example involves replacing a user's mouse with an ellipse, which then f
     files: [
         {
             type: "js",
-            hide: false,
+            hide: true,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/01_ellipse_mouse_01/sketch.js"
         },
         {
@@ -143,4 +143,4 @@ This frame rate is important not only for animation, but also for human-computer
 
 ## Slight Visual Changes
 
-How can you achieve slight changes in your sketch's drawings from frame to frame? So far, we have only learned how to use "hard coded numbers" as input parameters, or `mouseX`/`mouseY` which, we still don't really know anything about. Well, obviously we will need to find a way of changing the numbers that we pass as input parameters to functions from frame to frame. That is the topic of the next few slides. 
+How can you achieve slight changes in your sketch's drawings from frame to frame? So far, we have only learned how to use "hard coded numbers" as input parameters, or `mouseX`/`mouseY` which, we still don't really know anything about. Well, obviously we will need to find a way of changing the numbers that we pass as input parameters to functions from frame to frame. That is the topic of the next few slides.

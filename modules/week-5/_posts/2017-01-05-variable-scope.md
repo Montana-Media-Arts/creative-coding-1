@@ -12,7 +12,7 @@ There are generally considered two levels of variable scope in JavaScript; _glob
 
 ## Local Scope
 
-Let's start with _local scope_ with variables. A variable that is defined within a function, for example, your `setup()` functuion, will **ONLY** be available inside of that function.
+Let's start with _local scope_ with variables. A variable that is defined within a function, for example, your `setup()` function, will **ONLY** be available inside of that function.
 
 For example,
 
@@ -20,7 +20,7 @@ For example,
 
 ```js
 function setup() {
-    var local_var = 3;
+    let local_var = 3;
     // we can now use "local_var" in here.
     ellipse( local_var, local_var, local_var );
 }
@@ -45,25 +45,6 @@ Variables defined outside of a function, are said to have "Global Scope". That i
 
 In the following example, the variable `global_var` is available inside both the setup, and draw functions, as well as outside of all functions.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-// a globally declared variable
-var global_var = "I am a global variable";
-
-function setup() {
-   createCanvas( 400, 300 );
-   text( global_var, 20, 20 );
-}
-
-// we can even reference the variable here,
-// and we get no errors!
-// NOTE: this is not doing anything,
-// since we are not actually using the variable.
-global_var;
-{% endhighlight %}
-
-
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
 <script>
@@ -78,9 +59,14 @@ global_var;
             type: "html",
             hide: true,
             url:"../../../p5_resources/index.html"
-    }],
-    plugins: [ "codemirror", "console" ]
-    // plugins: [ "codemirror" ]
+    }
+    ],
+        showBlank: false,
+        showResult: true,
+        plugins: [
+            { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+]
 });
 </script>
 
@@ -113,7 +99,7 @@ Say for example, you want to create a variable that stores a Number. This Number
 Since we just learned about the p5 reserved name variable `width`, you might assume you could simply do something like the following;
 
 ```js
-var quarter_width = width * 0.5;
+let quarter_width = width * 0.5;
 
 function setup() {
     createCanvas(400, 200);
@@ -134,7 +120,7 @@ If we simply move it inside of the `setup()` function, we will be able to succes
 ```js
 function setup() {
     createCanvas(400, 200);
-    var quarter_width = width * 0.5;
+    let quarter_width = width * 0.5;
 }
 
 function draw() {
@@ -156,7 +142,7 @@ function setup() {
 }
 
 function draw() {
-    var quarter_width = width * 0.5;
+    let quarter_width = width * 0.5;
     ellipse( quarter_width, 20, 40 );
 }
 ```
@@ -171,27 +157,6 @@ To solve this problem, we simply need to separate our declaration statement from
 We can then also use the variable in `draw()` thereby getting around the scope issue. Since the variable is "global", we can assign its value in `setup()` and reference it in an entirely different function.
 
 This would look like;
-
-<div id="code-heading">sketch.js</div>
-
-```js
-// declare a variable named "quarter_width"
-var quarter_width;
-
-function setup() {
-    createCanvas(400, 200);
-
-    // assign "quarter_width" to have a value,
-    // based on the p5 variable "width"
-    quarter_width = width * 0.5;
-}
-
-function draw() {
-    // use "quarter_width"
-    ellipse( quarter_width, 20, 40 );
-}
-```
-
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 

@@ -65,23 +65,6 @@ Another set of p5 variables, that you may want to become familiar with are `widt
 
 In the below example, the canvas is set to have a width value of 500px and a height of 200px. Using the `width` and `height` p5 variables, we then print out their values.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 500, 200 );
-}
-
-function draw() {
-    background( 'rgb(87, 219, 147)' );
-
-    textSize(36);
-    text("width: " + width, 10, 40);
-    text("height: " + height, 10, 80);
-}
-{% endhighlight %}
-
-
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
@@ -113,26 +96,6 @@ function draw() {
 > How else can `width` and `height` be used?
 
 Another way of using width and height, is to specify position parameter values, relative to the canvas size. In the next example, an ellipse is placed in the center of the canvas, using the `width` and `height` values.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 500, 200 );
-}
-
-function draw() {
-    background( 'rgb(219, 111, 87)' );
-
-    // translate to the "center" of the canvas
-    // do this using width and height
-    translate( width/2, height/2 );
-
-    // draw a circle
-    ellipse( 0, 0, 50 );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
@@ -175,7 +138,7 @@ These variables are most often used in conjunction with the `createCanvas()` fun
 
 This is seen below in the next example. You should change the size of the browser window, and "re-fresh" the page to get a full sense of what these variables do with `createCanvas()`. You will notice, that not only does the canvas size change, but that the ellipse always remains in the center of the canvas.
 
-> NOTE: Although this is demo-ed in the code window, you should <a href="https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/04_window_vars_01/" target="_blank">open this example up in a new window to really experience it.</a>
+> NOTE: It is not possible to fully demo this variable in the code window. Instead you should <a href="https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/05/04_window_vars_01/" target="_blank">open this example in a new window to really experience it.</a>
 
 
 <div id="jotted-demo-4" class="jotted-theme-stacked" style="600px"></div>
@@ -186,7 +149,24 @@ This is seen below in the next example. You should change the size of the browse
         {
             type: "js",
             hide: false,
-            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/05/04_window_vars_01/sketch.js"
+            content: `
+function setup() {
+    // get p5 to query the size of the browser window
+    // then create a canvas the same size.
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
+}
+
+function draw() {
+    background( 'rgb(219, 206, 87)' );
+
+    // translate to the "center" of the canvas
+    // do this using width and height
+    translate( width/2, height/2 );
+
+    // draw a circle
+    ellipse( 0, 0, 50 );
+}`
         },
         {
             type: "html",

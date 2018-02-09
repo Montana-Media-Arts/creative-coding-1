@@ -114,11 +114,11 @@ Which would result in;
 
 Following from the above example, let's now make a small slice of pie, that is only 1/8<sup>th</sup> the rotation of the circle. To do this, we might start at `QUARTER_PI` and end at `HALF_PI`.
 
-
+<!--
 ```js
 arc( 300, 200, 300, 300, QUARTER_PI, HALF_PI );
 ```
-
+-->
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
@@ -135,10 +135,15 @@ new Jotted(document.querySelector("#jotted-demo-2"), {
             type: "html",
             hide: true,
             url:"../../../p5_resources/index.html"
-        }],
-        // plugins: [ "codemirror", "console" ]
-        plugins: [ "codemirror" ]
-    });
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
 </script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/04/04_arc_02/04_arc_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/04/04_arc_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/04/04_arc_02/) |
@@ -153,10 +158,11 @@ This function is `radians()`, which takes as its sole parameter, a number repres
 
 So, for example, we could specify a pie slice, like in the above example, by passing a degree value to the `radians()` function, which we would pass directly to the angle parameters of the `arc()` function.
 
+<!--
 ```js
 arc( 300, 200, 300, 300, radians(260), radians(280) );
 ```
-
+-->
 
 <div id="jotted-demo-7" class="jotted-theme-stacked"></div>
 
@@ -200,10 +206,12 @@ To demonstrate, let's draw an arc that goes from `HALF_PI` or 6 o'clock, to `0` 
 
 We will also draw these next two each other, with the default `PIE` version on the left. To do this, we will only change the x-location parameter, and the drawing mode, between the two arcs.
 
+<!--
 ```js
 arc( 150, 200, 180, 180, HALF_PI, 0, PIE );
 arc( 450, 200, 180, 180, HALF_PI, 0, CHORD );
 ```
+-->
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>

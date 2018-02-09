@@ -14,49 +14,6 @@ Likewise, in order to make the head "yellow" we must place the appropriate `fill
 
 Let's take a look at two examples of the smiley face. In both cases, we will add an alpha value to the head color, so that we can see if something gets placed behind it. In the first example, we will try to draw the eyes and mouth first, and notice that they are 'covered' by the head. Whereas, in the second version, all is as expected.
 
-```js
-/* WRONG ORDER */
-translate( 150, 75 );
-// ** draw the smiley face mouth **
-arc( 0, 15, 75, 50, 0, PI );
-
-// ** draw smily face eyes **
-// ** left eye **
-ellipse( -20, -15, 20 );
-// ** right eye **
-ellipse( 20, -15, 20 );
-
-// ** draw the smily face head **
-stroke( 0 );
-fill('rgba(234, 255, 61, 0.8)');
-ellipse( 0, 0, 100 );
-
-// add fill information for eyes and mouth
-noStroke();
-fill( 40, 255 );
-
-
-/* CORRECT ORDER */
-translate( 0, 150 );
-// ** draw the smily face head **
-stroke( 0 );
-fill('rgba(234, 255, 61, 0.8)');
-ellipse( 0, 0, 100 );
-
-// add fill information for eyes and mouth
-noStroke();
-fill( 40, 255 );
-
-// ** draw the smiley face mouth **
-arc( 0, 15, 75, 50, 0, PI );
-
-// ** draw smily face eyes **
-// ** left eye **
-ellipse( -20, -15, 20 );
-// ** right eye **
-ellipse( 20, -15, 20 );
-```
-
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -77,7 +34,7 @@ ellipse( 20, -15, 20 );
     showBlank: false,
     showResult: true,
     plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'ace', options: { "maxLines": 55 } },
         // { name: 'console', options: { autoClear: true } },
     ]
 });

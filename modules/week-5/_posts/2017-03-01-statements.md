@@ -35,7 +35,7 @@ This statement is _terminated_ with a semicolon (`;`) at the end of the line.
 Likewise, when declaring and assigning a variable, like the following;
 
 ```js
-var myVar = 200;
+let myVar = 200;
 ```
 
 This is a statement, that tells the computer to;
@@ -68,7 +68,7 @@ _YOU_ would never do the following, but it demonstrates what could happen, and w
 It is possible to write multiple statements on a single line of JavaScript code. To do this, you must specify the end of each statement. The following sets the background, declares a variable (`der`), declares a variable (`duh`), and creates an ellipse dependent on `der` and `duh`;
 
 ```js
-background(20); var der=2; var duh=der+100; ellipse(der,duh,der);
+background(20); let der=2; let duh=der+100; ellipse(der,duh,der);
 ```
 
 Again, _YOU_ should not write code like the above. BUT, it is legal code, and works since the statements are separated with semicolons.
@@ -77,8 +77,8 @@ The above would _technically_ also work, if written without semicolons, but on n
 
 ```js
 background( 20 )
-var der=2
-var duh=der+100
+let der=2
+let duh=der+100
 ellipse(der,duh,der)
 ```
 

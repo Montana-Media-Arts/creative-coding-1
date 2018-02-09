@@ -14,13 +14,13 @@ To define our own variables, we first need to tell the computer that we are doin
 
 ## Declaring a Variable
 
-To _declare_ a variable, you will need to use the `var` keyword, followed by the _symbolic name_ you want your variable to have.
+To _declare_ a variable, you will need to use the `let` keyword, followed by the _symbolic name_ you want your variable to have.
 
 ```js
-var myVar;
+let myVar;
 ```
 
-> JavaScript is a "weakly-typed" language. This means we simply need to use the `var` keyword when defining variables. We can then associate any type of data we want with the variable.
+> JavaScript is a "weakly-typed" language. This means we simply need to use the `let` keyword when defining variables. We can then associate any type of data we want with the variable.
 >
 > NOTE: There are other languages, such as Java, which Processing (p5's sibling) is built on, that are "strongly-typed" languages. In these types of languages, you will need to declare the variable type when creating a variable. Such as, Number, or String.
 
@@ -80,7 +80,7 @@ It is also possible, to declare a variable, and assign it some data in the same 
 In the below example, a variable named `another_variable` is declared, and the string "some data" is assigned to it.
 
 ```js
-var another_variable = "some data";
+let another_variable = "some data";
 ```
 
 ## Re-Assigning Variables
@@ -88,31 +88,6 @@ var another_variable = "some data";
 It is also possible, and quite common to re-assign variables new data values after they have been initially declared, or used. To do this, you will simply write another assignment statement in your code.
 
 The following example, re-assigned the variable `point_pos` after using it the first time.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 600, 400 );
-    background( 'rgb(94, 221, 183)' );
-}
-
-function draw() {
-    // declare a variable "point_pos"
-    // and assign it the Number value 10
-    var point_pos = 10;
-
-    // draw a point at 'point_pos'
-    strokeWeight(10);
-    point( point_pos, point_pos );
-
-    // re-assign 'point_pos' a new value
-    point_pos = 20;
-    // draw another point
-    point( point_pos, point_pos );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
@@ -145,42 +120,6 @@ function draw() {
 In the next example, the 3 variables are used to define a series of repeating lines. This example, from the p5 ["Examples" page](https://p5js.org/examples/), demonstrates how variables can be used repeatedly, overwritten (discussed in a moment), and used in math.
 
 Open the JavaScript tab, change the Numbers assigned to the variables, and notice the sketch change.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-/** EXPLORING VARIABLES
-*
-* 	TODO: Change the values in lines 10, 11, & 12
-*/
-
-// variables defining lines
-// change these values
-// (keep them as Numbers)
-// notice the changes
-var a = 50;
-var b = 120;
-var c = 180;
-
-function setup() {
-    createCanvas(720, 400);
-    background(0);
-    stroke(153);
-    strokeWeight(4);
-    strokeCap(SQUARE);
-}
-
-function draw() {
-    line(a, b, a+c, b);
-    line(a, b+10, a+c, b+10);
-    line(a, b+20, a+c, b+20);
-    line(a, b+30, a+c, b+30);
-
-    a = a + c;
-    b = height-b;
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 

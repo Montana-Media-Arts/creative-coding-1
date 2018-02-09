@@ -75,7 +75,7 @@ First, what you **SHOULD NOT DO** is run the words together, all lowercase, like
 
 ```js
 // DO NOT DO THIS
-var catfacex;
+let catfacex;
 ```
 
 That is quite difficult to read, and prone to typos.
@@ -87,7 +87,7 @@ One option for combining words is to use a style known as "camelCase". Camel Cas
 In the case of our cat face position, this might look like;
 
 ```js
-var catFaceX;
+let catFaceX;
 ```
 
 That is easy to read, and allows you to visually distinguish the separate words still.
@@ -97,13 +97,13 @@ That is easy to read, and allows you to visually distinguish the separate words 
 Another option is to seperate words with underscores (`_`). This also allows for easily readable code. This might look like;
 
 ```js
-var cat_face_x;
+let cat_face_x;
 // or
-var cat_face_X;
+let cat_face_X;
 ```
 
 ### Consistency
 
  Which ever of these strategies you choose, you should use it for all of your variables for a project. That way you will not get confused when using variables later in your code.
 
- In fact, I would suggest, you pick one or the other of these two variable naming schemes, and use it throughout the semester. It will then reduce one more error you might have later on. 
+ In fact, I would suggest, you pick one or the other of these two variable naming schemes, and use it throughout the semester. It will then reduce one more error you might have later on.

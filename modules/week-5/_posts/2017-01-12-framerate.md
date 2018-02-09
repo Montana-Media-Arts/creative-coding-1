@@ -20,27 +20,6 @@ Per the functions documentation page, to _set_ the frame rate of a sketch, we si
 
 In the following example, we have an ellipse, that is rotating clockwise, updating its position by 45° every iteration of the `draw()` loop. In this first example, the frame rate is not adjusted.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 400, 400 );
-}
-
-var angle = 0;
-function draw() {
-    background( 'rgb(47, 252, 68)' );
-
-    translate( width*0.5, height*0.5 );
-    rotate( radians(angle) );
-    ellipse( 0, 0, 300, 50 );
-
-    // update angle position
-    angle = angle + 45;
-}
-{% endhighlight %}
-
-
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
 <script>
@@ -76,31 +55,6 @@ In the following example, the only change made is adding the `frameRate()` funct
 > Notice how we can now clearly see the frame based movement of the spinning ellipse.
 >
 > You should also adjust the frame rate value in the below example. How low is too low, and how high is too high?
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 400, 400 );
-
-    // set the frame rate for the sketch
-    frameRate( 2 );
-}
-
-var angle = 0;
-function draw() {
-    background( 'rgb(252, 232, 47)' );
-
-    translate( width*0.5, height*0.5 );
-    rotate( radians(angle) );
-    ellipse( 0, 0, 300, 50 );
-
-    // update angle position
-    angle = angle + 45;
-}
-{% endhighlight %}
-
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
@@ -138,7 +92,7 @@ We can also _get_ the value currently being used for frame rate from the `frameR
 In the below example, I have added a `push()`/`pop()` sandbox around the rotating ellipse, and then added two lines at the bottom of the `draw()` function to _get_ the frame rate and the display it in the top-left corner of the canvas.
 
 ```js
-var fr = frameRate();
+let fr = frameRate();
 text( "frame rate: " + fr, 10, 20 );
 ```
 
@@ -180,43 +134,6 @@ Usually, it is close enough, that we can safely assume the sketch is running at 
 Finally, putting this all together, lets use the `mouseX` position to set the frame rate. Since the canvas is currently 400 pixels wide, the `mouseX` value is multiplied by `0.3` so that there is a max frame rate of 120 fps. A base of 0.25 has also been added to this value.  This is to protect from setting a frame rate of 0. If frame rate is set to 0, it will never grab the mouse coordinates again, or update the sketches frame rate again. By setting a base of 0.25, we guarantee that the longest time between frames is `1/0.25` or 4" seconds.
 
 This code is placed at the top of the `draw()` function loop.
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 400, 400 );
-}
-
-// declare the angle variable for the ellipse
-var angle = 0;
-
-function draw() {
-
-    // set the frame rate for the sketch
-    var target_fr = mouseX * 0.3 + 0.25;
-    frameRate( target_fr );
-
-    // set the background every frame
-    background( 'rgb(47, 215, 252)' );
-
-    // draw the ellipse
-    push();
-    translate( width*0.5, height*0.5 );
-    rotate( radians(angle) );
-    ellipse( 0, 0, 300, 50 );
-    pop();
-
-    // update angle position
-    angle = angle + 45;
-
-    // get and display the current frame rate
-    var fr = frameRate();
-    text( "frame rate: " + fr, 10, 20 );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-4" class="jotted-theme-stacked"></div>
 
@@ -260,33 +177,6 @@ We also find out, from looking at the frame rate output, that the highest the p5
 `frameCount` is a p5 reserved word variable, which can be used to query the number of frames that have elapsed since the start of the sketch.
 
 In the following example, the frame count is grabbed using the `frameCount` variable, and then displayed in the top-left corner of the sketch.
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( 400, 400 );
-}
-
-// declare the blue variable for the bg
-var blue_val = 0;
-
-function draw() {
-
-    // set the background every frame
-    background( 0, 0, blue_val );
-    // update blue_val, by adding 1
-    blue_val = blue_val + 1;
-    // limit blue_val to 255 using modulo
-    blue_val = blue_val % 255;
-
-    // get and display the current frame count
-    fill( 255 );
-    text( "frames elapsed: " + frameCount, 10, 20 );
-}
-
-{% endhighlight %}
 
 
 <div id="jotted-demo-5" class="jotted-theme-stacked"></div>

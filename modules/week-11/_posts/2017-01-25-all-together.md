@@ -190,7 +190,8 @@ Next, we will create a new Ball object inside the `setup()` function, and then a
 
 ```js
 function setup(){
-    createCanvas( windowWidth, windowHeight );
+    // createCanvas( windowWidth, windowHeight );
+    createCanvas( windowWidth, 600 );
 
     // create a new ball object of class type "Ball"
     ball = new Ball( width/2, height/2, 50, 'red' );
