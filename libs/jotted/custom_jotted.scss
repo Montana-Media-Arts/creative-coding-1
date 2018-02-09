@@ -211,7 +211,8 @@ $code-side-offset: 15;
 
 // reset iframe background color to white
 .jotted {
-    iframe {
+    .displayed_jotted_example {
+        min-height: 300px;
         background-color: #fff;
     }
 }

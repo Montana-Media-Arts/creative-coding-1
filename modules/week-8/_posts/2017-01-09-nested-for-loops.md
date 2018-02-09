@@ -1,6 +1,6 @@
 ---
 title: Nested for Loops
-module: 7
+module: 8
 jotted: true
 ---
 
@@ -32,7 +32,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -41,9 +41,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/08_nested_loops_SingleLine_01/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -53,6 +54,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_SingleLine_01/08_nested_loops_SingleLine_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_SingleLine_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_SingleLine_01/) |
 
@@ -90,7 +92,7 @@ function draw() {
 }
 ```
 
-	<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -101,6 +103,7 @@ function draw() {
 		},
 		{
 			type: "html",
+			
 			url:"../../../p5_resources/index.html"
         }
     ],
@@ -111,6 +114,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_BruteForce_02/08_nested_loops_BruteForce_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_BruteForce_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_BruteForce_02/) |
 
@@ -149,7 +153,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-3"), {
@@ -158,9 +162,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/08_nested_loops_CORRECT_03/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -170,6 +175,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_CORRECT_03/08_nested_loops_CORRECT_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/08_nested_loops_CORRECT_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/08_nested_loops_CORRECT_03/) |
 
@@ -226,7 +232,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-4" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-4" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-4"), {
@@ -235,9 +241,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/09_nested_loops_01/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -247,6 +254,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/09_nested_loops_01/09_nested_loops_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/09_nested_loops_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/09_nested_loops_01/) |
 
@@ -272,7 +280,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-5" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-5" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-5"), {
@@ -281,9 +289,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/10_nested_loops_02/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -293,6 +302,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/10_nested_loops_02/10_nested_loops_02.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/10_nested_loops_02/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/10_nested_loops_02/) |
 
@@ -373,7 +383,7 @@ function mousePressed() {
 ```
 
 
-	<div id="jotted-demo-6" class="jotted-theme-stacked" style="height:800px;"></div>
+<div id="jotted-demo-6" class="jotted-theme-stacked" style="800px;"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-6"), {
@@ -382,9 +392,10 @@ function mousePressed() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/11_nested_for_03/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -394,5 +405,6 @@ function mousePressed() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/11_nested_for_03/11_nested_for_03.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/11_nested_for_03/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/11_nested_for_03/) |

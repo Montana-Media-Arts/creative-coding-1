@@ -212,7 +212,7 @@ class MarchingDude {
 {% endhighlight %}
 
 
-<div id="jotted-demo-1" class="jotted-theme-stacked" style="height:600px;"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked" style="600px;"></div>
 
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {

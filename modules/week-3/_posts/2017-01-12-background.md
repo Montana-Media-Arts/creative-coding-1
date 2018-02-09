@@ -53,7 +53,7 @@ function setup() {
 
 
 
-<div id="jotted-demo-1" class="jotted-theme-stacked" style="height:400px;"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked" style="400px;"></div>
 
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {

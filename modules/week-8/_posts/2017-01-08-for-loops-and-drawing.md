@@ -37,7 +37,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-1"), {
@@ -46,9 +46,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/06_for_loops_drawing_01/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -58,6 +59,7 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/06_for_loops_drawing_01/06_for_loops_drawing_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/06_for_loops_drawing_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/06_for_loops_drawing_01/) |
 
@@ -104,7 +106,7 @@ function draw() {
 ```
 
 
-	<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
 	new Jotted(document.querySelector("#jotted-demo-2"), {
@@ -113,9 +115,10 @@ function draw() {
 			type: "js",
 			url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/08/07_for_diagnolDrawing_01/sketch.js"
 		},
-		{
-			type: "html",
-			url:"../../../p5_resources/index.html"
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
         }
     ],
     showBlank: false,
@@ -125,5 +128,6 @@ function draw() {
         // { name: 'console', options: { autoClear: true } },
     ]
 });
+</script>
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/07_for_diagnolDrawing_01/07_for_diagnolDrawing_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/08/07_for_diagnolDrawing_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/08/07_for_diagnolDrawing_01/) |

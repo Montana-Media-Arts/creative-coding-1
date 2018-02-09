@@ -675,7 +675,7 @@ var testEl;
           let fixAmount = 0;
 
           // if( isFirefox ){ fixAmount = 44; }
-          
+
           if( isChrome ){ fixAmount = 21; }
 
           let computed = scrollHeight + fixAmount;
@@ -737,7 +737,7 @@ var testEl;
           this.$resultFrame.contentWindow.document.write(this.frameContent);
           this.$resultFrame.contentWindow.document.close();
         } else {
-          // older browsers without iframe srcset support (IE9).
+          // older browsers without iframe srcset support (IE9).;
           this.$resultFrame.setAttribute('data-srcdoc', this.frameContent);
 
           // tips from https://github.com/jugglinmike/srcdoc-polyfill
