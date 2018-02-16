@@ -12,12 +12,20 @@
     max-height: 100px;
 }
 
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
 @include media-breakpoint-down(md) {
     .nav_image {
         max-height: 50px;
     }
     .navbar-brand {
         font-size: 1.1rem;
+    }
+
+    .navbar-nav {
+        font-size: 1rem;
     }
 }
 

@@ -6,7 +6,7 @@ jotted: true
 
 # Animation
 
-What fun would programming be if it wasn't easy to make things move, animate, and change over time!?! It wouldn't be nearly as much fun. So, of course, p5 allows artists to create sketches that change over time and that can react to user input.
+What fun would programming be if it wasn't easy to make things move, animate, and change over time!?! It wouldn't be nearly as much fun. So, of course, p5 allows artists to create sketches that change over time and react to user input.
 
 A simple example involves replacing a user's mouse with an ellipse, which then follows the intended position of the mouse around the canvas.
 
