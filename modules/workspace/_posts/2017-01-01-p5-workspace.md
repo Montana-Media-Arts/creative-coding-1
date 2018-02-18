@@ -27,8 +27,8 @@ jotted: true
     showBlank: false,
     showResult: true,
     plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
-        // { name: 'console', options: { autoClear: true } },
+        { name: 'ace', options: { "maxLines": 100 } },
+        { name: 'console', options: { autoClear: true } },
     ]
 });
 </script>
