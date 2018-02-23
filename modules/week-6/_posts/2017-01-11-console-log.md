@@ -90,6 +90,10 @@ In your browser's console, or the output example below, try putting in some of t
 ```
 
 
+<br />
+
+
+
 <div id="jotted-demo-2" class="jotted-theme-stacked" height="400px;"></div>
 
 <script>
@@ -105,8 +109,12 @@ In your browser's console, or the output example below, try putting in some of t
             hide: true,
             url:"../../../p5_resources/index.html"
     }],
-    plugins: [ "codemirror", "console" ]
-    // plugins: [ "codemirror" ]
+    showBlank: false,
+    showResult: false,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -129,6 +137,12 @@ console.log( y_pos );
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
+<style>
+.jotted-theme-stacked .jotted-console-container {
+    max-height: 20rem;
+}
+</style>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-3"), {
     files: [
@@ -142,8 +156,12 @@ console.log( y_pos );
             hide: true,
             url:"../../../p5_resources/index.html"
     }],
-    plugins: [ "codemirror", "console" ]
-    // plugins: [ "codemirror" ]
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 

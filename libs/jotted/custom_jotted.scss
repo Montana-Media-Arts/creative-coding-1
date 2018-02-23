@@ -82,10 +82,15 @@ $code-side-offset: 15;
     flex: 1 0 auto;
     line-height: 1em;
     margin-top: 0.5em;
+    color: black;
 }
 
 .jotted-console-log {
     margin: 0;
+}
+
+.jotted-console-log-history {
+    color: $brand-primary;
 }
 
 
