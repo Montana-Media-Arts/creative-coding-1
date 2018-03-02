@@ -43,6 +43,8 @@ jotted: true
 
 #### Update to Bouncing Ball
 
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
