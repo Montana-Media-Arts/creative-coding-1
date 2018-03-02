@@ -57,20 +57,31 @@ if( Boolean ) {
 
 In the following example, the color of an ellipse is set through a conditional _if_ statement. In this example, the color of the ball will always be 'red'. This is the case because we are always passing the value `true` as a parameter value to the _if_ statement.
 
-```js
-function draw() {
-    background('white');
+<div id="jotted-demo-3" class="jotted-theme-stacked"></div>
 
-    // set the fill color for an ellipse
-    if( true ) {
-        fill('red');
-    } else {
-        fill('blue');
-    }
+<script>
+    new Jotted(document.querySelector("#jotted-demo-3"), {
+    files: [
+        {
+            type: "js",
+            hide: false,
+            url:"https://raw.githubusercontent.com/Montana-Media-Arts/120_CreativeCoding/master/lecture_code/07/01_if_01/sketch.js"
+        },
+        {
+            type: "html",
+            hide: true,
+            url:"../../../p5_resources/index.html"
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
+});
+</script>
 
-    ellipse( width/2, height/2, 40 );
-}
-```
 
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_01/01_if_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/01_if_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/01_if_01/) |
 
@@ -99,37 +110,6 @@ Instead you will do one of two things;
 2. Pass in a statement that will execute to either `true` or `false`.
 
 The following code, sets up a variable, which stores Boolean values. This is then passed as the parameter to the if statement. This variable can then be changed, by the program or user. In the following case however, the value is changed at the end of the `draw()` loop. When the draw loop comes back around a second time, it is then set to the new value.
-
-<div id="code-heading">sketch.js</div>
-
-```js
-function setup() {
-    // createCanvas( windowWidth, windowHeight );
-    createCanvas( windowWidth, 600 );
-    // set a low frame rate so that you can see the change
-    // frameRate is set to 0.5 frames per second
-    // or 1 frame every 2 seconds.
-    frameRate(0.5);
-}
-
-var conditionalValue = false;
-function draw() {
-    background('white');
-
-    // set the fill color for an ellipse
-    if( conditionalValue ) {
-        fill('red');
-    } else {
-        fill('blue');
-    }
-
-    ellipse( width/2, height/2, 40 );
-
-
-    // update the conditionalValue variable
-    conditionalValue = true;
-}
-```
 
 <div id="jotted-demo-1" class="jotted-theme-stacked" style="300px;"></div>
 

@@ -60,7 +60,7 @@ if( 4 == 4 ) {
     // 'true' function block being executed.
 }
 
-var eqResult = 4 == 4;
+let eqResult = 4 == 4;
 if( eqResult ) {
     // same result as above occurs.
 }
@@ -69,41 +69,6 @@ if( eqResult ) {
 > NOTE: You are going to accidentally swap out the _equality comparison operator_ and the _variable assignment_ operator. Be on the look out, and hyper-vigilent, that you are using **1** equal sign character to assign variables (`var der = 4;`), and **2** equal sign characters to compare for equality (`if( 4 == 4 )`).
 
 The following example uses the _equality comparison operator_ to change the background color of the sketch. There is a variable, `loopNum`, which is incremented by `1` every frame. When this value equals `4`, then background of the sketch is changed from 'red' to 'purple'.
-
-<div id="code-heading">sketch.js</div>
-
-```js
-// initialize bgColor and loopNum variables
-var bgColor = 'red';
-var loopNum = 0;
-
-function setup() {
-    createCanvas( windowWidth, 300 );
-    // set a low frame rate so that you can see the change
-    // frameRate is set to 1 frames per second
-    frameRate(1);
-
-    // adjust text display
-    textSize(36);
-    textAlign(CENTER,CENTER);
-}
-
-function draw() {
-    // set the fill color for an ellipse
-    if( loopNum == 4 ) {
-        bgColor = 'purple';
-    } // no need for an else function block
-
-    // set and replace background
-    background( bgColor );
-
-    // display the current loopNum
-    text( "loopNum = " + loopNum, width/2, height/2 );
-
-    // increment the loopNum variable
-    loopNum++;
-}
-```
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
@@ -143,49 +108,6 @@ In the following sketch, a ball that moves across the screen has its fill color 
 - This incrementing value is evaluated against modulo 30 (` x_pos % 30`) and stored to the variable `fill_counter`.
 - `fill_counter` is compared for equality to the value of `0` within the _if statement_, where when true, a random color value is calculated, and stored in the variable `ball_color`.
 
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-// initialize bgColor and loopNum variables
-var ball_color;
-var fill_counter = 0;
-var x_pos = 0;
-
-function setup() {
-    createCanvas( windowWidth, 300 );
-    // initialize ball color
-    ball_color = color(200, 200, 200, 5);
-    background('white');
-}
-
-function draw() {
-    // increment x position value
-    x_pos++;
-    // bound the value within the canvas width
-    x_pos %= width;
-
-    // calculate fill counter value
-    fill_counter = x_pos % 30;
-
-    // check if fill counter equals 0
-    if( fill_counter == 0 ) {
-        ball_color = color(
-            random(255),
-            random(255),
-            random(255),
-            5
-        );
-    } // no else needed
-
-    // draw the ball
-    noStroke();
-    fill( ball_color );
-    ellipse( x_pos, height/2, height );
-}
-{% endhighlight %}
-
-
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
@@ -221,43 +143,6 @@ The counterpart to the equality operator is the _inequality operator_. The _ineq
 The _inequality operator_ is an exclamaition mark and equals sign placed together (`!=`).
 
 In the following, the background of a canvas is randomly set every frame as long as a random number generator _does not_ return 0. Once '0' is found, no more numbers are searched, and the background turns 'pink'. There is also text in each of the function blocks to update the user on the state of the machine.
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-    // adjust text display
-    textSize(36);
-    textAlign(CENTER,CENTER);
-}
-
-var searchNum = -10000;
-
-function draw() {
-
-    if( searchNum != 0 ) {
-        background( random(255), random(255), random(255) );
-        text("searching for 0...", width/2, height/2);
-
-        // get a new number to try next time
-        searchNum = floor(random(200));
-    } else {
-        background( 'pink' );
-        // after finding a random 0, celebrate
-        text("Found a random 0!!!", width/2, height/2);
-        text("click the mouse to try again", width/2, height*0.75);
-    }
-}
-
-
-
-// a mouse event to run it again
-function mousePressed() {
-    searchNum = -1000;
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>
@@ -330,27 +215,6 @@ As with the above operators, the _greater than or equal to_ and _less than or eq
 
 As an example of the comparison operators, the following, sets the background of the canvas to be black `if` the mouse's X position (`mouseX`), is greater than the middle of the canvas (`width/2`). Otherwise, the background color is set to white.
 
-<div id="code-heading">sketch.js</div>
-
-```js
-function draw() {
-    // If the mouse position is greater than the
-    // middle of the screen (width/2), set the
-    // background to black, otherwise, set the
-    // background to white.
-    if (mouseX > width / 2) {
-        background(0);
-    } else {
-        background(255);
-    }
-
-    // draw a line in the middle
-    stroke('red');
-    line(width/2, 0, width/2, height);
-}
-```
-
-
 <div id="jotted-demo-5" class="jotted-theme-stacked"></div>
 
 <script>
@@ -386,33 +250,6 @@ function draw() {
 ## Shiffman Making a Bouncing Ball
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LO3Awjn_gyU" frameborder="0" allowfullscreen></iframe></div>
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-var x = 300;
-var speed = 5;
-
-function setup() {
-    createCanvas(windowWidth, 400);
-}
-
-function draw() {
-    background(0);
-
-    stroke(255);
-    strokeWeight(4);
-    noFill();
-    ellipse(x, height / 2, 100, 100);
-
-    if (x > width) {
-        speed = -3;
-    }
-    x = x + speed;
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-6" class="jotted-theme-stacked"></div>
 

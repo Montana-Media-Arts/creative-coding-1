@@ -22,36 +22,6 @@ Since this p5 variable stores a Boolean representing the mouse press state, we c
 
 In the following example, we do just that. As a result, if the mouse is not pressed (i.e. `mouseIsPressed == false`), we see a drab brown canvas. However, when the mouse is pressed (`mouseIsPressed == true`), the background changes colors randomly, and a ellipses pop around!
 
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    // createCanvas( windowWidth, windowHeight );
-    createCanvas( windowWidth, 600 );
-}
-
-function draw() {
-    if ( mouseIsPressed ) {
-        background( random(255), random(255), random(255) );
-
-        noStroke();
-        fill( random(255), random(255), random(255) );
-        ellipse(
-            random(width),
-            random(height),
-            random(width),
-            random(height)
-        );
-    } else {
-        background('rgb(180, 135, 99)');
-        fill('rgb(116, 126, 91)');
-        textSize(36);
-        textAlign(CENTER);
-        text("boring...", width/2, height/2);
-    }
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked" style="600px;"></div>
@@ -111,37 +81,6 @@ In the following example;
     - In this function, we specify that the `mouseCounter` variable should be incremented, each time the mouse is pressed.
 - In the `draw()` function, the `mouseCounter` variable is added to a string of text, and displayed on the canvas. This shows the suer how many times the mouse button has been pressed.
 
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 400 );
-}
-
-var mouseCounter = 0;
-
-function draw() {
-    background( 'rgb(171, 93, 193)' );
-
-    textSize(24);
-    textAlign(CENTER);
-    fill(255);
-
-    // print the number of times
-    // the mouse has been pressed.
-    var str = "Mouse clicked " + mouseCounter + " times.";
-    text( str, width/2, height/2 );
-}
-
-// mouse pressed event function
-function mousePressed() {
-    mouseCounter++;
-    return false;
-}
-{% endhighlight %}
-
-
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
 <script>
@@ -191,48 +130,6 @@ The following code demonstrates the differences in number 2.
 - Each ellipse has its own size variable.
     - The ellipse on the left will be assigned the variable `mouseIsPressed_SIZE`. This variable will be incremented in the `draw()` loop when `mouseIsPressed == true`.
     - The ellipse on the right will be assigned the variable `mousePressFunction_SIZE`. This variable will be incremented by the `mousePressed()` function.
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 400 );
-}
-
-var mouseIsPressed_SIZE = 10;
-var mousePressFunction_SIZE = 10;
-
-function draw() {
-    background( 'rgb(171, 93, 193)' );
-
-    // increment while mouse is pressed
-    if( mouseIsPressed ) {
-        mouseIsPressed_SIZE++;
-    }
-
-    fill(255);
-    // mouseIsPressed based ellipse
-    ellipse( width*1/4, height/2, mouseIsPressed_SIZE );
-    // mousePressed() based ellipse
-    ellipse( width*3/4, height/2, mousePressFunction_SIZE );
-    mousePressFunction_SIZE );
-
-    // show some text sizes
-    textAlign(CENTER);
-    textSize(24);
-    fill(0);
-    text(mouseIsPressed_SIZE, width*1/4, 20);
-    text(mousePressFunction_SIZE, width*3/4, 20);
-}
-
-// mouse pressed event function
-// executes only once per mouse press
-function mousePressed() {
-    mousePressFunction_SIZE++;
-    return false;
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked"></div>

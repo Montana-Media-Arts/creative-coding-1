@@ -51,49 +51,6 @@ In the above code, we;
 
 This is also demonstrated more fully in the below code. The following example builds on the previous, by using the value of `boolState` to also change the value of a variable holding onto color values `fillColor`, between `'red'` and `'blue'`. This is then passed to the `fill()` function, which results in the alternating color of the ellipse. The value of the Boolean variable, `boolState`, is also displayed as text.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-    // set a low frame rate so that you can see the change
-    // frameRate is set to 2 frames per second
-    frameRate(2);
-
-    // adjust text display
-    textSize(36);
-    textAlign(CENTER,CENTER);
-}
-
-// declare an initialize global variables
-var boolState = false;
-var fillColor;
-
-function draw() {
-    background('black');
-
-    // set the fill color for an ellipse
-    if( boolState ) {
-        // switch bool variable state
-        boolState = false;
-        // set fill color
-        fillColor = 'red';
-    } else {
-        // switch bool variable state
-        boolState = true;
-        // set fill color
-        fillColor = 'blue';
-    }
-
-    // display text and ellipse
-    // fill color dependent on boolState
-    fill( fillColor );
-    text( boolState, width/2, height/4 );
-    ellipse( width/2, height/2, 80 );
-}
-{% endhighlight %}
-
-
 <div id="jotted-demo-1" class="jotted-theme-stacked" style="300px;"></div>
 
 <script>
@@ -150,34 +107,6 @@ The _Logical Not Operator_ is the exclamation mark (`!`). As with the _Unary Neg
 
 In the below code example, _not true_ (`!true`) is passed to the if statement. As a result the _false function block_ is the one executed by the program.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-    background('black');
-
-    // adjust text display
-    fill('white');
-    textSize(36);
-    textAlign(CENTER,CENTER);
-
-    var textStr;
-
-    // pass in "NOT" true
-    if( !true ) {
-        // this block DOES execute
-        textStr = "The result was TRUE";
-    } else {
-        // THIS BLOCK DOES EXECUTE
-        textStr = "The result was FALSE";
-    }
-
-    // display the results of the if statement
-    text( textStr, width/2, height/2 );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-2" class="jotted-theme-stacked" style="300px;"></div>
 
@@ -207,27 +136,6 @@ function setup() {
 | [**[ Code Download ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/04_logical_not_01/04_logical_not_01.zip) | [**[ View on GitHub ]**](https://github.com/Montana-Media-Arts/120_CreativeCoding/raw/master/lecture_code/07/04_logical_not_01/) | [**[ Live Example ]**](https://montana-media-arts.github.io/120_CreativeCoding/lecture_code/07/04_logical_not_01/) |
 
 In the following sketch, the value of `!false`, is added to a string and printed. This further demonstrated that the use of the _Logical Not Operator_ returns the opposite of a Boolean value state.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-    background('black');
-
-    // adjust text display
-    fill('white');
-    textSize(36);
-    textAlign(CENTER,CENTER);
-
-    var textStr;
-
-    textStr = "!false ⇒ " + !false;
-
-    // display the results of the if statement
-    text( textStr, width/2, height/2 );
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-3" class="jotted-theme-stacked" style="300px;"></div>
@@ -263,46 +171,6 @@ function setup() {
 Following from everything just presented, we can use the _Logical Not Operator_ to return the opposite of a Boolean values state. If the result of this is reassigned back to the same variable, the state of the Boolean variables value has been "flipped". Let's alter the above example that demonstrated how to flip the state of a Boolean variable value using _if statements_.
 
 Now, instead of reassigning the value in an _if statement_, we will use the _Logical Not Operator_ to return the opposite of the current state, and then reassign that to the same `boolState` variable. This will occur at the top of the draw loop (line 21). Then we can reduce the number of extraneous lines in the _if statement_.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-    // set a low frame rate so that you can see the change
-    // frameRate is set to 2 frames per second
-    frameRate(2);
-
-    // adjust text display
-    textSize(36);
-    textAlign(CENTER,CENTER);
-}
-
-// declare an initialize global variables
-var boolState = false;
-var fillColor;
-
-function draw() {
-    background('black');
-
-    // switch bool variable state
-    // use "logical not operator"
-    boolState = !boolState;
-
-    // set the fill color for an ellipse
-    if( boolState ) {
-        fillColor = 'red';
-    } else {
-        fillColor = 'blue';
-    }
-
-    // display text and ellipse
-    // fill color dependent on boolState
-    fill( fillColor );
-    text( boolState, width/2, height/4 );
-    ellipse( width/2, height/2, 80 );
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-4" class="jotted-theme-stacked" style="300px;"></div>
