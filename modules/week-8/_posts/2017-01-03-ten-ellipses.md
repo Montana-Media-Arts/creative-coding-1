@@ -22,79 +22,6 @@ Let's create a specific problem. What would be the best way to write a sketch th
 
 You might be thinking to yourself, that we should write 10 lines of code to draw each ellipse. The following does this, it defines and draws 10 ellipses. Each ellipse's position is set as a ratio of the `windowWidth`.
 
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup() {
-    createCanvas( windowWidth, 300 );
-}
-
-
-// using 'let' instead of 'var'
-let pos_x = 0;
-let pos_y = 0;
-let d = 30;
-let r = d/2;
-
-function draw() {
-    background( 'rgb(3, 78, 115)' );
-
-    // define drawing parameters
-    fill(255);
-    noStroke();
-
-    // circle 0
-    pos_x = width * 0/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 1
-    pos_x = width * 1/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 2
-    pos_x = width * 2/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 3
-    pos_x = width * 3/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 4
-    pos_x = width * 4/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 4
-    pos_x = width * 4/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 5
-    pos_x = width * 5/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 6
-    pos_x = width * 6/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 7
-    pos_x = width * 7/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 8
-    pos_x = width * 8/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    // circle 9
-    pos_x = width * 9/10 + r;
-    ellipse( pos_x, pos_y, d );
-
-    pos_y++;
-    if (pos_y > height) {
-        pos_y = 0;
-    }
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -115,7 +42,7 @@ function draw() {
     showBlank: false,
     showResult: true,
     plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'ace', options: { "maxLines": 100 } },
         // { name: 'console', options: { autoClear: true } },
     ]
 });
@@ -129,6 +56,6 @@ The above code is fine, in that;
 - it obviously works
 - and it is not _too_ complicated.
 
-However, what is you wanted to draw 100 circles, or 1000, circles, or tens-of-thousands of circles? Do you really want to copy and paste 10,000 of the same lines code? And what if you need to change something in that line after the fact? Are you going to change each line? **OBVIOUSLY NO!**
+However, what if you wanted to draw 100 circles, or 1000, circles, or tens-of-thousands of circles? Do you really want to copy and paste 10,000 of the same lines of code? And what if you need to change something in one of the lines after the fact? Are you going to change each line? **OBVIOUSLY NO!**
 
-If we want to eloquently accomplish the above, we are going to need to use a better control structure.
+If we want to eloquently accomplish the above, we are going to need to use a more efficient structure for our code.
