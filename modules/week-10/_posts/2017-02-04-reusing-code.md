@@ -10,70 +10,6 @@ Functions can also be useful, and should be used, to reduce repetitions in code.
 
 For example, [back in Week 4]({{site.baseurl}}/modules/week-4/scale/), the following code was used to demonstrate that use of the `scale()` function. This code draws four smiley faces with various scale factors.
 
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup(){
-    createCanvas( windowWidth, 600 );
-}
-
-function draw() {
-    // set the background to 'white'
-    background(255);
-
-    // NO SCALING
-    translate( 75, 75 );
-    // ** draw the smily face **
-    stroke( 0 );
-    fill('rgba(234, 255, 61, 1.0)');
-    ellipse( 0, 0, 100 );
-    noStroke();
-    fill( 40, 255 );
-    arc( 0, 15, 75, 50, 0, PI );
-    ellipse( -20, -15, 20 );
-    ellipse( 20, -15, 20 );
-
-    // scale by 200%
-    scale(2.0);
-    translate( 75, 75 );
-    // ** draw the smily face **
-    stroke( 0 );
-    fill('rgba(234, 255, 61, 1.0)');
-    ellipse( 0, 0, 100 );
-    noStroke();
-    fill( 40, 255 );
-    arc( 0, 15, 75, 50, 0, PI );
-    ellipse( -20, -15, 20 );
-    ellipse( 20, -15, 20 );
-
-    // scale by 50%
-    translate( -75, 75 );
-    scale(0.5);
-    // ** draw the smily face **
-    stroke( 0 );
-    fill('rgba(234, 255, 61, 1.0)');
-    ellipse( 0, 0, 100 );
-    noStroke();
-    fill( 40, 255 );
-    arc( 0, 15, 75, 50, 0, PI );
-    ellipse( -20, -15, 20 );
-    ellipse( 20, -15, 20 );
-
-    // scale by 50%
-    translate( 0, 125 );
-    scale(0.5);
-    // ** draw the smily face **
-    stroke( 0 );
-    fill('rgba(234, 255, 61, 1.0)');
-    ellipse( 0, 0, 100 );
-    noStroke();
-    fill( 40, 255 );
-    arc( 0, 15, 75, 50, 0, PI );
-    ellipse( -20, -15, 20 );
-    ellipse( 20, -15, 20 );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
@@ -94,7 +30,7 @@ function draw() {
     showBlank: false,
     showResult: true,
     plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'ace', options: { "maxLines": 80 } },
         // { name: 'console', options: { autoClear: true } },
     ]
 });
@@ -107,11 +43,11 @@ As you can see in the above code, each time the smiley face was drawn, the code 
 
 With functions, we can _refactor_ our code by encapsulating the repeated portions in a function. This new function would then be called instead. This will greatly shorten our code, and increase its readability.
 
-### Breaking it Down
+### Breaking This Process Down
 
 #### Function Namespace
 
-The first step to _refactor_ the above code, might be define the function's namespace.
+The first step to _refactor_ the above code, might be to define the function's namespace.
 
 In this case, we can stick with something simple like;
 
@@ -125,7 +61,7 @@ function smileyFace() {
 
 The next step might be to outline the function and identify steps it must complete.
 
-As we can see from the above code, each smiley block (lines 9-19, 21-32, 32-45, and 47-58), perform two basic tasks, to position and scale the smiley face, and to actually draw a smiley face. So our function might need the following steps;
+As we can see from the above code, each smiley block (lines 9-19, 21-32, 32-45, and 47-58) performs two basic tasks, to position and scale the smiley face, and to actually draw a smiley face. So our function might need the following steps;
 
 ```js
 function smileyFace() {
@@ -138,7 +74,7 @@ function smileyFace() {
 
 #### Fill in the Outline
 
-To fill the outline, in this case at least, we can copy and paste from our code. We know we want to draw the same smiley face, so I will move lines 11-19, from the code above into our new `smileyFace()` function.
+To write the code specified in the outline, in this case at least, we can copy and paste from our previous code. We know we want to draw the same smiley face, so I will move lines 11-19, from the code above into our new `smileyFace()` function.
 
 ```js
 function smileyFace() {
@@ -239,49 +175,7 @@ smileyFace( 40, 100, 1.5, 1.0 );
 
 The above, would call the smileyFace function, which would draw a smiley face at `x:40, y:40`, with scale factors of `width:1.5, height:1.0`.
 
-We could then also call lots of these smiley faces. In the below example, we call four, just like the original.
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup(){
-    createCanvas( windowWidth, 600 );
-}
-
-function draw() {
-    // set the background to 'white'
-    background(255);
-
-
-    smileyFace( 40, 100, 1.0, 1.0 );
-    smileyFace( 200, 100, 1.5, 1.0 );
-    smileyFace( 200, 200, 0.5, 0.4 );
-    smileyFace( 300, 250, 0.9, -3.0 );
-
-}
-
-
-/* SMILEY FACE FUNCTION */
-function smileyFace( pos_x, pos_y, scale_x, scale_y ) {
-    push(); // <- Begin sandbox
-
-    // 1. scale and position smiley face
-    translate( pos_x, pos_y );
-    scale( scale_x, scale_y );
-
-    // 2. draw smiley face
-    stroke( 0 );
-    fill('rgba(234, 255, 61, 1.0)');
-    ellipse( 0, 0, 100 );
-    noStroke();
-    fill( 40, 255 );
-    arc( 0, 15, 75, 50, 0, PI );
-    ellipse( -20, -15, 20 );
-    ellipse( 20, -15, 20 );
-
-    pop(); // <- End sandbox
-}
-{% endhighlight %}
+We could then also call lots of these smiley faces. In the below example we call four, just like the original.
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
@@ -303,7 +197,7 @@ function smileyFace( pos_x, pos_y, scale_x, scale_y ) {
     showBlank: false,
     showResult: true,
     plugins: [
-        { name: 'ace', options: { "maxLines": 50 } },
+        { name: 'ace', options: { "maxLines": 90 } },
         // { name: 'console', options: { autoClear: true } },
     ]
 });

@@ -12,7 +12,7 @@ There are a number of required elements needed to define your own functions. The
 
 The other required element is the use of parenthesis (`()`), proceeding the function namespace definition. These are sometimes referred to as the _function operator_. These signify to the interpreter that what proceeded was the function namespace. As we will find out, this is also where we define input parameters for a function.
 
-Finally, following all of this, is the _function block_, which we discussed previously, is signified by curly brackets.
+Finally, following all of this, is the _function block_, which [as we discussed previously]({{site.baseurl}}/modules/week-3/p5-basic-functions/), is signified by curly brackets.
 
 Altogether, this looks like;
 
@@ -44,7 +44,7 @@ Again, you have been defining these functions in every p5 sketch you write, with
 
 # Naming Functions
 
-When defining functions, you should follow the same naming conventions followed for variables in JavaScript. These conventions are;
+When defining functions, you should follow the same [naming conventions as used for variables in JavaScript]({{site.baseurl}}/modules/week-5/naming-variables/). These conventions are;
 
 #### Function Naming Rules
 
@@ -66,11 +66,11 @@ When defining functions, you should follow the same naming conventions followed 
 
 #### Function Naming Guidelines
 
-1. Follow the same patterns for function names throughout a code project.
+- Follow the same patterns for function names throughout a code project.
     - This is especially true as it relates to multi-word functions.
 
 
-Again, this rules are the same as creating variable namespaces. Be consistent; Be Descriptive; Be Simple.
+Again, these rules are the same as creating variable namespaces. Be consistent; Be Descriptive; Be Simple.
 
 
 
@@ -81,17 +81,6 @@ Time to build a direct example. Let's function-ify our "Hello World!" example fr
 
 The following, is an embellished version of the [p5 "Hello World!" example, with an ellipse, from week 3]({{site.baseurl}}/modules/week-3/hello-world/).
 
-
-{% highlight js linenos %}
-function setup(){
-    createCanvas( windowWidth, 400 );
-}
-
-function draw() {
-    background( 'rgb(91, 255, 147)' );
-    ellipse( 150, 150, 150 );
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
@@ -123,7 +112,7 @@ function draw() {
 
 ### Function-ify Drawing an Ellipse
 
-For a moment, let's pretend that line 7, where the circle is drawn, is some complex set of statements (or not, whatever...). We have decided to encapsulate that code in a function, so that it is easier to read our sketch.js file. To do this we might _define_ and _write_ a function called `drawCircle()`. This function, as its sole purpose, will draw a circle at `x:150px, y:150px`, that is `150px` in diameter.
+For a moment, let's pretend that line 7, where the circle is drawn, is some complex set of statements.Let's also say, we have decided to encapsulate that code in a function, perhaps because it makes it easier to read our sketch.js file. To do this we might _define_ and _write_ a function called `drawCircle()`. This function, as its sole purpose, will draw a circle at `x:150px, y:150px`, that is `150px` in diameter.
 
 We would start, by first defining our new function, like so;
 
@@ -157,31 +146,8 @@ function drawCircle() {
 
 <br />
 
-Finally, we could then replace our call to ellipse, within `draw()` with our newly defined function (`drawCircle()`). The resulting code might look something like;
+Finally, we can then replace our call to ellipse within `draw()` with our newly defined function (`drawCircle()`). The resulting code might look something like;
 
-
-<div id="code-heading">sketch.js</div>
-
-
-{% highlight js linenos %}
-function setup(){
-    createCanvas( windowWidth, 400 );
-}
-
-function draw() {
-    background( 'rgb(91, 255, 147)' );
-
-    // call our newly defined function
-    drawCircle();
-}
-
-// Our newly defined function
-function drawCircle() {
-    fill( 'grey' );
-    noStroke();
-    ellipse( 150, 150, 150 );
-}
-{% endhighlight %}
 
 
 <div id="jotted-demo-2" class="jotted-theme-stacked"></div>
@@ -232,7 +198,7 @@ function functionName( input1, input2 ) {
 
 This way of defining a function is known as a **_function definition_**. Also, sometimes as a **_function statement_**. By and large, this is the way that we will write function in this course.
 
-There is another way of defining function in JavaScript known as **_function expression_**.
+There is another way of defining functions in JavaScript known as **_function expression_**.
 
 A _function expression_ will take the following form;
 
@@ -249,7 +215,7 @@ In the above, the function is referenced from a variable namespace.
 
 One of the main differences between a _function definition_ and a _function expression_, is that the latter is not _hoisted_. Therefore, you cannot use or call _function expressions_ until **after** they have occurred in the code.
 
-_Function expressions_ are being presented now, so that if you see them in other peoples code, JS discussions, or help guides, you understand what they are, and that are used similarly to _function definitions_.
+_Function expressions_ are being presented now, so that if you see them in other peoples code, JS discussions, or help guides, you understand what they are, and that they are used similarly to _function definitions_. However, as a reminder, I am encouraging you to currently use the first technique, function definitions, at least within this course.
 
 
 # Shiffman

@@ -8,9 +8,9 @@ jotted: true
 
 Many of the functions you have used include some number of input parameters that "do something" with specific data types. When writing your own functions, you will also find times when you need to include input parameters to inform the function how to do, the thing it does.
 
-In JavaScript, since it is a _loosely-typed_ language, we can simply include input parameter namespaces, following the same rules as variable declaration. (NOTE: In _strongly-typed_ languages, you will need to define the _data type_ of the input parameter.)
+In JavaScript, since it is a _loosely-typed_ language, we can simply include input parameter namespaces, following the same rules as variable declaration.
 
-The input parameter namespace defined within the function's parentheses, can be used as is within the function block.
+The input parameter namespace defined within the function's parentheses, can be used as is (i.e. without further definition) within the function block.
 
 ```js
 function functionName( input1, input2 ) {
@@ -22,11 +22,11 @@ function functionName( input1, input2 ) {
 
 # An Example
 
-To illustrate, let's write a function that adds two numbers together; essentially replacing the addition operator.
+To illustrate, let's write a function that adds two numbers together; essentially a function to replace the addition operator.
 
 #### Naming
 
-The name of this function, should somehow illuminate or clarify its use. In this case, since we are writing a function that "adds thing together", let's call it something like `addThings`.
+The name of this function should somehow illuminate or clarify its use. In this case, since we are writing a function that "adds two things together", we might call it something like `addThings`.
 
 #### Input Parameters
 
@@ -44,7 +44,7 @@ function addThings( value1, value2 ) {
 
 Now that we have defined the outline of the function, it is time to write the _function block_ and make it "do its thing".
 
-In this case, as we mentioned, we are going to add two things together. We have not talked about what we should do with this result yet. So, for the time being, let's simply post the result as text on our canvas.
+In this case, as we mentioned, we are going to add two things together. As a note, we have not talked about what we should do with the result yet. So, for the time being, let's simply post the result as text on our canvas.
 
 This means we need to write a statement that takes the two values, and adds them together. Then write another statement that prints the results out as a string to the canvas.
 
@@ -59,7 +59,7 @@ function addThings( value1, value2 ) {
 }
 ```
 
-Since we are in a new _scope_, we will need to define a variable to store the result in, to use later in the function. So, using `let` create a variable called `result` that stores the two values added together, using the addition operator.
+Since we are in a new _scope_, we will need to define a variable to store the result in for later use in the function. So, using `let` create a variable called `result` that stores the two values added together, using the addition operator.
 
 > Note: Again, since we define the input parameters in the function definition, we can use them directly in the function without redefining them.
 
@@ -73,7 +73,7 @@ function addThings( value1, value2 ) {
 }
 ```
 
-Finally, to print the results, lets make a String, that we will store back in `result`, which we can then print using the p5 `text()` function. We will print this to the middle of the screen. (This also means we need to change the `textAlign()` to be `CENTER`)
+Finally, to print the result, lets make a String, that we will store back into `result`, which we can then print using the p5 `text()` function. We will print this to the middle of the screen. (This also means we need to change the `textAlign()` to be `CENTER`)
 
 ```js
 function addThings( value1, value2 ) {
@@ -87,7 +87,7 @@ function addThings( value1, value2 ) {
 }
 ```
 
-To use this function, we can call it in our `draw()` function, passing in any two values. These will then print to the Canvas. For the time being, I am going to reduce the frame rate in `setup()`, then pass in random numbers every frame to both input parameter values.
+To use this function, we can call it in our `draw()` function, passing in any two Number values. These will then print to the Canvas. For the time being, I am going to reduce the frame rate in `setup()`, then pass in random numbers every frame to both input parameter values.
 
 ```js
 let num1 = floor(random(0, 100));
@@ -99,38 +99,6 @@ addThings( num1, num2 );
 
 
 The final code might look like;
-
-<div id="code-heading">sketch.js</div>
-
-{% highlight js linenos %}
-function setup(){
-    createCanvas( windowWidth, 400 );
-    frameRate(1);
-}
-
-function draw() {
-    background( 'rgb(91, 255, 147)' );
-
-    // create numbers to pass our function
-    let num1 = floor(random(0, 100));
-    let num2 = floor(random(0, 100));
-    // call our newly defined function
-    addThings( num1, num2 );
-}
-
-// Our newly defined function
-function addThings( value1, value2 ) {
-    // 1. Add the values together. Store them into some variable.
-    let result = value1 + value2;
-
-    // 2. Print the results as a string to the canvas.
-    result = "The result of adding '" + value1 + "' and '" + value2 + "' is '" + result + "'.";
-    textSize(18);
-    textAlign( CENTER );
-    text( result, width/2, height/2 );
-}
-{% endhighlight %}
-
 
 <div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
