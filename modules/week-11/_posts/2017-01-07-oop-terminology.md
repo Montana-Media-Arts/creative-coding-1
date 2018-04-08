@@ -24,7 +24,7 @@ let myObj = { property1: someValue, property2: someOther Value };
 
 However, starting this week, we will start to create objects using _classes_. These objects will be the digital representation of some class "blueprint" or "recipe" as the videos alluded to.
 
-An _object_ is often described as an _instance_ of a _class_.
+> An **object** is often described as an **instance** of a **class**.
 
 
 ## Class
@@ -33,7 +33,7 @@ A **_class_** is an _abstract_ representation that _encapsulates_ what it means 
 
 Let me unpack that...
 
-- A class is set of instructions, comprised of _properties_ and _methods_.
+- A class is a set of instructions, comprised of _properties_ and _methods_.
 - Together, these properties and methods can be used to define a digital object. Whether that is a digital representation of an employee (low-level, assistant, manager, CEO, etc.), or some set of data.
 - The class is not the actual "thing" but rather a set of instructions describing the potential for that "thing".
 - This is an abstract representation of an object. It is the potential of an object. Or, it is a description of what is necessary for an object to actually exist, along with a set of instructions for how that object would exist in the digital world. Rather, the data and ways of acting on the data are _encapsulated_ together in a single objet.
@@ -70,7 +70,7 @@ NOTE: Class/object _properties_ are also sometimes referred to as;
 
 An object or class **_method_** is a function that defines something to do with an object, or some way of processing an objects data/properties.
 
-For example, if we were writing a car class in p5, we may want to add a _method_ that would `display` the car the web canvas. This _method_ would query the objects _properties_ to determine things like, `color`, `speed`, `direction`, and maybe `size`. This _method_ would then use these _properties_ along with other information that helps define a car, to draw an image of a car on the canvas.
+For example, if we were writing a car class in p5, we may want to add a _method_ that would `display` the car on to the web canvas. This _method_ would query the objects _properties_ to determine things like, `color`, `speed`, `direction`, and maybe `size`. This _method_ would then use these _properties_ along with other information that helps define a car, to draw an image of a car on the canvas.
 
 
 ## Instantiation (aka. `new`)
@@ -84,4 +84,4 @@ As we will see throughout this week's content, to create a new _instance_ of a c
 
 A potentially confusing idea is the reference to "specific instances" of an object. When referring to a specific instance of an object, or, when referring to an object's own instance (from within the object) we will use the term **_this_**.
 
-The `this` keyword in JavaScript is used throughout the language, and can be very confusing (hence why it has remained anonymous until now). Before we dive deep into `this`, just try and accept that `this` refers to a specific instance of an object from within that object itself. 
+The `this` keyword in JavaScript is used throughout the language, and can be very confusing (hence why it has remained anonymous until now). Before we dive deep into `this`, just try and accept that `this` refers to a specific instance of an object from within that object itself.

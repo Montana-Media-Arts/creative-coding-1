@@ -8,7 +8,7 @@ jotted: false
 
 A lot of discussion has occurred about classes and objects, yet you still do not know how to create an object from a class definition!
 
-To create a new object "of class type _X_", you need to call the `new` keyword, followed by the name of the class, including any constructor input parameters within parentheses trailing the class name. This can then be assigned to a variable for later reference.
+To create a new object "of class type _X_", you need to call the `new` keyword, followed by the name of the class, including any constructor input parameters within parentheses trailing the class name. This can then be bound to a variable for later reference.
 
 The following creates a new object, of class type `ClassName`, and passes it two input parameters. This new object is stored in the variable `myObj`.
 
@@ -16,9 +16,9 @@ The following creates a new object, of class type `ClassName`, and passes it two
 let myObj = new ClassName( inputParam1, inputParam2 );
 ```
 
-# Accessing an Objects Properties
+# Accessing an Object's Properties
 
-To access an objects properties, we will use the same "_dot notation_" as we learned about with [_object literals_]({{site.baseurl}}/modules/week-6/js-objects/).
+To access an object's properties, we will use the same "_dot notation_" as we learned about with [_object literals_]({{site.baseurl}}/modules/week-6/js-objects/).
 
 ```js
 myObj.property1; // ← returns the value of 'myObj's property1.
