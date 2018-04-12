@@ -6,7 +6,9 @@ jotted: false
 
 # Organization with Multiple JS Files
 
-Before we learn more new coding techniques, first we need to spend a moment discussing code organization when utilizing OOP techniques. In the previous examples around OOP, you saw me placing my classes in the `sketch.js` file directly. _I will continue to do this for this course_. However, I am doing this to make it possible to keep using the interactive code tools built into the website.
+Before we learn more new coding techniques, first we need to spend a moment discussing code organization when utilizing OOP techniques. In the previous examples around OOP, you saw me placing my classes in the `sketch.js` file directly.
+
+> I will continue to do this for the online code in this course. I am doing this to make it possible to keep using the interactive code tools built into the website.
 
 You may, however, choose to split your classes into _separate_ files. By moving your classes into separate files, it becomes easier to organize your code, and to see what is occurring.
 
@@ -88,7 +90,7 @@ In addition to creating the file, you also need to tell the browser to load and 
 
 You may or may not remember at this point what the `index.html` file does. As we talked about it [quite some time ago]({{site.baseurl}}/modules/week-3/discussionOnIndex/).
 
-As a refresher, browsers display HTML files. These files typically contain the text that is displayed when a web page loads, along with information for other resources to use for the page. Common resources would be metadata describing the page, CSS that makes the page look "_pretty_", and JavaScript files. If we look at the default `index.html` file for a basic p5 sketch, we notice that it is what references the `sketch.js` and main p5 library file. (Look at lines 5 and 8).
+As a refresher, browsers load HTML files. These files typically contain the text that is displayed when a web page loads, along with information about other resources to use with the page. Common resources would be metadata describing the page, CSS that makes the page look "_pretty_", and JavaScript files. If we look at the default `index.html` file for a basic p5 sketch, we notice that it is what references the `sketch.js` and main p5 library file. (Look at lines 5 and 8).
 
 
 {% highlight html linenos %}
@@ -109,7 +111,7 @@ As a refresher, browsers display HTML files. These files typically contain the t
 </html>
 {% endhighlight %}
 
-So, if we have _another_ JavaScript file, we also need to tell the browser to load it in the `index.html` file.
+So, if we have _another_ JavaScript file, we also need to tell the browser to load it, and we do this through the `index.html` file.
 
 The easiest way to do this is to copy line 8, and replace `sketch.js` with the new file's name, in our case `bubbles.js`.
 
@@ -120,7 +122,7 @@ The directory structure, with this additional file, should now look like;
 The contents of the files should look like the following;
 
 - Note: Please notice the addition of the `bubbles.js` script line within the `index.html`. This is how the extra JavaScript document gets loaded.
-- Please also notice how the `class Bubble {}` has been moved its own file and removed from the `sketch.js` file.
+- Please also notice how the `class Bubble {}` has been moved to its own file and removed from the `sketch.js` file.
 
 <div id="code-heading">index.html</div>
 
