@@ -671,16 +671,24 @@ var testEl;
       this.resizeIframe = function (obj) {
           let temp = obj.contentWindow.document.body;
 
-          let scrollHeight = temp.scrollHeight;
-          let fixAmount = 0;
+          let temp2 = document.querySelector(".jotted-theme-stacked");
+          let iHeight = temp2.getAttribute("frameheight");
 
-          // if( isFirefox ){ fixAmount = 44; }
+          if(iHeight){
+              obj.style.height = iHeight;
+          } else {
+              let scrollHeight = temp.scrollHeight;
+              let fixAmount = 0;
 
-          if( isChrome ){ fixAmount = 21; }
+              // if( isFirefox ){ fixAmount = 44; }
 
-          let computed = scrollHeight + fixAmount;
-          // console.log("jotted: " + computed);
-          obj.style.height =  computed + 'px';
+              if( isChrome ){ fixAmount = 21; }
+
+              let computed = scrollHeight + fixAmount;
+              // console.log("jotted: " + computed);
+              obj.style.height =  computed + 'px';
+          }
+
 
       };
     }
@@ -758,6 +766,7 @@ var testEl;
         // reset height of iframe
         // CUSTOM CODE MMUSICK
         this.resizeIframe(this.$resultFrame);
+        // testEl = this.$resultFrame;
 
 
       }
@@ -1974,7 +1983,7 @@ var testEl;
         var $paneSection = this._get('$container').querySelector('.jotted-nav-item-' + type);
         if (typeof file.hide !== 'undefined' && typeof $paneSection !== 'null') {
             if( file.hide ) {
-                testEl = $paneSection;
+                // testEl = $paneSection;
                 addClass($paneSection, 'jotted-item-hide');
             }
         }
