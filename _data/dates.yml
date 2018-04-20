@@ -1,5 +1,6 @@
 
 # Spring 2018
+
 1: ["January 22nd - January 25th", "January 26th @ 8:00AM"]
 2: ["January 26th - February 1st", "February 2nd @ 8:00AM"]
 3: ["February 2nd - February 8th", "February 9th @ 8:00AM"]
@@ -14,10 +15,10 @@
 12: ["April 13th - April 19th", "April 20th @ 8:00AM"]
 13: ["April 20th - April 26th", "Final Project Proposal Due"]
 14: ["April 27th - April 4th", "Work on Final"]
-
 hwCutoff: "May 1st @ 8:00AM"
 finalProposal: "April 27th @ 8:00AM"
-finalSubmission: "Tuesday, May 8th @ 8:00AM"
+Final-Project: ["April 20th - May 8th", "Tuesday, May 8th @ 8:00AM"]
+
 
 ###############################################################################
 ### Fall 2017

@@ -16,6 +16,13 @@ ga_tracking_code: UA-97628342-1
 p2pu_ga_tracking_code: UA-55722824-1
 
 
+# Jekyll Plugins
+# Always check compatability with GHPages first. 
+plugins:
+  - jekyll-redirect-from
+
+
+
 # Some files we need to exclude, so Github can build the site
 exclude: [Gemfile, Gemfile.lock, README.md]
 
