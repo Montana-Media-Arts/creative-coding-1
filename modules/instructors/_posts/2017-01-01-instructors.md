@@ -19,7 +19,8 @@ Stephanie will be your primary point of contact this semester for this course.
 
 Stephanie holds regular lab hours, in McGill 127. Please make this your first stop for help if you are in Missoula.
 
-- Thursday: 1:30pm - 5:00pm
+<!-- - Thursday: 1:30pm - 5:00pm -->
+- To Be Announced
 
 
 ## Lab Assistants
@@ -39,11 +40,13 @@ When possible, you should visit them in the lab, during their lab hours. If that
 
 Quinn Lab Hours:
 
-- Tuesdays: 1:30pm - 3:00pm
+<!-- - Tuesdays: 1:30pm - 3:00pm -->
+- To Be Announced
 
 Emily Lab Hours:
 
-- Mondays: 12:30pm - 2:00pm
+<!-- - Mondays: 12:30pm - 2:00pm -->
+- To Be Announced
 
 
 
@@ -61,5 +64,5 @@ Dr. Michael Musick built and maintains this course. Please contact Dr. Musick fo
 
 For those of you in Missoula, you are welcome to come by for help during my office hours. This is **the best** method for getting in touch with me and getting my help.
 
-- Mondays:    3:30pm - 5:00pm
-- Thursdays: 12:00pm - 1:30pm
+- Wednesdays: 12:00pm - 1:00pm
+- Thursdays:  11:30am - 1:30pm
