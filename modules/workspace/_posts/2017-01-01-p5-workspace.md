@@ -21,7 +21,7 @@ jotted: true
         {
             type: "html",
             hide: true,
-            url:"../../../p5_resources/index.html"
+            url:"../../p5_resources/index.html"
         }
     ],
     showBlank: false,
