@@ -33,9 +33,9 @@ Week three will be when we dive into the meat of coding with p5.js. You should w
 
 ## Dates & Weekly Flow
 
-Currently, I am planning on having weekly "modules" run from Friday to Thursday night.
+Currently, I am planning on having weekly "modules" run from Thursday morning to Wednesday night.
 
-Homework will be due before the start of the business day on Friday (i.e. 8am Friday morning).
+Homework will be due before the start of the business day on Thursday (i.e. 8am Thursday morning). (That means this week is shortened, as you will have homework due by Thursday morning.)
 
 
 
