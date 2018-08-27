@@ -18,7 +18,7 @@ This course was built and is maintained by [Michael Musick]({{ site.baseurl }}/i
 
 Each week's content can be chosen from the "Modules" tab up above in the navigation bar (or in the "hamburger" menu if you are on a mobile device).
 
-There you should find a link to '[Week 1]({{site.baseurl}}/modules/week-1/welcome-to-webdev/)'. As weeks become active, you will find them populate that drop-down menu.
+There you should find a link to '[Week 1]({{site.baseurl}}/modules/week-1/welcome-to-mart120/)'. As weeks become active, you will find them populate that drop-down menu.
 
 
 <br />
