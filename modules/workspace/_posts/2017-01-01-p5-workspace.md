@@ -21,7 +21,7 @@ jotted: true
         {
             type: "html",
             hide: true,
-            content: "<html><head><script src='../p5_resources/p5.min.js'></script><style> body {padding: 0; margin: 0;}</style></head><body></body></html>"
+            url: "../p5.html"
         }
     ],
     showBlank: false,
