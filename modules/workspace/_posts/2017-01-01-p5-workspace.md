@@ -21,7 +21,7 @@ jotted: true
         {
             type: "html",
             hide: true,
-            url: "../p5.html"
+            url: "./p5.html"
         }
     ],
     showBlank: false,
