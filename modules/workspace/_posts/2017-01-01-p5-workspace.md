@@ -28,6 +28,7 @@ jotted: true
     showResult: true,
     plugins: [
         { name: 'ace', options: { "maxLines": 100 } },
+        { name: 'play', options: { firstRun: false } },
         { name: 'console', options: { autoClear: true } },
     ]
 });
