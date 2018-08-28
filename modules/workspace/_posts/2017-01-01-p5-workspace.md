@@ -21,7 +21,7 @@ jotted: true
         {
             type: "html",
             hide: true,
-            url: "./p5.html"
+            url: "https://montana-media-arts.github.io/creative-coding-1/p5_resources/p5-workspace.html"
         }
     ],
     showBlank: false,
