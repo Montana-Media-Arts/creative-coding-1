@@ -21,7 +21,7 @@ jotted: true
         {
             type: "html",
             hide: true,
-            content: '<html><head><script src="../p5_resources/p5.min.js"></script><style> body {padding: 0; margin: 0;} </style></head><body></body></html>'
+            content: "<html><head><script src='../p5_resources/p5.min.js'></script><style> body {padding: 0; margin: 0;} </style></head><body></body></html>"
             // url:"https://montana-media-arts.github.io/creative-coding-1/p5_resources/index.html"
         }
     ],
