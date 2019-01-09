@@ -47,7 +47,7 @@ First, visit [GitHub.com](https://github.com/) and create a new user account.
 
 Go to the [course repo](https://github.com/Montana-Media-Arts/creative-coding-1)
 
-TODO: Add a comment to the [“HW 1 Issue Response”](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues/71).
+TODO: Add a comment to the [“HW 1 Issue Response”](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues/210).
 
 You are to;
 
