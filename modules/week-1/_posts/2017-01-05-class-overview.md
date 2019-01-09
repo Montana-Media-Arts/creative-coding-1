@@ -58,8 +58,8 @@ When you have problems in this course, you have a number of solutions available 
 2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues).
     - In a couple pages, you will follow along with a short tutorial that will help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
-3. Go to the 127 Media Arts Lab
-    - The Media Arts Lab in room 127 of McGill hall has daily "lab monitors" who are hired to assist with problem solving and class help. Take advantage of these people and this resource. The lab hours, along with who is in during specific times will be located under the ["Help"]({{site.baseurl}}/help/#lab-hours) tab above.
+<!-- 3. Go to the 127 Media Arts Lab
+    - The Media Arts Lab in room 127 of McGill hall has daily "lab monitors" who are hired to assist with problem solving and class help. Take advantage of these people and this resource. The lab hours, along with who is in during specific times will be located under the ["Help"]({{site.baseurl}}/help/#lab-hours) tab above. -->
 4. This class has two Lab Assistants specifically hired for this course. They will check the [GitHub issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding/issues) as well as hold weekly times in the 127 Media Arts Lab. By utilizing these resources, you can utilize them. However, if you feel like they may have missed something, please e-mail them directly with your questions.
     - Email [Quinn and Emily](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question)
 5. Get help from Stephanie

@@ -29,6 +29,12 @@ You should plan;
 
 This is an intense course and will take a lot of time. You are learning a new language that is not like any other you have studied before. This takes immersion.
 
+> I WOULD HIGHLY ENCOURAGE YOU TO DO TWO THINGS TO SET YOURSELF UP FOR SUCCESS;
+>
+> 1. Form a study group!
+>   - Use the GitHub Issues-Forum (more to come on this later this week) to find people to meet with in-person or virtually once a week. And then work together!
+> 2. Schedule in time for this class to your weekly planner. Just schedule in the time now, protect it, and then use it for this class. 
+
 
 
 

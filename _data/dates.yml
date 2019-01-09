@@ -1,24 +1,46 @@
+##############################################################################
+# Spring 2018
 
-# Fall 2018
+1: ["January 10th - January 16th", "January 17th @ 9:00AM"]
+2: ["January 17th - January 23rd", "January 24th @ 9:00AM"]
+3: ["January 24th - January 30th", "January 31st @ 9:00AM"]
+4: ["January 31st - February 6th", "February 7th @ 9:00AM"]
+5: ["February 7th - February 13th", "February 14th @ 9:00AM"]
+6: ["February 14th - February 20th", "February 21st @ 9:00AM"]
+7: ["February 21st - February 27th", "February 28th @ 9:00AM"]
+8: ["February 28th - March 6th", "March 7th @ 9:00AM"]
+9: ["March 7th - March 13th", "NO HOMEWORK"]
+10: ["March 14th - March 20th", "March 21st @ 9:00AM"]
+11: ["March 21st - April 3rd<br>Note: Spring Break runs from March 23rd - March 31st", "April 4th @ 9:00AM"]
+12: ["April 4th - April 10th", "April 11th @ 9:00AM"]
+13: ["April 11th - April 17th", "Final Project Proposal Due, April 18th @ 9:00AM"]
+14: ["April 18th - April 26th", "Work on Final - Nothing Due"]
+hwCutoff: "April 22nd @ 9:00AM"
+finalProposal: "April 18th @ 9:00AM"
+Final-Project: ["April 11th - April 30th", "Tuesday, April 30th @ 9:00AM"]
 
-1: ["August 27th - August 29th", "August 30th @ 8:00AM"]
-2: ["August 30th - September 5th", "September 6th @ 8:00AM"]
-3: ["September 6th - September 12th", "September 13th @ 8:00AM"]
-4: ["September 13th - September 19th", "September 20th @ 8:00AM"]
-5: ["September 20th - September 26th", "September 27th @ 8:00AM"]
-6: ["September 27th - October 3rd", "October 4th @ 8:00AM"]
-7: ["October 4th - October 10th", "October 11th @ 8:00AM"]
-8: ["October 11th - October 17th", "October 18th @ 8:00AM"]
-9: ["October 18th - October 24th", "NO HOMEWORK"]
-10: ["October 25th - October 31st", "November 1st @ 8:00AM"]
-11: ["November 1st - November 7th", "November 8th @ 8:00AM"]
-12: ["November 8th - November 14th", "November 15th @ 8:00AM"]
-13: ["November 15th - November 28th", "Final Project Proposal Due; November 29th"]
-14: ["November 29th - December 7th", "Work on Final"]
-hwCutoff: "December 3rd @ 8:00AM"
-finalProposal: "November 29th @ 8:00AM"
-Final-Project: ["November 15th - December 11th", "Tuesday, December 11th @ 8:00AM"]
 
+##############################################################################
+# # Fall 2018
+#
+# 1: ["August 27th - August 29th", "August 30th @ 8:00AM"]
+# 2: ["August 30th - September 5th", "September 6th @ 8:00AM"]
+# 3: ["September 6th - September 12th", "September 13th @ 8:00AM"]
+# 4: ["September 13th - September 19th", "September 20th @ 8:00AM"]
+# 5: ["September 20th - September 26th", "September 27th @ 8:00AM"]
+# 6: ["September 27th - October 3rd", "October 4th @ 8:00AM"]
+# 7: ["October 4th - October 10th", "October 11th @ 8:00AM"]
+# 8: ["October 11th - October 17th", "October 18th @ 8:00AM"]
+# 9: ["October 18th - October 24th", "NO HOMEWORK"]
+# 10: ["October 25th - October 31st", "November 1st @ 8:00AM"]
+# 11: ["November 1st - November 7th", "November 8th @ 8:00AM"]
+# 12: ["November 8th - November 14th", "November 15th @ 8:00AM"]
+# 13: ["November 15th - November 28th", "Final Project Proposal Due; November 29th"]
+# 14: ["November 29th - December 7th", "Work on Final"]
+# hwCutoff: "December 3rd @ 8:00AM"
+# finalProposal: "November 29th @ 8:00AM"
+# Final-Project: ["November 15th - December 11th", "Tuesday, December 11th @ 8:00AM"]
+#
 
 ##############################################################################
 # # Spring 2018

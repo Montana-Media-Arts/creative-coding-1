@@ -12,15 +12,15 @@ permalink: /:title/
 
 Stephanie will be your primary point of contact this semester for this course.
 
-- Office: Media Arts MFA Suite or 127 Computer Lab in McGill
+- Office: Media Arts MFA Suite or 126 Computer Lab in McGill
 - Email: [stephanie1.whitney@umconnect.umt.edu](mailto:stephanie1.whitney@umconnect.umt.edu?cc=michael.musick@umontana.edu&subject=120%20Question)
 
 #### Lab Hours
 
-Stephanie holds regular lab hours, in McGill 127. Please make this your first stop for help if you are in Missoula.
+Stephanie holds office hours by [e-mail appointment](mailto:stephanie1.whitney@umconnect.umt.edu?cc=michael.musick@umontana.edu&subject=120%20office%20hours%20help), in McGill 126. Please make this your first stop for help if you are in Missoula.
 
 <!-- - Thursday: 1:30pm - 5:00pm -->
-- To Be Announced
+<!-- - To Be Announced -->
 
 
 ## Lab Assistants
@@ -64,5 +64,5 @@ Dr. Michael Musick built and maintains this course. Please contact Dr. Musick fo
 
 For those of you in Missoula, you are welcome to come by for help during my office hours. This is **the best** method for getting in touch with me and getting my help.
 
-- Wednesdays: 12:00pm - 1:00pm
-- Thursdays:  10:30am - 12:30pm
+- Wednesdays: 12:30pm - 1:30pm
+- Thursdays:  10:30am - 12:00pm
