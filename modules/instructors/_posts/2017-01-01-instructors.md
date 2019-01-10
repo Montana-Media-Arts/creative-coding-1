@@ -25,29 +25,30 @@ Stephanie holds office hours by [e-mail appointment](mailto:stephanie1.whitney@u
 
 ## Lab Assistants
 
-We also have two amazing Lab Assistants for this course this semester. They will be assisting with answering your questions and serve as another resource to help you problem solve. They will also be assisting Stephanie with grading your weekly assignments.
+We also have an amazing Lab Assistant for this course this semester. They will be assisting with answering your questions and serve as another resource to help you problem solve. They will also be assisting Stephanie with grading your weekly assignments.
 
 They are;
 
-- Quinn Bruderer
-    - Email: [quintin.bruderer@umconnect.umt.edu](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question)
+<!-- - Quinn Bruderer
+    - Email: [quintin.bruderer@umconnect.umt.edu](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question) -->
 - Emily Griffin
     - Email: [emily1.griffin@umconnect.umt.edu](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question)
 
-When possible, you should visit them in the lab, during their lab hours. If that is not possible, please [email them](mailto:emily1.griffin@umconnect.umt.edu,quintin.bruderer@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question).
+When possible, you should visit them in the lab, during their lab hours. If that is not possible, please [email them](mailto:emily1.griffin@umconnect.umt.edu?cc=stephanie1.whitney@umconnect.umt.edu,michael.musick@umontana.edu&subject=120%20Question).
 
+<!--
 #### Lab Assistant Lab Hours
 
 Quinn Lab Hours:
 
-<!-- - Tuesdays: 1:30pm - 3:00pm -->
+- Tuesdays: 1:30pm - 3:00pm
 - To Be Announced
 
 Emily Lab Hours:
 
-<!-- - Mondays: 12:30pm - 2:00pm -->
+- Mondays: 12:30pm - 2:00pm
 - To Be Announced
-
+ -->
 
 
 ## Developed by: [Prof. Michael Musick](https://michaelmusick.github.io/teaching)

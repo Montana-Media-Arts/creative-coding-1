@@ -45,12 +45,11 @@ If you are unable to solve problems on your own or through the course "issues fo
 
 ## Lab Assistants
 
-In addition to Stephanie, we have two phenomenal Lab Assistants this semester. They are;
+In addition to Stephanie, we have a phenomenal Lab Assistant this semester. They are;
 
-- Quintin Bruderer
 - Emily Griffin
 
-Both of them hare active in creative coding and are producing exceptional and advanced work here in Media Arts. Both of them will hold weekly lab hours in the "127 media arts lab". These times will be posted in the instructor tab above. They will also be helping with assessment and contributing as sources of knowledge in the class issues forum.
+She is active in creative coding and is producing exceptional and advanced work here in Media Arts. She will hold weekly lab hours in the "127 media arts lab". These times will be posted in the instructor tab above. They will also be helping with assessment and contributing as sources of knowledge in the class issues forum.
 
 <!-- videos -->
 
