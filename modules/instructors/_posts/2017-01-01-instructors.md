@@ -19,6 +19,11 @@ Stephanie will be your primary point of contact this semester for this course.
 
 Stephanie holds office hours by [e-mail appointment](mailto:stephanie1.whitney@umconnect.umt.edu?cc=michael.musick@umontana.edu&subject=120%20office%20hours%20help), in McGill 126. Please make this your first stop for help if you are in Missoula.
 
+Emily Griffin will hold regular drop-in hours (no appointment necessary) in McGill 126.
+
+- Wednesdays: 11:00am - 12:30pm
+- McGill 126 (The PC Lab)
+
 <!-- - Thursday: 1:30pm - 5:00pm -->
 <!-- - To Be Announced -->
 
@@ -43,12 +48,12 @@ Quinn Lab Hours:
 
 - Tuesdays: 1:30pm - 3:00pm
 - To Be Announced
+-->
 
 Emily Lab Hours:
 
-- Mondays: 12:30pm - 2:00pm
-- To Be Announced
- -->
+- Wednesdays: 11:00am - 12:30pm
+- McGill 126 (The PC Lab)
 
 
 ## Developed by: [Prof. Michael Musick](https://michaelmusick.github.io/teaching)
@@ -57,7 +62,7 @@ Dr. Michael Musick built and maintains this course. Please contact Dr. Musick fo
 
 - E-Mail: [michael.musick@umontana.edu](mailto:michael.musick@umontana.edu?subject=120%20Question)
 - Office: [McGill Hall, 232](https://www.google.com/maps/place/McGill+Hall,+32+Campus+Dr,+Missoula,+MT+59812/@46.8619179,-113.9857145,16.91z/data=!3m1!5s0x535dcc33c1f50273:0xb43516d74c13fb70!4m5!3m4!1s0x535dcc33c3d4cbd5:0xd77cd4f46bdf5b89!8m2!3d46.8624266!4d-113.9836088)
-- [Teaching Website](https://michaelmusick.github.io/teaching)
+<!-- - [Teaching Website](https://michaelmusick.github.io/teaching) -->
 - [Personal Website: michaelmusick.com](http://michaelmusick.com)
 
 

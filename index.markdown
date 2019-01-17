@@ -11,7 +11,7 @@ This course is designed to teach you code so that it can become a tool for your 
 The [**syllabus**]({{ site.baseurl }}/syllabus/ ) contains more information about the course, as well as student expectations.
 
 
-This course was built and is maintained by [Michael Musick]({{ site.baseurl }}/instructor/ ). For questions about course content or problems, please e-mail the primary contact [Stephanie Whitney](mailto:stephanie1.whitney@umconnect.umt.edu)
+This course was built and is maintained by [Michael Musick]({{ site.baseurl }}/instructors/ ). For questions about course content or problems, please e-mail the primary contact [Stephanie Whitney](mailto:stephanie1.whitney@umconnect.umt.edu)
 
 
 ### Start the Course!
