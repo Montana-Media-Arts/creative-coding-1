@@ -53,7 +53,7 @@ Quinn Lab Hours:
 Emily Lab Hours:
 
 - Wednesdays: 11:00am - 12:30pm
-- McGill 126 (The PC Lab)
+- McGill 227 (The East Conference room in the Media Arts hallway)
 
 
 ## Developed by: [Prof. Michael Musick](https://michaelmusick.github.io/teaching)

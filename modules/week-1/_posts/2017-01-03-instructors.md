@@ -49,7 +49,7 @@ In addition to Stephanie, we have a phenomenal Lab Assistant this semester. They
 
 - Emily Griffin
 
-She is active in creative coding and is producing exceptional and advanced work here in Media Arts. She will hold weekly lab hours in the "127 media arts lab". These times will be posted in the instructor tab above. They will also be helping with assessment and contributing as sources of knowledge in the class issues forum.
+She is active in creative coding and is producing exceptional and advanced work here in Media Arts. She will hold weekly lab hours in - McGill 227 (The East Conference room in the Media Arts hallway). These times will be posted in the ["Instructors"]({{site.baseurl}}/instructors/) tab above. They will also be helping with assessment and contributing as sources of knowledge in the class issues forum.
 
 <!-- videos -->
 
